@@ -1,0 +1,22 @@
+name: Update latest battles
+on:
+  schedule:
+    - cron: "17 */3 * * *"   # every 3 hours
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/update_videos.py
+      - name: Commit if changed
+        run: |
+          if [ -n "$(git status --porcelain videos.json)" ]; then
+            git config user.name "Pokemon Battlegrounds"
+            git config user.email "340743395+pokemonbattlegrounds97-byte@users.noreply.github.com"
+            git add videos.json
+            git commit -m "Latest battles: new video"
+            git push
+          fi

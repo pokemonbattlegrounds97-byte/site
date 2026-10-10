@@ -100,17 +100,17 @@
   </nav>
 
   <h2>Latest <span>battles</span></h2>
-  <div class="grid">
+  <div class="grid" id="battles">
     <a class="card" href="https://youtu.be/J_CxwaMNjmk" target="_blank" rel="noopener">
-      <img src="img/v_J_CxwaMNjmk.jpg" alt="Brendan vs Steven" loading="lazy">
+      <img src="https://i.ytimg.com/vi/J_CxwaMNjmk/hqdefault.jpg" alt="Brendan vs Steven" loading="lazy">
       <div><b>Brendan vs Steven</b><small>Full 6v6 battle in Meteor Falls</small></div>
     </a>
     <a class="card" href="https://youtu.be/XQy0APLPCL8" target="_blank" rel="noopener">
-      <img src="img/v_XQy0APLPCL8.jpg" alt="Red vs Gold" loading="lazy">
+      <img src="https://i.ytimg.com/vi/XQy0APLPCL8/hqdefault.jpg" alt="Red vs Gold" loading="lazy">
       <div><b>Red vs Gold</b><small>Full 6v6 battle on Mt. Silver</small></div>
     </a>
     <a class="card" href="https://youtu.be/Fq1z0wXktLE" target="_blank" rel="noopener">
-      <img src="img/v_Fq1z0wXktLE.jpg" alt="Sceptile vs Gengar" loading="lazy">
+      <img src="https://i.ytimg.com/vi/Fq1z0wXktLE/hqdefault.jpg" alt="Sceptile vs Gengar" loading="lazy">
       <div><b>Sceptile vs Gengar</b><small>A duel on Mt. Pyre</small></div>
     </a>
   </div>
@@ -137,5 +137,16 @@
   </div>
 </footer>
 
+<script>
+  // "Latest battles" comes from videos.json, which a GitHub Action refreshes from the YouTube feed every 3 hours.
+  // The cards written above stay if it can't be loaded.
+  fetch('videos.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : null).then(list => {
+    if (!list || !list.length) return;
+    const grid = document.getElementById('battles'), esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+    grid.innerHTML = list.map(v => `<a class="card" href="https://youtu.be/${esc(v.id)}" target="_blank" rel="noopener">
+      <img src="https://i.ytimg.com/vi/${esc(v.id)}/hqdefault.jpg" alt="${esc(v.title)}" loading="lazy">
+      <div><b>${esc(v.title)}</b><small>${esc(v.sub || new Date(v.date).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' }))}</small></div></a>`).join('');
+  }).catch(() => {});
+</script>
 </body>
 </html>
