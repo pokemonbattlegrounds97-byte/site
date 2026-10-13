@@ -4,7 +4,7 @@ Keeps the newest full videos (Shorts left out; youtube.com/shorts/<id> answers 2
 at " — " into a title and a subtitle, and writes videos.json only when something changed. Run by
 .github/workflows/videos.yml every few hours.
 """
-import json, re, urllib.request, urllib.error, html, pathlib
+import json, re, time, urllib.request, urllib.error, html, pathlib
 
 CHANNEL = "UCKd1YNx4HJN78uEFab7eqZA"
 KEEP = 6
@@ -24,8 +24,24 @@ def is_short(vid):
         return False
 
 
+def fetch_feed():
+    """YouTube's feed endpoint now and then answers 500/404 for a while (it did on 2026-10-13): retry with a growing pause,
+    and if it's still down, skip this run instead of failing the workflow - videos.json stays as it is till the next run."""
+    url = f"https://www.youtube.com/feeds/videos.xml?channel_id={CHANNEL}"
+    for attempt, pause in enumerate((0, 20, 60, 120)):
+        time.sleep(pause)
+        try:
+            return urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"}), timeout=30).read().decode()
+        except (urllib.error.URLError, TimeoutError) as e:
+            print(f"feed attempt {attempt + 1} failed: {e}")
+    return None
+
+
 def main():
-    feed = urllib.request.urlopen(f"https://www.youtube.com/feeds/videos.xml?channel_id={CHANNEL}", timeout=30).read().decode()
+    feed = fetch_feed()
+    if feed is None:
+        print("::warning::YouTube feed unavailable after 4 tries; leaving videos.json as it is")
+        return
     vids = []
     for entry in re.findall(r"<entry>(.*?)</entry>", feed, re.S):
         vid = re.search(r"<yt:videoId>(.*?)</yt:videoId>", entry).group(1)
