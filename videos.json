@@ -1,5 +1,11 @@
 [
  {
+  "id": "GvDS9gIQTMA",
+  "title": "Magikarp vs Feebas",
+  "sub": "The Most Powerful Battle Ever",
+  "date": "2026-10-16"
+ },
+ {
   "id": "ZEx28isJo_8",
   "title": "Red vs Blue",
   "sub": "Full 6v6 Pokémon Battle in the Champion Room",
@@ -28,11 +34,5 @@
   "title": "Red vs Gold",
   "sub": "Full 6v6 Pokémon Battle on Mt. Silver",
   "date": "2026-10-07"
- },
- {
-  "id": "Fq1z0wXktLE",
-  "title": "Sceptile vs Gengar",
-  "sub": "Pixel Pokémon Battle on Mt. Pyre",
-  "date": "2026-10-06"
  }
 ]
