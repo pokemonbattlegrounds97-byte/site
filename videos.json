@@ -1,5 +1,11 @@
 [
  {
+  "id": "UGcfjUR-lIU",
+  "title": "Red vs Cynthia",
+  "sub": "Full 6v6 Pokémon Battle on Mt. Silver",
+  "date": "2026-10-20"
+ },
+ {
   "id": "oSic6KQo5Ho",
   "title": "Diantha vs Az",
   "sub": "Full 6v6 Pokémon Battle in Lumiose City",
@@ -28,11 +34,5 @@
   "title": "N vs Ghetsis",
   "sub": "Full 6v6 Pokémon Battle in N's Castle",
   "date": "2026-10-13"
- },
- {
-  "id": "ntfYLfaxzIU",
-  "title": "Cynthia vs Dawn",
-  "sub": "Full 6v6 Pokémon Battle in the Sinnoh Champion Room",
-  "date": "2026-10-11"
  }
 ]
