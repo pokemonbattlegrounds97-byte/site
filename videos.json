@@ -1,5 +1,11 @@
 [
  {
+  "id": "aXaT8XA6GMc",
+  "title": "Lance vs Iris",
+  "sub": "Full 6v6 Champion Pokémon Battle in Unova League",
+  "date": "2026-10-21"
+ },
+ {
   "id": "UGcfjUR-lIU",
   "title": "Red vs Cynthia",
   "sub": "Full 6v6 Pokémon Battle on Mt. Silver",
@@ -28,11 +34,5 @@
   "title": "Red vs Blue",
   "sub": "Full 6v6 Pokémon Battle in the Champion Room",
   "date": "2026-10-15"
- },
- {
-  "id": "mBycJaMtpJo",
-  "title": "N vs Ghetsis",
-  "sub": "Full 6v6 Pokémon Battle in N's Castle",
-  "date": "2026-10-13"
  }
 ]
