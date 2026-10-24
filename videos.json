@@ -1,5 +1,11 @@
 [
  {
+  "id": "16ukQY2QI8A",
+  "title": "Ash vs Alain - The Kalos League Final",
+  "sub": "",
+  "date": "2026-10-24"
+ },
+ {
   "id": "YT5XRl0Y_NI",
   "title": "Red & Blue vs Gold & Silver",
   "sub": "Kanto vs Johto 2v2 Double Battle on Mt. Silver",
@@ -28,11 +34,5 @@
   "title": "Diantha vs Az",
   "sub": "Full 6v6 Pokémon Battle in Lumiose City",
   "date": "2026-10-19"
- },
- {
-  "id": "5rDomy8OOXk",
-  "title": "Professor Oak vs Giovanni",
-  "sub": "Full 6v6 Pokémon Battle in Cerulean Cave",
-  "date": "2026-10-17"
  }
 ]
