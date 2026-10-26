@@ -1,5 +1,11 @@
 [
  {
+  "id": "-RzlwL9BX40",
+  "title": "Leon vs Mustard",
+  "sub": "Full 6v6 Gigantamax Pokémon Battle in Wyndon Stadium",
+  "date": "2026-10-26"
+ },
+ {
   "id": "16ukQY2QI8A",
   "title": "Ash vs Alain - The Kalos League Final",
   "sub": "",
@@ -28,11 +34,5 @@
   "title": "Red vs Cynthia",
   "sub": "Full 6v6 Pokémon Battle on Mt. Silver",
   "date": "2026-10-20"
- },
- {
-  "id": "oSic6KQo5Ho",
-  "title": "Diantha vs Az",
-  "sub": "Full 6v6 Pokémon Battle in Lumiose City",
-  "date": "2026-10-19"
  }
 ]
