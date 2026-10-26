@@ -67,16 +67,20 @@
 
   .moves { display: flex; flex-wrap: wrap; gap: 7px; }
   .move { font: inherit; font-size: 13px; font-weight: 600; color: var(--text); background: var(--panel-2); border: 1px solid var(--line);
-    border-radius: 9px; padding: 7px 11px; cursor: pointer; transition: border-color .12s, background .12s, transform .08s; }
-  .move:hover { border-color: #4a4b56; }
-  .move[aria-pressed="true"] { background: var(--red); border-color: var(--red); color: #fff; }
+    border-left: 4px solid var(--mt, var(--line)); border-radius: 9px; padding: 6px 10px; cursor: pointer;
+    display: inline-flex; align-items: baseline; gap: 7px; transition: border-color .12s, background .12s, transform .08s; }
+  .move:hover { border-top-color: #4a4b56; border-right-color: #4a4b56; border-bottom-color: #4a4b56; }
+  .move[aria-pressed="true"] { background: var(--red); border-top-color: var(--red); border-right-color: var(--red); border-bottom-color: var(--red); color: #fff; }
   .move:active { transform: scale(.97); }
   .move:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
-  .move .dot { display: inline-block; width: 5px; height: 5px; border-radius: 50%; background: var(--gold); vertical-align: middle; margin-left: 6px; }
+  .move .meta { font-size: 11px; font-weight: 700; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .move[aria-pressed="true"] .meta { color: rgba(255,255,255,.8); }
+  .move .dot { width: 5px; height: 5px; border-radius: 50%; background: var(--gold); align-self: center; flex: none; }
   .mon.locked .move:not([aria-pressed="true"]) { opacity: .45; }
 
-  .legend { color: var(--muted); font-size: 13px; margin-top: 10px; display: flex; align-items: center; gap: 7px; }
-  .legend .dot { width: 5px; height: 5px; border-radius: 50%; background: var(--gold); display: inline-block; }
+  .legend { color: var(--muted); font-size: 13px; margin-top: 14px; display: flex; flex-wrap: wrap; gap: 4px 18px; }
+  .legend span { display: inline-flex; align-items: center; gap: 7px; }
+  .legend i { width: 5px; height: 5px; border-radius: 50%; background: var(--gold); display: inline-block; font-style: normal; }
 
   .bar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 30; background: rgba(17,18,22,.96); backdrop-filter: blur(8px);
     border-top: 1px solid var(--line); padding-bottom: env(safe-area-inset-bottom, 0px); }
@@ -177,10 +181,15 @@ function save() {
 function monCard(mon) {
   const chosen = picks[mon.key] || [];
   const types = mon.types.map(t => `<span class="type" style="background: var(--${t})">${esc(t)}</span>`).join('');
-  const moves = mon.pool.map(mv => {
-    const on = chosen.indexOf(mv) !== -1;
-    const cur = mon.cur.indexOf(mv) !== -1 ? '<span class="dot" title="Used in the videos today"></span>' : '';
-    return `<button class="move" type="button" role="button" aria-pressed="${on}" data-mon="${esc(mon.key)}" data-move="${esc(mv)}">${esc(mv)}${cur}</button>`;
+  const moves = mon.pool.map(r => {
+    const on = chosen.indexOf(r.m) !== -1;
+    const dot = r.cur ? '<span class="dot" title="We already animate this move"></span>' : '';
+    const meta = r.u > 0 ? `${Math.round(r.u)}%` : (r.cur ? 'ours' : 'niche');
+    const title = r.u > 0
+      ? `${r.c === 'phys' ? 'Physical' : r.c === 'spec' ? 'Special' : 'Status'} · ${r.t} · on ${r.u}% of competitive ${mon.name} in singles`
+      : `${r.c === 'phys' ? 'Physical' : r.c === 'spec' ? 'Special' : 'Status'} · ${r.t}`;
+    return `<button class="move" type="button" aria-pressed="${on}" style="--mt: var(--${esc(r.t)})"
+      title="${esc(title)}" data-mon="${esc(mon.key)}" data-move="${esc(r.m)}"><span>${esc(r.m)}</span>${dot}<span class="meta">${esc(meta)}</span></button>`;
   }).join('');
   return `<div class="mon${chosen.length === 4 ? ' full locked' : ''}" id="mon-${esc(mon.key)}">
       <header>
@@ -193,7 +202,18 @@ function monCard(mon) {
     </div>`;
 }
 
+function prune() {
+  // a saved pick for a move that is no longer on the ballot would count towards the four invisibly
+  const valid = new Map(allMons().map(m => [m.key, new Set(m.pool.map(r => r.m))]));
+  Object.keys(picks).forEach(k => {
+    const ok = valid.has(k) ? picks[k].filter(mv => valid.get(k).has(mv)) : [];
+    if (ok.length) picks[k] = ok; else delete picks[k];
+  });
+  save();
+}
+
 function render() {
+  prune();
   document.getElementById('tnav').innerHTML = data.trainers.map(t =>
     `<a href="#t-${esc(t.key)}" id="nav-${esc(t.key)}">${esc(t.name)}</a>`).join('');
   document.getElementById('ballot').innerHTML = data.trainers.map(t =>
@@ -201,7 +221,11 @@ function render() {
        <div class="thead"><h2>${esc(t.name)}</h2><small>${esc(t.title)}</small></div>
        <div class="mons">${t.mons.map(monCard).join('')}</div>
      </section>`).join('') +
-    `<p class="legend"><span class="dot"></span> marks the move that Pokémon uses in the videos today.</p>`;
+    `<p class="legend">
+       <span>The colour on each move is its type.</span>
+       <span><i></i> a move we already animate.</span>
+       <span>The number is how many competitive players run that move on that Pokémon in singles — Smogon's September 2026 usage stats. "niche" means it is a real option but too rare to have a number.</span>
+     </p>`;
   refresh();
 }
 
