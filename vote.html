@@ -163,7 +163,10 @@
 // Where the votes go. Set ACTION to the Google Form's "formResponse" URL and ENTRY to the entry.NNNN id of its
 // single long-answer question; until both are filled in, the Send button stays off and people can still copy
 // their ballot and paste it as a comment.
-const FORM = { ACTION: '', ENTRY: '' };
+const FORM = {
+  ACTION: 'https://docs.google.com/forms/d/e/1FAIpQLSec1lkKkOvAm8OXbi4-S8Vfk2NfxskD9QE-TD--zwEyVIEnIQ/formResponse',
+  ENTRY: 'entry.1067992931'
+};
 
 const KEY = 'pb-m8-moveset-vote';
 const picks = Object.create(null);     // monKey -> [move, ...] (max 4)
