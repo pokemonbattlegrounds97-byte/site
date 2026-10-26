@@ -1,0 +1,189 @@
+{
+  "_": "Masters Eight moveset vote - the candidate moves people vote on, 4 per Pokemon. 'cur' = the move that Pokemon uses in the videos today (already animated). Drafted 2026-10-26 from each Pokemon's existing set plus its standard competitive options; no OHKO moves and no pure-status gimmicks, per AGENTS.md content rules. CHECK the legality of anything surprising before this goes public.",
+  "trainers": [
+    {
+      "key": "leon", "name": "LEON", "title": "Galar Champion", "color": "#ff9a1f",
+      "mons": [
+        { "key": "dragapultL", "name": "Dragapult", "types": ["dragon", "ghost"],
+          "pool": ["Dragon Darts", "Shadow Ball", "Flamethrower", "Thunderbolt", "Phantom Force", "Fire Blast", "U-turn", "Sucker Punch", "Steel Wing", "Hex"],
+          "cur": ["Dragon Darts", "Shadow Ball", "Flamethrower", "Thunderbolt"] },
+        { "key": "aegislashL", "name": "Aegislash", "types": ["steel", "ghost"],
+          "pool": ["King's Shield", "Shadow Ball", "Sacred Sword", "Flash Cannon", "Iron Head", "Shadow Claw", "Shadow Sneak", "Close Combat", "Night Slash", "Gyro Ball"],
+          "cur": ["King's Shield", "Shadow Ball", "Sacred Sword", "Flash Cannon"] },
+        { "key": "haxorusL", "name": "Haxorus", "types": ["dragon"],
+          "pool": ["Outrage", "Earthquake", "Poison Jab", "Iron Tail", "Dragon Claw", "Dragon Dance", "Swords Dance", "Close Combat", "Rock Slide", "X-Scissor"],
+          "cur": ["Outrage", "Earthquake", "Poison Jab", "Iron Tail"] },
+        { "key": "rhyperiorL", "name": "Rhyperior", "types": ["ground", "rock"],
+          "pool": ["Earthquake", "Stone Edge", "Megahorn", "Heat Crash", "Rock Wrecker", "Hammer Arm", "Drill Run", "Rock Blast", "Poison Jab", "Avalanche"],
+          "cur": ["Earthquake", "Stone Edge", "Megahorn", "Heat Crash"] },
+        { "key": "rillaboomL", "name": "Rillaboom", "types": ["grass"],
+          "pool": ["Drum Beating", "Knock Off", "High Horsepower", "Wood Hammer", "Grassy Glide", "Superpower", "Acrobatics", "Earthquake", "Hammer Arm", "U-turn"],
+          "cur": ["Drum Beating", "Knock Off", "High Horsepower", "Wood Hammer"] },
+        { "key": "charizardLeon", "name": "Charizard", "types": ["fire", "flying"], "ace": "Gigantamax",
+          "pool": ["Fire Blast", "Air Slash", "Solar Beam", "Ancient Power", "Flamethrower", "Heat Wave", "Dragon Claw", "Thunder Punch", "Earthquake", "Flare Blitz"],
+          "cur": ["Fire Blast", "Air Slash", "Solar Beam", "Ancient Power"] }
+      ]
+    },
+    {
+      "key": "cynthia", "name": "CYNTHIA", "title": "Sinnoh Champion", "color": "#2a2a3a",
+      "mons": [
+        { "key": "spiritombRC", "name": "Spiritomb", "types": ["ghost", "dark"],
+          "pool": ["Shadow Ball", "Dark Pulse", "Shadow Sneak", "Silver Wind", "Sucker Punch", "Foul Play", "Hex", "Psychic", "Nasty Plot", "Will-O-Wisp"],
+          "cur": ["Shadow Ball", "Dark Pulse", "Shadow Sneak", "Silver Wind"] },
+        { "key": "roseradeRC", "name": "Roserade", "types": ["grass", "poison"],
+          "pool": ["Leaf Storm", "Sludge Bomb", "Petal Dance", "Toxic Spikes", "Energy Ball", "Giga Drain", "Dazzling Gleam", "Extrasensory", "Weather Ball", "Petal Blizzard"],
+          "cur": ["Leaf Storm", "Sludge Bomb", "Petal Dance", "Toxic Spikes"] },
+        { "key": "togekissRC", "name": "Togekiss", "types": ["fairy", "flying"],
+          "pool": ["Air Slash", "Dazzling Gleam", "Sky Attack", "Shock Wave", "Aura Sphere", "Flamethrower", "Ancient Power", "Extrasensory", "Fire Blast", "Heat Wave"],
+          "cur": ["Air Slash", "Dazzling Gleam", "Sky Attack", "Shock Wave"] },
+        { "key": "lucarioRC", "name": "Lucario", "types": ["fighting", "steel"],
+          "pool": ["Aura Sphere", "Bone Rush", "Extreme Speed", "Meteor Mash", "Close Combat", "Flash Cannon", "Dragon Pulse", "Swords Dance", "Ice Punch", "Stone Edge"],
+          "cur": ["Aura Sphere", "Bone Rush", "Extreme Speed", "Meteor Mash"] },
+        { "key": "miloticRC", "name": "Milotic", "types": ["water"],
+          "pool": ["Surf", "Ice Beam", "Aqua Tail", "Mirror Coat", "Hydro Pump", "Scald", "Dragon Pulse", "Recover", "Hyper Beam", "Water Pulse"],
+          "cur": ["Surf", "Ice Beam", "Aqua Tail", "Mirror Coat"] },
+        { "key": "garchompRC", "name": "Garchomp", "types": ["dragon", "ground"], "ace": "ace",
+          "pool": ["Outrage", "Dragon Rush", "Dig", "Giga Impact", "Earthquake", "Dragon Claw", "Stone Edge", "Swords Dance", "Fire Fang", "Crunch"],
+          "cur": ["Outrage", "Dragon Rush", "Dig", "Giga Impact"] }
+      ]
+    },
+    {
+      "key": "lance", "name": "LANCE", "title": "Dragon Master", "color": "#e88a20",
+      "mons": [
+        { "key": "salamenceL", "name": "Salamence", "types": ["dragon", "flying"],
+          "pool": ["Draco Meteor", "Outrage", "Roost", "Earthquake", "Dragon Claw", "Fire Blast", "Aerial Ace", "Dragon Dance", "Hydro Pump", "Crunch"],
+          "cur": ["Draco Meteor", "Outrage", "Roost", "Earthquake"] },
+        { "key": "gyaradosL", "name": "Gyarados", "types": ["water", "flying"],
+          "pool": ["Waterfall", "Ice Fang", "Dragon Dance", "Hyper Beam", "Crunch", "Earthquake", "Aqua Tail", "Bounce", "Hydro Pump", "Stone Edge"],
+          "cur": ["Waterfall", "Ice Fang", "Dragon Dance", "Hyper Beam"] },
+        { "key": "garchompL", "name": "Garchomp", "types": ["dragon", "ground"],
+          "pool": ["Outrage", "Swords Dance", "Earthquake", "Stone Edge", "Dragon Claw", "Fire Fang", "Crunch", "Dragon Rush", "Dig", "Iron Head"],
+          "cur": ["Outrage", "Swords Dance", "Earthquake", "Stone Edge"] },
+        { "key": "altariaL", "name": "Altaria", "types": ["dragon", "flying"],
+          "pool": ["Dragon Breath", "Moonblast", "Hyper Beam", "Dragon Pulse", "Dragon Dance", "Fire Blast", "Sky Attack", "Dragon Claw", "Hyper Voice", "Earthquake"],
+          "cur": ["Dragon Breath", "Moonblast", "Hyper Beam", "Double Team"] },
+        { "key": "charizardL", "name": "Charizard", "types": ["fire", "flying"],
+          "pool": ["Flamethrower", "Hyper Beam", "Dragon Claw", "Air Slash", "Fire Blast", "Heat Wave", "Flare Blitz", "Earthquake", "Thunder Punch", "Steel Wing"],
+          "cur": ["Flamethrower", "Hyper Beam", "Dragon Claw", "Air Slash"] },
+        { "key": "dragoniteL", "name": "Dragonite", "types": ["dragon", "flying"], "ace": "Mega",
+          "pool": ["Draco Meteor", "Extreme Speed", "Fire Blast", "Hyper Beam", "Outrage", "Dragon Claw", "Dragon Dance", "Earthquake", "Thunder Punch", "Hurricane"],
+          "cur": ["Draco Meteor", "Extreme Speed", "Fire Blast", "Hyper Beam"] }
+      ]
+    },
+    {
+      "key": "diantha", "name": "DIANTHA", "title": "Kalos Champion", "color": "#2fa868",
+      "mons": [
+        { "key": "hawlucha", "name": "Hawlucha", "types": ["fighting", "flying"],
+          "pool": ["Flying Press", "High Jump Kick", "X-Scissor", "Poison Jab", "Acrobatics", "Swords Dance", "Stone Edge", "Brave Bird", "Sky Attack", "Roost"],
+          "cur": ["Flying Press", "High Jump Kick", "X-Scissor", "Poison Jab"] },
+        { "key": "tyrantrum", "name": "Tyrantrum", "types": ["rock", "dragon"],
+          "pool": ["Head Smash", "Dragon Claw", "Crunch", "Hyper Beam", "Earthquake", "Rock Slide", "Outrage", "Dragon Dance", "Stone Edge", "Fire Fang"],
+          "cur": ["Head Smash", "Dragon Claw", "Crunch", "Hyper Beam"] },
+        { "key": "aurorus", "name": "Aurorus", "types": ["rock", "ice"],
+          "pool": ["Blizzard", "Thunder", "Psychic", "Ancient Power", "Ice Beam", "Freeze-Dry", "Earth Power", "Hyper Beam", "Power Gem", "Hyper Voice"],
+          "cur": ["Blizzard", "Thunder", "Psychic", "Ancient Power"] },
+        { "key": "gourgeist", "name": "Gourgeist", "types": ["ghost", "grass"],
+          "pool": ["Phantom Force", "Seed Bomb", "Shadow Sneak", "Flamethrower", "Shadow Ball", "Energy Ball", "Giga Drain", "Fire Blast", "Explosion", "Shadow Claw"],
+          "cur": ["Phantom Force", "Seed Bomb", "Shadow Sneak", "Flamethrower"] },
+        { "key": "goodra", "name": "Goodra", "types": ["dragon"],
+          "pool": ["Dragon Pulse", "Muddy Water", "Fire Blast", "Thunderbolt", "Draco Meteor", "Power Whip", "Sludge Wave", "Ice Beam", "Body Slam", "Earthquake"],
+          "cur": ["Dragon Pulse", "Muddy Water", "Fire Blast", "Thunderbolt"] },
+        { "key": "gardevoirD", "name": "Gardevoir", "types": ["psychic", "fairy"], "ace": "Mega",
+          "pool": ["Moonblast", "Psychic", "Thunderbolt", "Hyper Voice", "Dazzling Gleam", "Shadow Ball", "Focus Blast", "Psyshock", "Energy Ball", "Future Sight"],
+          "cur": ["Moonblast", "Psychic", "Thunderbolt", "Hyper Voice"] }
+      ]
+    },
+    {
+      "key": "alain", "name": "ALAIN", "title": "Kalos Challenger", "color": "#2a4ab8",
+      "mons": [
+        { "key": "tyranitar", "name": "Tyranitar", "types": ["rock", "dark"],
+          "pool": ["Stone Edge", "Crunch", "Earthquake", "Dark Pulse", "Rock Slide", "Fire Punch", "Ice Punch", "Dragon Dance", "Thunder Punch", "Superpower"],
+          "cur": ["Stone Edge", "Crunch", "Earthquake", "Dark Pulse"] },
+        { "key": "weavile", "name": "Weavile", "types": ["dark", "ice"],
+          "pool": ["Night Slash", "Ice Punch", "Icicle Crash", "Ice Shard", "Knock Off", "Low Kick", "Swords Dance", "X-Scissor", "Aerial Ace", "Ice Beam"],
+          "cur": ["Night Slash", "Ice Beam", "Protect", "Double Team"] },
+        { "key": "bisharpA", "name": "Bisharp", "types": ["dark", "steel"],
+          "pool": ["Iron Head", "Night Slash", "Sucker Punch", "Knock Off", "X-Scissor", "Brick Break", "Stone Edge", "Swords Dance", "Aerial Ace", "Focus Blast"],
+          "cur": ["Iron Head", "Focus Blast", "Thunder Wave", "Guillotine"] },
+        { "key": "unfezant", "name": "Unfezant", "types": ["normal", "flying"],
+          "pool": ["Brave Bird", "Air Slash", "Sky Attack", "Steel Wing", "Hyper Beam", "U-turn", "Quick Attack", "Facade", "Heat Wave", "Wing Attack"],
+          "cur": ["Sky Attack", "Air Slash", "Steel Wing", "Wing Attack"] },
+        { "key": "metagrossA", "name": "Metagross", "types": ["steel", "psychic"],
+          "pool": ["Meteor Mash", "Agility", "Metal Claw", "Rock Slide", "Zen Headbutt", "Earthquake", "Bullet Punch", "Hammer Arm", "Psychic", "Ice Punch"],
+          "cur": ["Meteor Mash", "Agility", "Metal Claw", "Rock Slide"] },
+        { "key": "charizardA", "name": "Charizard", "types": ["fire", "flying"], "ace": "Mega X",
+          "pool": ["Flare Blitz", "Flamethrower", "Fire Blast", "Dragon Claw", "Blast Burn", "Thunder Punch", "Earthquake", "Air Slash", "Heat Wave", "Steel Wing"],
+          "cur": ["Flamethrower", "Dragon Claw", "Blast Burn", "Thunder Punch"] }
+      ]
+    },
+    {
+      "key": "iris", "name": "IRIS", "title": "Unova Champion", "color": "#8a3ab8",
+      "mons": [
+        { "key": "hydreigonI", "name": "Hydreigon", "types": ["dark", "dragon"],
+          "pool": ["Dragon Pulse", "Dark Pulse", "Fire Blast", "Hyper Beam", "Draco Meteor", "Flamethrower", "Focus Blast", "Earth Power", "Flash Cannon", "Crunch"],
+          "cur": ["Dragon Pulse", "Dark Pulse", "Fire Blast", "Hyper Beam"] },
+        { "key": "druddigonI", "name": "Druddigon", "types": ["dragon"],
+          "pool": ["Fire Punch", "Thunder Punch", "Outrage", "Focus Blast", "Dragon Claw", "Earthquake", "Crunch", "Superpower", "Rock Slide", "Dragon Tail"],
+          "cur": ["Fire Punch", "Thunder Punch", "Outrage", "Focus Blast"] },
+        { "key": "archeopsI", "name": "Archeops", "types": ["rock", "flying"],
+          "pool": ["Head Smash", "Acrobatics", "Stone Edge", "Rock Slide", "Crunch", "Dragon Claw", "Earthquake", "U-turn", "Aerial Ace", "Ancient Power"],
+          "cur": ["Acrobatics", "Stone Edge", "Dragon Claw", "Crunch"] },
+        { "key": "laprasI", "name": "Lapras", "types": ["water", "ice"],
+          "pool": ["Hydro Pump", "Surf", "Ice Beam", "Blizzard", "Thunder", "Thunderbolt", "Body Slam", "Ice Shard", "Freeze-Dry", "Hyper Beam"],
+          "cur": ["Hydro Pump", "Blizzard", "Thunder", "Sing"] },
+        { "key": "haxorusI", "name": "Haxorus", "types": ["dragon"],
+          "pool": ["Outrage", "Earthquake", "X-Scissor", "Dragon Dance", "Dragon Claw", "Poison Jab", "Swords Dance", "Close Combat", "Iron Tail", "Rock Slide"],
+          "cur": ["Outrage", "Earthquake", "X-Scissor", "Dragon Dance"] },
+        { "key": "aggronI", "name": "Aggron", "types": ["steel", "rock"], "ace": "Mega",
+          "pool": ["Earthquake", "Double-Edge", "Stone Edge", "Autotomize", "Head Smash", "Heavy Slam", "Iron Head", "Rock Slide", "Aqua Tail", "Iron Tail"],
+          "cur": ["Earthquake", "Double-Edge", "Stone Edge", "Autotomize"] }
+      ]
+    },
+    {
+      "key": "steven", "name": "STEVEN", "title": "Hoenn Champion", "color": "#4a8ad8",
+      "mons": [
+        { "key": "armaldo", "name": "Armaldo", "types": ["rock", "bug"],
+          "pool": ["X-Scissor", "Ancient Power", "Aerial Ace", "Water Pulse", "Rock Blast", "Stone Edge", "Earthquake", "Rock Slide", "Brick Break", "Knock Off"],
+          "cur": ["X-Scissor", "Ancient Power", "Aerial Ace", "Water Pulse"] },
+        { "key": "skarmory", "name": "Skarmory", "types": ["steel", "flying"],
+          "pool": ["Brave Bird", "Drill Peck", "Steel Wing", "Iron Head", "Air Slash", "Spikes", "Roost", "Rock Slide", "Aerial Ace", "Swords Dance"],
+          "cur": ["Brave Bird", "Steel Wing", "Spikes", "Toxic"] },
+        { "key": "claydol", "name": "Claydol", "types": ["ground", "psychic"],
+          "pool": ["Earthquake", "Ancient Power", "Hyper Beam", "Self-Destruct", "Psychic", "Shadow Ball", "Ice Beam", "Earth Power", "Extrasensory", "Explosion"],
+          "cur": ["Earthquake", "Ancient Power", "Hyper Beam", "Self-Destruct"] },
+        { "key": "aggron", "name": "Aggron", "types": ["steel", "rock"],
+          "pool": ["Thunder", "Earthquake", "Solar Beam", "Heavy Slam", "Iron Head", "Stone Edge", "Head Smash", "Rock Slide", "Double-Edge", "Iron Tail"],
+          "cur": ["Thunder", "Earthquake", "Solar Beam", "Heavy Slam"] },
+        { "key": "cradily", "name": "Cradily", "types": ["rock", "grass"],
+          "pool": ["Giga Drain", "Energy Ball", "Ancient Power", "Rock Slide", "Stone Edge", "Sludge Bomb", "Mirror Coat", "Ingrain", "Confuse Ray", "Seed Bomb"],
+          "cur": ["Giga Drain", "Ancient Power", "Ingrain", "Confuse Ray"] },
+        { "key": "metagross", "name": "Metagross", "types": ["steel", "psychic"], "ace": "Mega",
+          "pool": ["Meteor Mash", "Earthquake", "Psychic", "Giga Impact", "Zen Headbutt", "Bullet Punch", "Hammer Arm", "Ice Punch", "Agility", "Iron Head"],
+          "cur": ["Meteor Mash", "Earthquake", "Psychic", "Giga Impact"] }
+      ]
+    },
+    {
+      "key": "ash", "name": "ASH", "title": "Kalos Finalist", "color": "#f0c020",
+      "mons": [
+        { "key": "pikachuA", "name": "Pikachu", "types": ["electric"],
+          "pool": ["Thunderbolt", "Thunder", "Volt Tackle", "Electro Ball", "Iron Tail", "Quick Attack", "Brick Break", "Grass Knot", "Agility", "Nuzzle"],
+          "cur": ["Thunderbolt", "Iron Tail", "Electro Ball", "Quick Attack"] },
+        { "key": "noivern", "name": "Noivern", "types": ["flying", "dragon"],
+          "pool": ["Boomburst", "Hurricane", "Dragon Pulse", "Dragon Claw", "Air Slash", "Acrobatics", "Flamethrower", "Draco Meteor", "Super Fang", "Tailwind"],
+          "cur": ["Boomburst", "Dragon Claw", "Acrobatics", "Supersonic"] },
+        { "key": "hawluchaA", "name": "Hawlucha", "types": ["fighting", "flying"],
+          "pool": ["Flying Press", "High Jump Kick", "Acrobatics", "Karate Chop", "X-Scissor", "Swords Dance", "Brave Bird", "Stone Edge", "Sky Attack", "Roost"],
+          "cur": ["Flying Press", "High Jump Kick", "X-Scissor", "Karate Chop"] },
+        { "key": "talonflame", "name": "Talonflame", "types": ["fire", "flying"],
+          "pool": ["Brave Bird", "Flare Blitz", "Flame Charge", "Steel Wing", "Aerial Ace", "Acrobatics", "Fire Blast", "Roost", "U-turn", "Overheat"],
+          "cur": ["Brave Bird", "Flame Charge", "Steel Wing", "Razor Wind"] },
+        { "key": "goodraA", "name": "Goodra", "types": ["dragon"],
+          "pool": ["Dragon Pulse", "Draco Meteor", "Ice Beam", "Muddy Water", "Thunderbolt", "Body Slam", "Power Whip", "Sludge Wave", "Fire Blast", "Earthquake"],
+          "cur": ["Dragon Pulse", "Ice Beam", "Rain Dance", "Bide"] },
+        { "key": "greninja", "name": "Greninja", "types": ["water", "dark"], "ace": "Ash-Greninja",
+          "pool": ["Water Shuriken", "Hydro Pump", "Surf", "Night Slash", "Dark Pulse", "Aerial Ace", "Ice Beam", "Extrasensory", "Shadow Sneak", "Gunk Shot"],
+          "cur": ["Water Shuriken", "Aerial Ace", "Cut", "Double Team"] }
+      ]
+    }
+  ]
+}

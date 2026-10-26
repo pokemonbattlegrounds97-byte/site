@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vote the movesets — Pokemon Battlegrounds</title>
+<meta name="description" content="The Masters Eight tournament is coming. You decide what every Pokémon knows: pick 4 moves for each of the 48 Pokémon.">
+<meta property="og:title" content="You pick the movesets — Masters Eight">
+<meta property="og:description" content="Leon, Cynthia, Lance, Diantha, Alain, Iris, Steven and Ash. 48 Pokémon. Pick 4 moves each.">
+<meta property="og:image" content="https://pokemonbattlegrounds.com/img/logo_400.png">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,600;0,800;1,900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #111216; --panel: #1b1c22; --panel-2: #22232b; --line: #2a2b33; --text: #f2f2f4; --muted: #a3a5b0;
+    --red: #e4321e; --red-dark: #b8240f; --white: #eceef2; --gold: #ffd23f; --ok: #3fbf6f;
+    --normal:#9fa19f; --fire:#e8703a; --water:#5090d6; --electric:#f4d23c; --grass:#63bc5a; --ice:#74cec0;
+    --fighting:#ce4069; --poison:#a552cc; --ground:#d97746; --flying:#8fa8dd; --psychic:#f87c7c; --bug:#90c12c;
+    --rock:#c7b78b; --ghost:#5269ad; --dragon:#0b6dc3; --dark:#5a5366; --steel:#5a8ea2; --fairy:#ec8fe6;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body { background: var(--bg); color: var(--text); font-family: Rubik, system-ui, sans-serif; line-height: 1.55; padding-bottom: 96px; }
+  a { color: inherit; }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 0 16px; }
+
+  .hero { background: linear-gradient(115deg, var(--red) 0 78%, var(--white) 78% 100%); position: relative; overflow: hidden; }
+  .hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(115deg, transparent 0 77.4%, #111 77.4% 78.6%, transparent 78.6%); pointer-events: none; }
+  .hero .wrap { position: relative; z-index: 1; padding-top: 40px; padding-bottom: 44px; }
+  .hero h1 { margin: 0; font-weight: 900; font-style: italic; font-size: clamp(30px, 5.6vw, 52px); line-height: 1.05; color: #fff;
+    text-shadow: 3px 3px 0 #111, -1px -1px 0 #111, 1px -1px 0 #111, -1px 1px 0 #111; }
+  .hero p { margin: 12px 0 0; font-size: 17px; font-weight: 600; color: #fff; text-shadow: 0 1px 2px rgba(0,0,0,.35); max-width: 560px; }
+  .hero .back { display: inline-block; margin-bottom: 14px; font-size: 14px; font-weight: 600; color: #fff; text-decoration: none; opacity: .9; }
+  .hero .back:hover { text-decoration: underline; }
+
+  .how { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; margin-top: 26px; }
+  .how ol { margin: 0; padding-left: 20px; color: var(--muted); }
+  .how li { margin: 3px 0; }
+  .how b { color: var(--text); }
+
+  nav.trainers { position: sticky; top: 0; z-index: 20; background: rgba(17,18,22,.94); backdrop-filter: blur(6px);
+    border-bottom: 1px solid var(--line); margin-top: 26px; }
+  nav.trainers .wrap { display: flex; gap: 8px; overflow-x: auto; padding-top: 10px; padding-bottom: 10px; scrollbar-width: thin; }
+  nav.trainers a { flex: none; text-decoration: none; font-weight: 800; font-size: 13px; letter-spacing: .4px; padding: 7px 12px;
+    border-radius: 999px; background: var(--panel); border: 1px solid var(--line); color: var(--muted); white-space: nowrap; }
+  nav.trainers a:hover { border-color: var(--red); color: var(--text); }
+  nav.trainers a.done { color: var(--text); border-color: var(--ok); }
+
+  section.trainer { margin-top: 38px; scroll-margin-top: 64px; }
+  .thead { display: flex; align-items: center; gap: 12px; border-left: 5px solid var(--tc, var(--red)); padding-left: 12px; }
+  .thead h2 { margin: 0; font-weight: 900; font-style: italic; font-size: 27px; }
+  .thead small { color: var(--muted); font-weight: 600; }
+
+  .mons { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; margin-top: 16px; }
+  .mon { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 14px; min-width: 0; }
+  .mon.full { border-color: var(--ok); }
+  .mon header { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
+  .mon h3 { margin: 0; font-size: 18px; font-weight: 800; }
+  .types { display: flex; gap: 5px; }
+  .type { font-size: 10px; font-weight: 800; letter-spacing: .5px; text-transform: uppercase; padding: 2px 7px; border-radius: 999px; color: #111; }
+  .count { margin-left: auto; font-size: 13px; font-weight: 800; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .mon.full .count { color: var(--ok); }
+  .ace { font-size: 10px; font-weight: 800; letter-spacing: .5px; text-transform: uppercase; color: var(--gold); border: 1px solid var(--gold);
+    border-radius: 999px; padding: 1px 7px; }
+
+  .moves { display: flex; flex-wrap: wrap; gap: 7px; }
+  .move { font: inherit; font-size: 13px; font-weight: 600; color: var(--text); background: var(--panel-2); border: 1px solid var(--line);
+    border-radius: 9px; padding: 7px 11px; cursor: pointer; transition: border-color .12s, background .12s, transform .08s; }
+  .move:hover { border-color: #4a4b56; }
+  .move[aria-pressed="true"] { background: var(--red); border-color: var(--red); color: #fff; }
+  .move:active { transform: scale(.97); }
+  .move:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+  .move .dot { display: inline-block; width: 5px; height: 5px; border-radius: 50%; background: var(--gold); vertical-align: middle; margin-left: 6px; }
+  .mon.locked .move:not([aria-pressed="true"]) { opacity: .45; }
+
+  .legend { color: var(--muted); font-size: 13px; margin-top: 10px; display: flex; align-items: center; gap: 7px; }
+  .legend .dot { width: 5px; height: 5px; border-radius: 50%; background: var(--gold); display: inline-block; }
+
+  .bar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 30; background: rgba(17,18,22,.96); backdrop-filter: blur(8px);
+    border-top: 1px solid var(--line); padding-bottom: env(safe-area-inset-bottom, 0px); }
+  .bar .wrap { display: flex; align-items: center; gap: 14px; padding-top: 12px; padding-bottom: 12px; }
+  .bar .status { font-weight: 700; font-size: 14px; min-width: 0; }
+  .bar .status small { display: block; color: var(--muted); font-weight: 500; }
+  .bar .actions { margin-left: auto; display: flex; gap: 8px; flex: none; }
+  button.cta { font: inherit; font-weight: 800; font-size: 15px; color: #fff; background: var(--red); border: 1px solid var(--red);
+    border-radius: 11px; padding: 11px 20px; cursor: pointer; }
+  button.cta:hover:not(:disabled) { background: var(--red-dark); }
+  button.cta:disabled { opacity: .5; cursor: not-allowed; }
+  button.ghost { font: inherit; font-weight: 700; font-size: 14px; color: var(--text); background: var(--panel); border: 1px solid var(--line);
+    border-radius: 11px; padding: 11px 16px; cursor: pointer; }
+  button.ghost:hover { border-color: var(--red); }
+
+  .done-panel { background: var(--panel); border: 1px solid var(--ok); border-radius: 14px; padding: 20px; margin-top: 26px; }
+  .done-panel h2 { margin: 0 0 6px; font-size: 22px; font-weight: 900; font-style: italic; }
+  .done-panel p { margin: 0 0 10px; color: var(--muted); }
+
+  footer { margin-top: 56px; border-top: 1px solid var(--line); padding: 22px 0 30px; color: var(--muted); font-size: 13px; }
+  footer p { margin: 0 0 6px; }
+
+  @media (max-width: 640px) {
+    .hero { background: linear-gradient(170deg, var(--red) 0 88%, var(--white) 88% 100%); }
+    .hero::after { background: linear-gradient(170deg, transparent 0 87.3%, #111 87.3% 88.5%, transparent 88.5%); }
+    .bar .wrap { gap: 10px; }
+    .bar .status { font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .bar .status small { display: none; }   /* the buttons need the room on a phone */
+    button.cta { padding: 10px 15px; font-size: 14px; }
+    button.ghost { padding: 10px 12px; }
+  }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <a class="back" href="/">← Pokemon Battlegrounds</a>
+    <h1>You pick the movesets</h1>
+    <p>Eight champions are entering the Masters Eight tournament, and every one of their Pokémon needs four moves. You choose them. The winning moves are the ones we animate and the ones they fight with.</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="how">
+    <ol>
+      <li>Pick <b>4 moves</b> for any Pokémon you care about — you don't have to do all 48.</li>
+      <li>Your picks are saved on this device as you go, so you can come back to it.</li>
+      <li>Hit <b>Send my votes</b> at the bottom when you're happy.</li>
+    </ol>
+  </div>
+</main>
+
+<nav class="trainers" aria-label="Trainers"><div class="wrap" id="tnav"></div></nav>
+
+<main class="wrap" id="ballot">
+  <p id="loading" style="color: var(--muted); margin-top: 32px;">Loading the teams…</p>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>One vote per person, please. Voting closes when the first quarterfinal goes into production.</p>
+    <p>Pokemon Battlegrounds is a fan-made animation channel. It is not affiliated with, sponsored or endorsed by Nintendo, Game Freak or The Pokémon Company.</p>
+    <p>© 2026 Pokemon Battlegrounds</p>
+  </div>
+</footer>
+
+<div class="bar">
+  <div class="wrap">
+    <div class="status"><span id="statusline">No picks yet</span><small id="statussub">Pick 4 moves for any Pokémon below</small></div>
+    <div class="actions">
+      <button class="ghost" id="copy" type="button">Copy ballot</button>
+      <button class="cta" id="send" type="button" disabled>Send my votes</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// Where the votes go. Set ACTION to the Google Form's "formResponse" URL and ENTRY to the entry.NNNN id of its
+// single long-answer question; until both are filled in, the Send button stays off and people can still copy
+// their ballot and paste it as a comment.
+const FORM = { ACTION: '', ENTRY: '' };
+
+const KEY = 'pb-m8-moveset-vote';
+const picks = Object.create(null);     // monKey -> [move, ...] (max 4)
+let data = null, sent = false;
+
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+function load() {
+  try { const raw = localStorage.getItem(KEY); if (raw) Object.assign(picks, JSON.parse(raw)); } catch (e) {}
+}
+function save() {
+  try { localStorage.setItem(KEY, JSON.stringify(picks)); } catch (e) {}
+}
+
+function monCard(mon) {
+  const chosen = picks[mon.key] || [];
+  const types = mon.types.map(t => `<span class="type" style="background: var(--${t})">${esc(t)}</span>`).join('');
+  const moves = mon.pool.map(mv => {
+    const on = chosen.indexOf(mv) !== -1;
+    const cur = mon.cur.indexOf(mv) !== -1 ? '<span class="dot" title="Used in the videos today"></span>' : '';
+    return `<button class="move" type="button" role="button" aria-pressed="${on}" data-mon="${esc(mon.key)}" data-move="${esc(mv)}">${esc(mv)}${cur}</button>`;
+  }).join('');
+  return `<div class="mon${chosen.length === 4 ? ' full locked' : ''}" id="mon-${esc(mon.key)}">
+      <header>
+        <h3>${esc(mon.name)}</h3>
+        <div class="types">${types}</div>
+        ${mon.ace ? `<span class="ace">${esc(mon.ace)}</span>` : ''}
+        <span class="count">${chosen.length}/4</span>
+      </header>
+      <div class="moves">${moves}</div>
+    </div>`;
+}
+
+function render() {
+  document.getElementById('tnav').innerHTML = data.trainers.map(t =>
+    `<a href="#t-${esc(t.key)}" id="nav-${esc(t.key)}">${esc(t.name)}</a>`).join('');
+  document.getElementById('ballot').innerHTML = data.trainers.map(t =>
+    `<section class="trainer" id="t-${esc(t.key)}" style="--tc: ${esc(t.color)}">
+       <div class="thead"><h2>${esc(t.name)}</h2><small>${esc(t.title)}</small></div>
+       <div class="mons">${t.mons.map(monCard).join('')}</div>
+     </section>`).join('') +
+    `<p class="legend"><span class="dot"></span> marks the move that Pokémon uses in the videos today.</p>`;
+  refresh();
+}
+
+function refreshMon(monKey) {
+  const mon = allMons().find(m => m.key === monKey);
+  const card = document.getElementById('mon-' + monKey);
+  if (!card || !mon) return;
+  const chosen = picks[monKey] || [];
+  card.classList.toggle('full', chosen.length === 4);
+  card.classList.toggle('locked', chosen.length === 4);
+  card.querySelector('.count').textContent = chosen.length + '/4';
+  card.querySelectorAll('.move').forEach(b => b.setAttribute('aria-pressed', String(chosen.indexOf(b.dataset.move) !== -1)));
+}
+
+function allMons() { return data.trainers.reduce((a, t) => a.concat(t.mons), []); }
+
+function refresh() {
+  const complete = Object.keys(picks).filter(k => picks[k].length === 4);
+  const total = allMons().length;
+  document.getElementById('statusline').textContent =
+    complete.length ? `${complete.length} of ${total} Pokémon done` : 'No picks yet';
+  document.getElementById('statussub').textContent = sent
+    ? 'Thanks — your votes are in. Change anything and send again.'
+    : (complete.length ? 'Send whenever you like — you don\'t have to finish all 48.' : 'Pick 4 moves for any Pokémon below');
+  const sendable = complete.length > 0 && FORM.ACTION && FORM.ENTRY;
+  const send = document.getElementById('send');
+  send.disabled = !sendable;
+  send.textContent = sent ? 'Send again' : 'Send my votes';
+  if (complete.length && !FORM.ACTION) send.title = 'Voting opens with the first quarterfinal';
+  data.trainers.forEach(t => {
+    const nav = document.getElementById('nav-' + t.key);
+    if (nav) nav.classList.toggle('done', t.mons.every(m => (picks[m.key] || []).length === 4));
+  });
+}
+
+function ballotText() {
+  const lines = [];
+  data.trainers.forEach(t => t.mons.forEach(m => {
+    const p = picks[m.key] || [];
+    if (p.length === 4) lines.push(`${t.name} ${m.name}: ${p.join(', ')}`);
+  }));
+  return lines.join('\n');
+}
+
+document.addEventListener('click', e => {
+  const btn = e.target.closest('.move');
+  if (!btn) return;
+  const monKey = btn.dataset.mon, move = btn.dataset.move;
+  const chosen = picks[monKey] ? picks[monKey].slice() : [];
+  const at = chosen.indexOf(move);
+  if (at !== -1) chosen.splice(at, 1);
+  else if (chosen.length < 4) chosen.push(move);
+  else return;                                    // already four: deselect one first
+  if (chosen.length) picks[monKey] = chosen; else delete picks[monKey];
+  save(); refreshMon(monKey); refresh();
+});
+
+document.getElementById('copy').addEventListener('click', async () => {
+  const text = ballotText();
+  const btn = document.getElementById('copy');
+  if (!text) { btn.textContent = 'Nothing yet'; setTimeout(() => btn.textContent = 'Copy ballot', 1600); return; }
+  try {
+    await navigator.clipboard.writeText(text);
+    btn.textContent = 'Copied';
+  } catch (e) {
+    const ta = document.createElement('textarea');
+    ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+    document.body.appendChild(ta); ta.select();
+    try { document.execCommand('copy'); btn.textContent = 'Copied'; } catch (e2) { btn.textContent = 'Press ⌘C'; }
+    setTimeout(() => ta.remove(), 100);
+  }
+  setTimeout(() => btn.textContent = 'Copy ballot', 1600);
+});
+
+document.getElementById('send').addEventListener('click', () => {
+  if (!FORM.ACTION || !FORM.ENTRY) return;
+  const payload = JSON.stringify({ v: 1, at: new Date().toISOString(), picks: picks });
+  // Google Forms accepts a plain cross-origin POST; the response is opaque, which is fine - it still records.
+  const body = new URLSearchParams();
+  body.set(FORM.ENTRY, payload);
+  fetch(FORM.ACTION, { method: 'POST', mode: 'no-cors', body: body }).catch(() => {});
+  sent = true;
+  refresh();
+  const panel = document.createElement('div');
+  panel.className = 'done-panel';
+  panel.innerHTML = '<h2>Votes sent</h2><p>Thanks — that is your ballot in. Tell a friend to vote too, and watch for the first quarterfinal.</p>';
+  const main = document.getElementById('ballot');
+  main.insertBefore(panel, main.firstChild);
+  panel.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+load();
+fetch('movepools.json', { cache: 'no-cache' })
+  .then(r => r.ok ? r.json() : Promise.reject(new Error('movepools.json ' + r.status)))
+  .then(json => { data = json; render(); })
+  .catch(() => {
+    document.getElementById('loading').textContent =
+      'The teams could not be loaded right now. Please refresh, or try again in a minute.';
+  });
+</script>
+</body>
+</html>
