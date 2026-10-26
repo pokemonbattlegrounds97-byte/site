@@ -40,6 +40,17 @@
   .btn.yt { background: var(--red); border-color: var(--red); }
   .btn.yt:hover { background: var(--red-dark); }
 
+  /* the open vote, sitting above the videos while it is running */
+  .vote { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; margin-top: 34px; padding: 20px 22px;
+    background: var(--panel); border: 1px solid var(--red); border-radius: 14px; }
+  .vote .tag { font-size: 12px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; color: var(--red); }
+  .vote b { display: block; font-size: 21px; font-weight: 900; font-style: italic; margin: 2px 0 4px; }
+  .vote p { margin: 0; color: var(--muted); font-size: 15px; max-width: 54ch; }
+  .vote .go { margin-left: auto; flex: none; background: var(--red); border: 1px solid var(--red); color: #fff;
+    text-decoration: none; font-weight: 800; padding: 13px 22px; border-radius: 12px; transition: background .12s, transform .12s; }
+  .vote .go:hover { background: var(--red-dark); transform: translateY(-2px); }
+  @media (max-width: 640px) { .vote .go { margin-left: 0; width: 100%; text-align: center; } }
+
   h2 { font-weight: 800; font-size: 26px; margin: 46px 0 16px; }
   h2 span { color: var(--red); }
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
@@ -106,6 +117,15 @@
       Discord
     </a>
   </nav>
+
+  <section class="vote">
+    <div>
+      <span class="tag">Vote open</span>
+      <b>You pick the movesets</b>
+      <p>Eight champions are entering the Masters Eight tournament, and every one of their Pokémon needs four moves. The moves you vote for are the ones we animate, and the ones they fight with.</p>
+    </div>
+    <a class="go" href="vote.html">Vote now</a>
+  </section>
 
   <h2>Latest <span>battles</span></h2>
   <div class="grid" id="battles">
