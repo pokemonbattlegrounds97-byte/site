@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Vote the movesets — Pokemon Battlegrounds</title>
-<meta name="description" content="The Masters Eight tournament is coming. You decide what every Pokémon knows: pick 4 moves for each of the 48 Pokémon.">
-<meta property="og:title" content="You pick the movesets — Masters Eight">
-<meta property="og:description" content="Leon, Cynthia, Lance, Diantha, Alain, Iris, Steven and Ash. 48 Pokémon. Pick 4 moves each.">
+<title>Vote the teams — Pokemon Battlegrounds</title>
+<meta name="description" content="The Masters Eight tournament is coming. You decide it: pick the six Pokémon each champion brings, and the four moves each one knows.">
+<meta property="og:title" content="You pick the teams — Masters Eight">
+<meta property="og:description" content="Leon, Cynthia, Lance, Diantha, Alain, Iris, Steven and Ash. You choose their Pokémon and their moves.">
 <meta property="og:image" content="https://pokemonbattlegrounds.com/img/logo_400.png">
 <link rel="icon" type="image/png" href="img/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,7 +24,7 @@
   html, body { margin: 0; }
   body { background: var(--bg); color: var(--text); font-family: Rubik, system-ui, sans-serif; line-height: 1.55; padding-bottom: 96px; }
   a { color: inherit; }
-  .wrap { max-width: 980px; margin: 0 auto; padding: 0 16px; }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px; }
 
   .hero { background: linear-gradient(115deg, var(--red) 0 78%, var(--white) 78% 100%); position: relative; overflow: hidden; }
   .hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(115deg, transparent 0 77.4%, #111 77.4% 78.6%, transparent 78.6%); pointer-events: none; }
@@ -49,25 +49,35 @@
   nav.trainers a.done { color: var(--text); border-color: var(--ok); }
 
   section.trainer { margin-top: 38px; scroll-margin-top: 64px; }
-  .thead { display: flex; align-items: center; gap: 12px; border-left: 5px solid var(--tc, var(--red)); padding-left: 12px; }
+  .thead { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; border-left: 5px solid var(--tc, var(--red)); padding-left: 12px; }
   .thead h2 { margin: 0; font-weight: 900; font-style: italic; font-size: 27px; }
   .thead small { color: var(--muted); font-weight: 600; }
   .thead img { width: 54px; height: 54px; flex: none; border-radius: 10px; border: 2px solid var(--tc, var(--red));
     image-rendering: pixelated; object-fit: cover; object-position: top; background: #9ec8f0; }
-  .sprite { width: 56px; height: 46px; flex: none; object-fit: contain; object-position: center bottom; image-rendering: pixelated; }
+  .team-count { margin-left: auto; font-size: 14px; font-weight: 800; font-variant-numeric: tabular-nums; color: var(--muted); }
+  .team-count.full { color: var(--ok); }
+  .fixed-note { margin-left: auto; font-size: 13px; color: var(--muted); max-width: 46ch; }
 
-  .mons { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; margin-top: 16px; }
+  .mons { display: grid; grid-template-columns: repeat(auto-fill, minmax(310px, 1fr)); gap: 14px; margin-top: 16px; }
   .mon { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 14px; min-width: 0; }
+  .mon.picked { border-color: var(--gold); background: linear-gradient(var(--panel), var(--panel)) padding-box, var(--panel); }
   .mon.full { border-color: var(--ok); }
-  .mon header { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
-  .mon .who { min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+  .mon.picked.full { border-color: var(--gold); }
+  .mon header { display: flex; align-items: center; gap: 10px; margin-bottom: 4px; }
+  .mon .who { min-width: 0; display: flex; flex-direction: column; gap: 2px; }
   .mon h3 { margin: 0; font-size: 18px; font-weight: 800; line-height: 1.1; }
-  .types { display: flex; gap: 5px; flex-wrap: wrap; align-items: center; }
-  .type { font-size: 10px; font-weight: 800; letter-spacing: .5px; text-transform: uppercase; padding: 2px 7px; border-radius: 999px; color: #111; }
+  .mon .where { font-size: 12px; color: var(--muted); }
+  .sprite { width: 56px; height: 46px; flex: none; object-fit: contain; object-position: center bottom; image-rendering: pixelated; }
   .count { margin-left: auto; font-size: 13px; font-weight: 800; color: var(--muted); font-variant-numeric: tabular-nums; }
   .mon.full .count { color: var(--ok); }
-  .ace { font-size: 10px; font-weight: 800; letter-spacing: .5px; text-transform: uppercase; color: var(--gold); border: 1px solid var(--gold);
-    border-radius: 999px; padding: 1px 7px; }
+
+  .pick { font: inherit; font-size: 12px; font-weight: 800; letter-spacing: .3px; text-transform: uppercase; cursor: pointer;
+    background: transparent; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 5px 11px; margin: 6px 0 10px;
+    display: inline-flex; align-items: center; gap: 6px; transition: border-color .12s, color .12s, background .12s; }
+  .pick:hover { border-color: var(--gold); color: var(--text); }
+  .pick[aria-pressed="true"] { background: var(--gold); border-color: var(--gold); color: #171205; }
+  .pick:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+  .mon .where b { color: var(--gold); font-weight: 700; }
 
   .moves { display: flex; flex-wrap: wrap; gap: 7px; }
   .move { font: inherit; font-size: 13px; font-weight: 600; color: var(--text); background: var(--panel-2); border: 1px solid var(--line);
@@ -110,9 +120,11 @@
     .hero::after { background: linear-gradient(170deg, transparent 0 87.3%, #111 87.3% 88.5%, transparent 88.5%); }
     .bar .wrap { gap: 10px; }
     .bar .status { font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .bar .status small { display: none; }   /* the buttons need the room on a phone */
+    .bar .status small { display: none; }
     button.cta { padding: 10px 15px; font-size: 14px; }
     button.ghost { padding: 10px 12px; }
+    .fixed-note { margin-left: 0; }
+    .team-count { margin-left: 0; }
   }
   @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 </style>
@@ -122,17 +134,17 @@
 <header class="hero">
   <div class="wrap">
     <a class="back" href="/">← Pokemon Battlegrounds</a>
-    <h1>You pick the movesets</h1>
-    <p>Eight champions are entering the Masters Eight tournament, and every one of their Pokémon needs four moves. You choose them. The winning moves are the ones we animate and the ones they fight with.</p>
+    <h1>You pick the teams</h1>
+    <p>Eight champions are entering the Masters Eight tournament. You choose which six Pokémon each one brings, and which four moves each Pokémon knows. The winners are what we animate, and what they fight with.</p>
   </div>
 </header>
 
 <main class="wrap">
   <div class="how">
     <ol>
-      <li>Pick <b>4 moves</b> for any Pokémon you care about — you don't have to do all 48.</li>
-      <li>Your picks are saved on this device as you go, so you can come back to it.</li>
-      <li>Hit <b>Send my votes</b> at the bottom when you're happy.</li>
+      <li>For each champion, pick the <b>6 Pokémon</b> they should bring — every one listed is a Pokémon they have really used.</li>
+      <li>Pick <b>4 moves</b> for any Pokémon you care about. You don't have to do all of them.</li>
+      <li>Your picks are saved on this device as you go. Hit <b>Send my votes</b> at the bottom when you're happy.</li>
     </ol>
   </div>
 </main>
@@ -140,20 +152,20 @@
 <nav class="trainers" aria-label="Trainers"><div class="wrap" id="tnav"></div></nav>
 
 <main class="wrap" id="ballot">
-  <p id="loading" style="color: var(--muted); margin-top: 32px;">Loading the teams…</p>
+  <p id="loading" style="color: var(--muted); margin-top: 32px;">Loading the champions…</p>
 </main>
 
 <footer>
   <div class="wrap">
     <p>One vote per person, please. Voting closes when the first quarterfinal goes into production.</p>
     <p>Pokemon Battlegrounds is a fan-made animation channel. It is not affiliated with, sponsored or endorsed by Nintendo, Game Freak or The Pokémon Company.</p>
-    <p>© 2026 Pokemon Battlegrounds</p>
+    <p>Pokémon sprites: PMD SpriteCollab (CC BY-NC 4.0). © 2026 Pokemon Battlegrounds</p>
   </div>
 </footer>
 
 <div class="bar">
   <div class="wrap">
-    <div class="status"><span id="statusline">No picks yet</span><small id="statussub">Pick 4 moves for any Pokémon below</small></div>
+    <div class="status"><span id="statusline">No picks yet</span><small id="statussub">Pick a team for any champion below</small></div>
     <div class="actions">
       <button class="ghost" id="copy" type="button">Copy ballot</button>
       <button class="cta" id="send" type="button" disabled>Send my votes</button>
@@ -162,132 +174,187 @@
 </div>
 
 <script>
-// Where the votes go. Set ACTION to the Google Form's "formResponse" URL and ENTRY to the entry.NNNN id of its
-// single long-answer question; until both are filled in, the Send button stays off and people can still copy
-// their ballot and paste it as a comment.
+// Where the votes go: a Google Form with one long-answer question, owned by the channel account.
 const FORM = {
   ACTION: 'https://docs.google.com/forms/d/e/1FAIpQLSec1lkKkOvAm8OXbi4-S8Vfk2NfxskD9QE-TD--zwEyVIEnIQ/formResponse',
   ENTRY: 'entry.1067992931'
 };
 
-const KEY = 'pb-m8-moveset-vote';
-const picks = Object.create(null);     // monKey -> [move, ...] (max 4)
+const KEY = 'pb-m8-vote-v2';
+const team = Object.create(null);     // trainer key -> [Pokémon name, ...] (max 6)
+const moves = Object.create(null);    // "<trainer>:<dex>" -> [move, ...] (max 4)
 let data = null, sent = false;
 
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const id = (t, c) => `${t.key}:${c.dex}`;
 
 function load() {
-  try { const raw = localStorage.getItem(KEY); if (raw) Object.assign(picks, JSON.parse(raw)); } catch (e) {}
+  try {
+    const raw = JSON.parse(localStorage.getItem(KEY) || '{}');
+    Object.assign(team, raw.team || {});
+    Object.assign(moves, raw.moves || {});
+  } catch (e) {}
 }
 function save() {
-  try { localStorage.setItem(KEY, JSON.stringify(picks)); } catch (e) {}
+  try { localStorage.setItem(KEY, JSON.stringify({ team, moves })); } catch (e) {}
 }
 
-function monCard(mon) {
-  const chosen = picks[mon.key] || [];
-  const types = mon.types.map(t => `<span class="type" style="background: var(--${t})">${esc(t)}</span>`).join('');
-  const moves = mon.pool.map(r => {
+function prune() {
+  // a saved pick for something no longer on the ballot would count invisibly towards the six or the four
+  const names = new Map(), mv = new Map();
+  data.trainers.forEach(t => {
+    names.set(t.key, new Set(t.candidates.map(c => c.name)));
+    t.candidates.forEach(c => mv.set(id(t, c), new Set(c.pool.map(r => r.m))));
+  });
+  Object.keys(team).forEach(k => {
+    const ok = names.has(k) ? team[k].filter(n => names.get(k).has(n)).slice(0, 6) : [];
+    if (ok.length) team[k] = ok; else delete team[k];
+  });
+  Object.keys(moves).forEach(k => {
+    const ok = mv.has(k) ? moves[k].filter(m => mv.get(k).has(m)).slice(0, 4) : [];
+    if (ok.length) moves[k] = ok; else delete moves[k];
+  });
+  save();
+}
+
+function card(t, c) {
+  const key = id(t, c);
+  const chosen = moves[key] || [];
+  const onTeam = (team[t.key] || []).indexOf(c.name) !== -1;
+  const chips = c.pool.map(r => {
     const on = chosen.indexOf(r.m) !== -1;
     const dot = r.cur ? '<span class="dot" title="We already animate this move"></span>' : '';
     const title = `${r.c === 'phys' ? 'Physical' : r.c === 'spec' ? 'Special' : 'Status'} · ${r.t}`;
     return `<button class="move" type="button" aria-pressed="${on}" style="--mt: var(--${esc(r.t)})"
-      title="${esc(title)}" data-mon="${esc(mon.key)}" data-move="${esc(r.m)}"><span>${esc(r.m)}</span>${dot}</button>`;
+      title="${esc(title)}" data-key="${esc(key)}" data-move="${esc(r.m)}"><span>${esc(r.m)}</span>${dot}</button>`;
   }).join('');
-  return `<div class="mon${chosen.length === 4 ? ' full locked' : ''}" id="mon-${esc(mon.key)}">
+  const pickBtn = t.fixed ? '' :
+    `<button class="pick" type="button" aria-pressed="${onTeam}" data-trainer="${esc(t.key)}" data-name="${esc(c.name)}">
+       ${onTeam ? '★ On the team' : '☆ Pick for the team'}</button>`;
+  return `<div class="mon${onTeam ? ' picked' : ''}${chosen.length === 4 ? ' full locked' : ''}" id="c-${esc(key)}">
       <header>
-        <img class="sprite" src="img/mons/${esc(mon.dex)}.png" alt="" loading="lazy" width="56" height="46">
+        <img class="sprite" src="img/mons/${esc(c.dex)}.png" alt="" loading="lazy" width="56" height="46">
         <div class="who">
-          <h3>${esc(mon.name)}</h3>
-          <div class="types">${types}${mon.ace ? `<span class="ace">${esc(mon.ace)}</span>` : ''}</div>
+          <h3>${esc(c.name)}</h3>
+          <span class="where">${esc(c.where)}${c.ours ? ' · <b>in our team now</b>' : ''}</span>
         </div>
         <span class="count">${chosen.length}/4</span>
       </header>
-      <div class="moves">${moves}</div>
+      ${pickBtn}
+      <div class="moves">${chips}</div>
     </div>`;
-}
-
-function prune() {
-  // a saved pick for a move that is no longer on the ballot would count towards the four invisibly
-  const valid = new Map(allMons().map(m => [m.key, new Set(m.pool.map(r => r.m))]));
-  Object.keys(picks).forEach(k => {
-    const ok = valid.has(k) ? picks[k].filter(mv => valid.get(k).has(mv)) : [];
-    if (ok.length) picks[k] = ok; else delete picks[k];
-  });
-  save();
 }
 
 function render() {
   prune();
   document.getElementById('tnav').innerHTML = data.trainers.map(t =>
     `<a href="#t-${esc(t.key)}" id="nav-${esc(t.key)}">${esc(t.name)}</a>`).join('');
-  document.getElementById('ballot').innerHTML = data.trainers.map(t =>
-    `<section class="trainer" id="t-${esc(t.key)}" style="--tc: ${esc(t.color)}">
+  document.getElementById('ballot').innerHTML = data.trainers.map(t => {
+    const picked = (team[t.key] || []).length;
+    const right = t.fixed
+      ? `<span class="fixed-note">${esc(t.name.charAt(0) + t.name.slice(1).toLowerCase())} has only ever used these six, so there is no team to choose — just the moves.</span>`
+      : `<span class="team-count${picked === 6 ? ' full' : ''}" id="tc-${esc(t.key)}">Team ${picked}/6</span>`;
+    return `<section class="trainer" id="t-${esc(t.key)}" style="--tc: ${esc(t.color)}">
        <div class="thead">
          <img src="img/trainers/${esc(t.key)}.png" alt="" loading="lazy" width="54" height="54">
          <h2>${esc(t.name)}</h2><small>${esc(t.title)}</small>
+         ${right}
        </div>
-       <div class="mons">${t.mons.map(monCard).join('')}</div>
-     </section>`).join('') +
+       <div class="mons">${t.candidates.map(c => card(t, c)).join('')}</div>
+     </section>`;
+  }).join('') +
     `<p class="legend">
        <span>The colour on each move is its type.</span>
        <span><i></i> a move we already animate.</span>
-       <span>Every move listed is one that Pokémon can really learn and that competitive players actually use.</span>
+       <span>Every Pokémon listed is one that champion has really used, in the games or the anime, and every move is one it can really learn.</span>
      </p>`;
   refresh();
 }
 
-function refreshMon(monKey) {
-  const mon = allMons().find(m => m.key === monKey);
-  const card = document.getElementById('mon-' + monKey);
-  if (!card || !mon) return;
-  const chosen = picks[monKey] || [];
-  card.classList.toggle('full', chosen.length === 4);
-  card.classList.toggle('locked', chosen.length === 4);
-  card.querySelector('.count').textContent = chosen.length + '/4';
-  card.querySelectorAll('.move').forEach(b => b.setAttribute('aria-pressed', String(chosen.indexOf(b.dataset.move) !== -1)));
+const allCands = () => data.trainers.flatMap(t => t.candidates.map(c => [t, c]));
+
+function refreshCard(key) {
+  const hit = allCands().find(([t, c]) => id(t, c) === key);
+  const el = document.getElementById('c-' + key);
+  if (!hit || !el) return;
+  const [t, c] = hit;
+  const chosen = moves[key] || [];
+  const onTeam = (team[t.key] || []).indexOf(c.name) !== -1;
+  el.classList.toggle('full', chosen.length === 4);
+  el.classList.toggle('locked', chosen.length === 4);
+  el.classList.toggle('picked', onTeam);
+  el.querySelector('.count').textContent = chosen.length + '/4';
+  el.querySelectorAll('.move').forEach(b => b.setAttribute('aria-pressed', String(chosen.indexOf(b.dataset.move) !== -1)));
+  const p = el.querySelector('.pick');
+  if (p) { p.setAttribute('aria-pressed', String(onTeam)); p.textContent = onTeam ? '★ On the team' : '☆ Pick for the team'; }
 }
 
-function allMons() { return data.trainers.reduce((a, t) => a.concat(t.mons), []); }
-
 function refresh() {
-  const complete = Object.keys(picks).filter(k => picks[k].length === 4);
-  const total = allMons().length;
-  document.getElementById('statusline').textContent =
-    complete.length ? `${complete.length} of ${total} Pokémon done` : 'No picks yet';
+  const teams = data.trainers.filter(t => !t.fixed && (team[t.key] || []).length === 6).length;
+  const votable = data.trainers.filter(t => !t.fixed).length;
+  const sets = Object.keys(moves).filter(k => moves[k].length === 4).length;
+  const any = teams || sets || Object.keys(team).length;
+  document.getElementById('statusline').textContent = any
+    ? `${teams}/${votable} teams · ${sets} moveset${sets === 1 ? '' : 's'}`
+    : 'No picks yet';
   document.getElementById('statussub').textContent = sent
     ? 'Thanks — your votes are in. Change anything and send again.'
-    : (complete.length ? 'Send whenever you like — you don\'t have to finish all 48.' : 'Pick 4 moves for any Pokémon below');
-  const sendable = complete.length > 0 && FORM.ACTION && FORM.ENTRY;
+    : (any ? 'Send whenever you like — you don\'t have to finish everything.' : 'Pick a team for any champion below');
   const send = document.getElementById('send');
-  send.disabled = !sendable;
+  send.disabled = !(any && FORM.ACTION && FORM.ENTRY);
   send.textContent = sent ? 'Send again' : 'Send my votes';
-  if (complete.length && !FORM.ACTION) send.title = 'Voting opens with the first quarterfinal';
   data.trainers.forEach(t => {
     const nav = document.getElementById('nav-' + t.key);
-    if (nav) nav.classList.toggle('done', t.mons.every(m => (picks[m.key] || []).length === 4));
+    if (nav) nav.classList.toggle('done', t.fixed ? t.candidates.every(c => (moves[id(t, c)] || []).length === 4)
+                                                  : (team[t.key] || []).length === 6);
+    const tc = document.getElementById('tc-' + t.key);
+    if (tc) {
+      const n = (team[t.key] || []).length;
+      tc.textContent = `Team ${n}/6`;
+      tc.classList.toggle('full', n === 6);
+    }
   });
 }
 
 function ballotText() {
   const lines = [];
-  data.trainers.forEach(t => t.mons.forEach(m => {
-    const p = picks[m.key] || [];
-    if (p.length === 4) lines.push(`${t.name} ${m.name}: ${p.join(', ')}`);
-  }));
+  data.trainers.forEach(t => {
+    const picked = team[t.key] || [];
+    if (picked.length) lines.push(`${t.name}: ${picked.join(', ')}`);
+    t.candidates.forEach(c => {
+      const p = moves[id(t, c)] || [];
+      if (p.length === 4) lines.push(`  ${c.name}: ${p.join(', ')}`);
+    });
+  });
   return lines.join('\n');
 }
 
 document.addEventListener('click', e => {
+  const pick = e.target.closest('.pick');
+  if (pick) {
+    const tk = pick.dataset.trainer, name = pick.dataset.name;
+    const list = (team[tk] || []).slice();
+    const at = list.indexOf(name);
+    if (at !== -1) list.splice(at, 1);
+    else if (list.length < 6) list.push(name);
+    else return;                                   // six already: drop one first
+    if (list.length) team[tk] = list; else delete team[tk];
+    save();
+    const t = data.trainers.find(x => x.key === tk);
+    t.candidates.forEach(c => refreshCard(id(t, c)));
+    refresh();
+    return;
+  }
   const btn = e.target.closest('.move');
   if (!btn) return;
-  const monKey = btn.dataset.mon, move = btn.dataset.move;
-  const chosen = picks[monKey] ? picks[monKey].slice() : [];
+  const key = btn.dataset.key, move = btn.dataset.move;
+  const chosen = moves[key] ? moves[key].slice() : [];
   const at = chosen.indexOf(move);
   if (at !== -1) chosen.splice(at, 1);
   else if (chosen.length < 4) chosen.push(move);
-  else return;                                    // already four: deselect one first
-  if (chosen.length) picks[monKey] = chosen; else delete picks[monKey];
-  save(); refreshMon(monKey); refresh();
+  else return;                                     // already four: deselect one first
+  if (chosen.length) moves[key] = chosen; else delete moves[key];
+  save(); refreshCard(key); refresh();
 });
 
 document.getElementById('copy').addEventListener('click', async () => {
@@ -309,8 +376,7 @@ document.getElementById('copy').addEventListener('click', async () => {
 
 document.getElementById('send').addEventListener('click', () => {
   if (!FORM.ACTION || !FORM.ENTRY) return;
-  const payload = JSON.stringify({ v: 1, at: new Date().toISOString(), picks: picks });
-  // Google Forms accepts a plain cross-origin POST; the response is opaque, which is fine - it still records.
+  const payload = JSON.stringify({ v: 2, at: new Date().toISOString(), team: team, moves: moves });
   const body = new URLSearchParams();
   body.set(FORM.ENTRY, payload);
   fetch(FORM.ACTION, { method: 'POST', mode: 'no-cors', body: body }).catch(() => {});
@@ -325,12 +391,12 @@ document.getElementById('send').addEventListener('click', () => {
 });
 
 load();
-fetch('movepools.json', { cache: 'no-cache' })
-  .then(r => r.ok ? r.json() : Promise.reject(new Error('movepools.json ' + r.status)))
+fetch('ballot.json', { cache: 'no-cache' })
+  .then(r => r.ok ? r.json() : Promise.reject(new Error('ballot.json ' + r.status)))
   .then(json => { data = json; render(); })
   .catch(() => {
     document.getElementById('loading').textContent =
-      'The teams could not be loaded right now. Please refresh, or try again in a minute.';
+      'The champions could not be loaded right now. Please refresh, or try again in a minute.';
   });
 </script>
 </body>

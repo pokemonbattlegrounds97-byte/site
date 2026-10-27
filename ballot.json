@@ -1,0 +1,7059 @@
+{
+ "_": "Build the Masters Eight ballot: every roster candidate, with a move pool for each.",
+ "trainers": [
+  {
+   "key": "leon",
+   "name": "LEON",
+   "title": "Galar Champion",
+   "fixed": false,
+   "note": "SwSh Champion Cup team plus his Journeys anime team. A real choice: 10 for 6. Mr. Rime is left off: PMD SpriteCollab has no sprite for it, so it cannot be drawn.",
+   "candidates": [
+    {
+     "name": "Charizard",
+     "dex": "0006",
+     "where": "games + anime (his ace, Gigantamax)",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Solar Beam",
+       "t": "grass",
+       "c": "spec",
+       "u": 98.6,
+       "cur": true
+      },
+      {
+       "m": "Dragon Dance",
+       "t": "dragon",
+       "c": "stat",
+       "u": 94.6,
+       "cur": false
+      },
+      {
+       "m": "Belly Drum",
+       "t": "normal",
+       "c": "stat",
+       "u": 94.3,
+       "cur": false
+      },
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 94.3,
+       "cur": false
+      },
+      {
+       "m": "Flare Blitz",
+       "t": "fire",
+       "c": "phys",
+       "u": 94.3,
+       "cur": false
+      },
+      {
+       "m": "Substitute",
+       "t": "normal",
+       "c": "stat",
+       "u": 94.3,
+       "cur": false
+      },
+      {
+       "m": "Dragon Claw",
+       "t": "dragon",
+       "c": "phys",
+       "u": 92.0,
+       "cur": false
+      },
+      {
+       "m": "Weather Ball",
+       "t": "normal",
+       "c": "spec",
+       "u": 89.1,
+       "cur": false
+      },
+      {
+       "m": "Overheat",
+       "t": "fire",
+       "c": "spec",
+       "u": 78.0,
+       "cur": false
+      },
+      {
+       "m": "Flamethrower",
+       "t": "fire",
+       "c": "spec",
+       "u": 75.2,
+       "cur": false
+      },
+      {
+       "m": "Focus Blast",
+       "t": "fighting",
+       "c": "spec",
+       "u": 66.0,
+       "cur": false
+      },
+      {
+       "m": "Scorching Sands",
+       "t": "ground",
+       "c": "spec",
+       "u": 62.6,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Dragapult",
+     "dex": "0887",
+     "where": "games + anime",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Draco Meteor",
+       "t": "dragon",
+       "c": "spec",
+       "u": 87.4,
+       "cur": false
+      },
+      {
+       "m": "Shadow Ball",
+       "t": "ghost",
+       "c": "spec",
+       "u": 82.5,
+       "cur": true
+      },
+      {
+       "m": "Dragon Darts",
+       "t": "dragon",
+       "c": "phys",
+       "u": 77.5,
+       "cur": true
+      },
+      {
+       "m": "U-turn",
+       "t": "bug",
+       "c": "phys",
+       "u": 70.1,
+       "cur": false
+      },
+      {
+       "m": "Flamethrower",
+       "t": "fire",
+       "c": "spec",
+       "u": 62.6,
+       "cur": true
+      },
+      {
+       "m": "Phantom Force",
+       "t": "ghost",
+       "c": "phys",
+       "u": 54.2,
+       "cur": false
+      },
+      {
+       "m": "Will-O-Wisp",
+       "t": "fire",
+       "c": "stat",
+       "u": 49.3,
+       "cur": false
+      },
+      {
+       "m": "Dragon Dance",
+       "t": "dragon",
+       "c": "stat",
+       "u": 44.6,
+       "cur": false
+      },
+      {
+       "m": "Sucker Punch",
+       "t": "dark",
+       "c": "phys",
+       "u": 35.5,
+       "cur": false
+      },
+      {
+       "m": "Hex",
+       "t": "ghost",
+       "c": "spec",
+       "u": 35.0,
+       "cur": false
+      },
+      {
+       "m": "Thunderbolt",
+       "t": "electric",
+       "c": "spec",
+       "u": 19.3,
+       "cur": true
+      },
+      {
+       "m": "Thunder Wave",
+       "t": "electric",
+       "c": "stat",
+       "u": 11.2,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Aegislash",
+     "dex": "0681",
+     "where": "games + anime",
+     "ours": true,
+     "pool": [
+      {
+       "m": "King's Shield",
+       "t": "steel",
+       "c": "stat",
+       "u": 96.9,
+       "cur": true
+      },
+      {
+       "m": "Shadow Sneak",
+       "t": "ghost",
+       "c": "phys",
+       "u": 84.9,
+       "cur": false
+      },
+      {
+       "m": "Close Combat",
+       "t": "fighting",
+       "c": "phys",
+       "u": 79.8,
+       "cur": false
+      },
+      {
+       "m": "Shadow Ball",
+       "t": "ghost",
+       "c": "spec",
+       "u": 73.7,
+       "cur": true
+      },
+      {
+       "m": "Toxic",
+       "t": "poison",
+       "c": "stat",
+       "u": 52.9,
+       "cur": false
+      },
+      {
+       "m": "Swords Dance",
+       "t": "normal",
+       "c": "stat",
+       "u": 51.7,
+       "cur": false
+      },
+      {
+       "m": "Iron Head",
+       "t": "steel",
+       "c": "phys",
+       "u": 47.3,
+       "cur": false
+      },
+      {
+       "m": "Flash Cannon",
+       "t": "steel",
+       "c": "spec",
+       "u": 45.5,
+       "cur": true
+      },
+      {
+       "m": "Shadow Claw",
+       "t": "ghost",
+       "c": "phys",
+       "u": 45.4,
+       "cur": false
+      },
+      {
+       "m": "Gyro Ball",
+       "t": "steel",
+       "c": "phys",
+       "u": 42.8,
+       "cur": false
+      },
+      {
+       "m": "Air Slash",
+       "t": "flying",
+       "c": "spec",
+       "u": 24.9,
+       "cur": false
+      },
+      {
+       "m": "Steel Beam",
+       "t": "steel",
+       "c": "spec",
+       "u": 24.9,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Haxorus",
+     "dex": "0612",
+     "where": "games (Sword)",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 99.9,
+       "cur": true
+      },
+      {
+       "m": "Dragon Dance",
+       "t": "dragon",
+       "c": "stat",
+       "u": 98.5,
+       "cur": false
+      },
+      {
+       "m": "Outrage",
+       "t": "dragon",
+       "c": "phys",
+       "u": 93.3,
+       "cur": true
+      },
+      {
+       "m": "Poison Jab",
+       "t": "poison",
+       "c": "phys",
+       "u": 83.4,
+       "cur": true
+      },
+      {
+       "m": "Scale Shot",
+       "t": "dragon",
+       "c": "phys",
+       "u": 77.5,
+       "cur": false
+      },
+      {
+       "m": "Close Combat",
+       "t": "fighting",
+       "c": "phys",
+       "u": 71.6,
+       "cur": false
+      },
+      {
+       "m": "Swords Dance",
+       "t": "normal",
+       "c": "stat",
+       "u": 71.6,
+       "cur": false
+      },
+      {
+       "m": "Dragon Claw",
+       "t": "dragon",
+       "c": "phys",
+       "u": 50.1,
+       "cur": false
+      },
+      {
+       "m": "Iron Head",
+       "t": "steel",
+       "c": "phys",
+       "u": 46.4,
+       "cur": false
+      },
+      {
+       "m": "First Impression",
+       "t": "bug",
+       "c": "phys",
+       "u": 15.1,
+       "cur": false
+      },
+      {
+       "m": "Iron Tail",
+       "t": "steel",
+       "c": "phys",
+       "u": 15.1,
+       "cur": true
+      },
+      {
+       "m": "Taunt",
+       "t": "dark",
+       "c": "stat",
+       "u": 11.8,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Rhyperior",
+     "dex": "0464",
+     "where": "games (Shield)",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 100.0,
+       "cur": true
+      },
+      {
+       "m": "Stone Edge",
+       "t": "rock",
+       "c": "phys",
+       "u": 98.1,
+       "cur": true
+      },
+      {
+       "m": "Swords Dance",
+       "t": "normal",
+       "c": "stat",
+       "u": 83.0,
+       "cur": false
+      },
+      {
+       "m": "Rock Blast",
+       "t": "rock",
+       "c": "phys",
+       "u": 70.7,
+       "cur": false
+      },
+      {
+       "m": "Rock Polish",
+       "t": "rock",
+       "c": "stat",
+       "u": 59.5,
+       "cur": false
+      },
+      {
+       "m": "Avalanche",
+       "t": "ice",
+       "c": "phys",
+       "u": 45.7,
+       "cur": false
+      },
+      {
+       "m": "Ice Punch",
+       "t": "ice",
+       "c": "phys",
+       "u": 45.5,
+       "cur": false
+      },
+      {
+       "m": "Supercell Slam",
+       "t": "electric",
+       "c": "phys",
+       "u": 44.1,
+       "cur": false
+      },
+      {
+       "m": "Temper Flare",
+       "t": "fire",
+       "c": "phys",
+       "u": 20.3,
+       "cur": false
+      },
+      {
+       "m": "Protect",
+       "t": "normal",
+       "c": "stat",
+       "u": 19.9,
+       "cur": false
+      },
+      {
+       "m": "Rock Wrecker",
+       "t": "rock",
+       "c": "phys",
+       "u": 17.3,
+       "cur": false
+      },
+      {
+       "m": "Body Press",
+       "t": "fighting",
+       "c": "phys",
+       "u": 7.7,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Rillaboom",
+     "dex": "0812",
+     "where": "games (Sobble start)",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Grassy Glide",
+       "t": "grass",
+       "c": "phys",
+       "u": 100.0,
+       "cur": false
+      },
+      {
+       "m": "Knock Off",
+       "t": "dark",
+       "c": "phys",
+       "u": 95.0,
+       "cur": true
+      },
+      {
+       "m": "U-turn",
+       "t": "bug",
+       "c": "phys",
+       "u": 83.8,
+       "cur": false
+      },
+      {
+       "m": "Swords Dance",
+       "t": "normal",
+       "c": "stat",
+       "u": 82.9,
+       "cur": false
+      },
+      {
+       "m": "Wood Hammer",
+       "t": "grass",
+       "c": "phys",
+       "u": 78.6,
+       "cur": true
+      },
+      {
+       "m": "Superpower",
+       "t": "fighting",
+       "c": "phys",
+       "u": 45.6,
+       "cur": false
+      },
+      {
+       "m": "Drain Punch",
+       "t": "fighting",
+       "c": "phys",
+       "u": 43.0,
+       "cur": false
+      },
+      {
+       "m": "High Horsepower",
+       "t": "ground",
+       "c": "phys",
+       "u": 38.1,
+       "cur": true
+      },
+      {
+       "m": "Fake Out",
+       "t": "normal",
+       "c": "phys",
+       "u": 14.0,
+       "cur": false
+      },
+      {
+       "m": "Leech Seed",
+       "t": "grass",
+       "c": "stat",
+       "u": 12.7,
+       "cur": false
+      },
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 11.0,
+       "cur": false
+      },
+      {
+       "m": "Protect",
+       "t": "normal",
+       "c": "stat",
+       "u": 6.0,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Cinderace",
+     "dex": "0815",
+     "where": "games (Grookey start)",
+     "ours": false,
+     "pool": [
+      {
+       "m": "Pyro Ball",
+       "t": "fire",
+       "c": "phys",
+       "u": 99.8,
+       "cur": false
+      },
+      {
+       "m": "U-turn",
+       "t": "bug",
+       "c": "phys",
+       "u": 88.3,
+       "cur": false
+      },
+      {
+       "m": "Sucker Punch",
+       "t": "dark",
+       "c": "phys",
+       "u": 80.7,
+       "cur": false
+      },
+      {
+       "m": "High Jump Kick",
+       "t": "fighting",
+       "c": "phys",
+       "u": 68.1,
+       "cur": false
+      },
+      {
+       "m": "Will-O-Wisp",
+       "t": "fire",
+       "c": "stat",
+       "u": 60.4,
+       "cur": false
+      },
+      {
+       "m": "Zen Headbutt",
+       "t": "psychic",
+       "c": "phys",
+       "u": 28.9,
+       "cur": false
+      },
+      {
+       "m": "Gunk Shot",
+       "t": "poison",
+       "c": "phys",
+       "u": 28.2,
+       "cur": false
+      },
+      {
+       "m": "Smack Down",
+       "t": "rock",
+       "c": "phys",
+       "u": 23.6,
+       "cur": false
+      },
+      {
+       "m": "Low Kick",
+       "t": "fighting",
+       "c": "phys",
+       "u": 14.4,
+       "cur": false
+      },
+      {
+       "m": "Trailblaze",
+       "t": "grass",
+       "c": "phys",
+       "u": 9.1,
+       "cur": false
+      },
+      {
+       "m": "Swords Dance",
+       "t": "normal",
+       "c": "stat",
+       "u": 7.1,
+       "cur": false
+      },
+      {
+       "m": "Sand Attack",
+       "t": "ground",
+       "c": "stat",
+       "u": 6.1,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Inteleon",
+     "dex": "0818",
+     "where": "games (Scorbunny start)",
+     "ours": false,
+     "pool": [
+      {
+       "m": "Ice Beam",
+       "t": "ice",
+       "c": "spec",
+       "u": 94.8,
+       "cur": false
+      },
+      {
+       "m": "Snipe Shot",
+       "t": "water",
+       "c": "spec",
+       "u": 87.3,
+       "cur": false
+      },
+      {
+       "m": "Focus Energy",
+       "t": "normal",
+       "c": "stat",
+       "u": 76.4,
+       "cur": false
+      },
+      {
+       "m": "U-turn",
+       "t": "bug",
+       "c": "phys",
+       "u": 71.7,
+       "cur": false
+      },
+      {
+       "m": "Surf",
+       "t": "water",
+       "c": "spec",
+       "u": 65.3,
+       "cur": false
+      },
+      {
+       "m": "Shadow Ball",
+       "t": "ghost",
+       "c": "spec",
+       "u": 50.0,
+       "cur": false
+      },
+      {
+       "m": "Hydro Pump",
+       "t": "water",
+       "c": "spec",
+       "u": 49.4,
+       "cur": false
+      },
+      {
+       "m": "Taunt",
+       "t": "dark",
+       "c": "stat",
+       "u": 49.1,
+       "cur": false
+      },
+      {
+       "m": "Reflect",
+       "t": "psychic",
+       "c": "stat",
+       "u": 48.1,
+       "cur": false
+      },
+      {
+       "m": "Vacuum Wave",
+       "t": "fighting",
+       "c": "spec",
+       "u": 46.7,
+       "cur": false
+      },
+      {
+       "m": "Air Slash",
+       "t": "flying",
+       "c": "spec",
+       "u": 42.5,
+       "cur": false
+      },
+      {
+       "m": "Dark Pulse",
+       "t": "dark",
+       "c": "spec",
+       "u": 33.3,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Seismitoad",
+     "dex": "0537",
+     "where": "games + anime",
+     "ours": false,
+     "pool": [
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 82.2,
+       "cur": false
+      },
+      {
+       "m": "Scald",
+       "t": "water",
+       "c": "spec",
+       "u": 80.0,
+       "cur": false
+      },
+      {
+       "m": "Earth Power",
+       "t": "ground",
+       "c": "spec",
+       "u": 53.5,
+       "cur": false
+      },
+      {
+       "m": "Refresh",
+       "t": "normal",
+       "c": "stat",
+       "u": 41.5,
+       "cur": false
+      },
+      {
+       "m": "Toxic",
+       "t": "poison",
+       "c": "stat",
+       "u": 41.2,
+       "cur": false
+      },
+      {
+       "m": "Knock Off",
+       "t": "dark",
+       "c": "phys",
+       "u": 33.5,
+       "cur": false
+      },
+      {
+       "m": "Liquidation",
+       "t": "water",
+       "c": "phys",
+       "u": 29.1,
+       "cur": false
+      },
+      {
+       "m": "Poison Jab",
+       "t": "poison",
+       "c": "phys",
+       "u": 22.4,
+       "cur": false
+      },
+      {
+       "m": "Infestation",
+       "t": "bug",
+       "c": "spec",
+       "u": 15.8,
+       "cur": false
+      },
+      {
+       "m": "Power Whip",
+       "t": "grass",
+       "c": "phys",
+       "u": 7.3,
+       "cur": false
+      },
+      {
+       "m": "Weather Ball",
+       "t": "normal",
+       "c": "spec",
+       "u": 6.6,
+       "cur": false
+      },
+      {
+       "m": "Protect",
+       "t": "normal",
+       "c": "stat",
+       "u": 0.0,
+       "cur": false
+      }
+     ]
+    }
+   ],
+   "color": "#ff9a1f"
+  },
+  {
+   "key": "cynthia",
+   "name": "CYNTHIA",
+   "title": "Sinnoh Champion",
+   "fixed": false,
+   "note": "Her Diamond/Pearl, Platinum and anime teams differ. A real choice: 10 for 6.",
+   "candidates": [
+    {
+     "name": "Garchomp",
+     "dex": "0445",
+     "where": "games + anime (her ace)",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 99.7,
+       "cur": false
+      },
+      {
+       "m": "Swords Dance",
+       "t": "normal",
+       "c": "stat",
+       "u": 67.9,
+       "cur": false
+      },
+      {
+       "m": "Draco Meteor",
+       "t": "dragon",
+       "c": "spec",
+       "u": 65.4,
+       "cur": false
+      },
+      {
+       "m": "Fire Blast",
+       "t": "fire",
+       "c": "spec",
+       "u": 63.1,
+       "cur": false
+      },
+      {
+       "m": "Scale Shot",
+       "t": "dragon",
+       "c": "phys",
+       "u": 62.6,
+       "cur": false
+      },
+      {
+       "m": "Outrage",
+       "t": "dragon",
+       "c": "phys",
+       "u": 54.9,
+       "cur": true
+      },
+      {
+       "m": "Fire Fang",
+       "t": "fire",
+       "c": "phys",
+       "u": 40.2,
+       "cur": false
+      },
+      {
+       "m": "Stone Edge",
+       "t": "rock",
+       "c": "phys",
+       "u": 40.0,
+       "cur": false
+      },
+      {
+       "m": "Toxic",
+       "t": "poison",
+       "c": "stat",
+       "u": 36.5,
+       "cur": false
+      },
+      {
+       "m": "Protect",
+       "t": "normal",
+       "c": "stat",
+       "u": 34.4,
+       "cur": false
+      },
+      {
+       "m": "Iron Head",
+       "t": "steel",
+       "c": "phys",
+       "u": 26.0,
+       "cur": false
+      },
+      {
+       "m": "Flamethrower",
+       "t": "fire",
+       "c": "spec",
+       "u": 22.8,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Spiritomb",
+     "dex": "0442",
+     "where": "games",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Will-O-Wisp",
+       "t": "fire",
+       "c": "stat",
+       "u": 76.9,
+       "cur": false
+      },
+      {
+       "m": "Sucker Punch",
+       "t": "dark",
+       "c": "phys",
+       "u": 68.1,
+       "cur": false
+      },
+      {
+       "m": "Pain Split",
+       "t": "normal",
+       "c": "stat",
+       "u": 64.7,
+       "cur": false
+      },
+      {
+       "m": "Poltergeist",
+       "t": "ghost",
+       "c": "phys",
+       "u": 62.2,
+       "cur": false
+      },
+      {
+       "m": "Trick Room",
+       "t": "psychic",
+       "c": "stat",
+       "u": 56.0,
+       "cur": false
+      },
+      {
+       "m": "Foul Play",
+       "t": "dark",
+       "c": "phys",
+       "u": 45.2,
+       "cur": false
+      },
+      {
+       "m": "Hex",
+       "t": "ghost",
+       "c": "spec",
+       "u": 38.3,
+       "cur": false
+      },
+      {
+       "m": "Dark Pulse",
+       "t": "dark",
+       "c": "spec",
+       "u": 36.3,
+       "cur": true
+      },
+      {
+       "m": "Shadow Sneak",
+       "t": "ghost",
+       "c": "phys",
+       "u": 20.2,
+       "cur": true
+      },
+      {
+       "m": "Pursuit",
+       "t": "dark",
+       "c": "phys",
+       "u": 19.9,
+       "cur": false
+      },
+      {
+       "m": "Psyshock",
+       "t": "psychic",
+       "c": "spec",
+       "u": 13.9,
+       "cur": false
+      },
+      {
+       "m": "Shadow Ball",
+       "t": "ghost",
+       "c": "spec",
+       "u": 11.1,
+       "cur": true
+      }
+     ]
+    },
+    {
+     "name": "Roserade",
+     "dex": "0407",
+     "where": "games",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Sludge Bomb",
+       "t": "poison",
+       "c": "spec",
+       "u": 100.0,
+       "cur": true
+      },
+      {
+       "m": "Sleep Powder",
+       "t": "grass",
+       "c": "stat",
+       "u": 63.1,
+       "cur": false
+      },
+      {
+       "m": "Leaf Storm",
+       "t": "grass",
+       "c": "spec",
+       "u": 50.2,
+       "cur": true
+      },
+      {
+       "m": "Giga Drain",
+       "t": "grass",
+       "c": "spec",
+       "u": 41.9,
+       "cur": false
+      },
+      {
+       "m": "Stun Spore",
+       "t": "grass",
+       "c": "stat",
+       "u": 41.1,
+       "cur": false
+      },
+      {
+       "m": "Energy Ball",
+       "t": "grass",
+       "c": "spec",
+       "u": 36.6,
+       "cur": false
+      },
+      {
+       "m": "Leech Seed",
+       "t": "grass",
+       "c": "stat",
+       "u": 36.5,
+       "cur": false
+      },
+      {
+       "m": "Shadow Ball",
+       "t": "ghost",
+       "c": "spec",
+       "u": 31.1,
+       "cur": false
+      },
+      {
+       "m": "Dazzling Gleam",
+       "t": "fairy",
+       "c": "spec",
+       "u": 8.6,
+       "cur": false
+      },
+      {
+       "m": "Weather Ball",
+       "t": "normal",
+       "c": "spec",
+       "u": 6.4,
+       "cur": false
+      },
+      {
+       "m": "Mud-Slap",
+       "t": "ground",
+       "c": "spec",
+       "u": 4.9,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Milotic",
+     "dex": "0350",
+     "where": "games",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Scald",
+       "t": "water",
+       "c": "spec",
+       "u": 98.6,
+       "cur": false
+      },
+      {
+       "m": "Recover",
+       "t": "normal",
+       "c": "stat",
+       "u": 98.5,
+       "cur": false
+      },
+      {
+       "m": "Ice Beam",
+       "t": "ice",
+       "c": "spec",
+       "u": 98.2,
+       "cur": true
+      },
+      {
+       "m": "Alluring Voice",
+       "t": "fairy",
+       "c": "spec",
+       "u": 85.8,
+       "cur": false
+      },
+      {
+       "m": "Draining Kiss",
+       "t": "fairy",
+       "c": "spec",
+       "u": 80.7,
+       "cur": false
+      },
+      {
+       "m": "Hyper Beam",
+       "t": "normal",
+       "c": "spec",
+       "u": 75.6,
+       "cur": false
+      },
+      {
+       "m": "Surf",
+       "t": "water",
+       "c": "spec",
+       "u": 63.5,
+       "cur": true
+      },
+      {
+       "m": "Haze",
+       "t": "ice",
+       "c": "stat",
+       "u": 53.4,
+       "cur": false
+      },
+      {
+       "m": "Mirror Coat",
+       "t": "psychic",
+       "c": "spec",
+       "u": 43.3,
+       "cur": true
+      },
+      {
+       "m": "Flip Turn",
+       "t": "water",
+       "c": "phys",
+       "u": 40.6,
+       "cur": false
+      },
+      {
+       "m": "Light Screen",
+       "t": "psychic",
+       "c": "stat",
+       "u": 24.4,
+       "cur": false
+      },
+      {
+       "m": "Hydro Pump",
+       "t": "water",
+       "c": "spec",
+       "u": 12.3,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Lucario",
+     "dex": "0448",
+     "where": "games",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Close Combat",
+       "t": "fighting",
+       "c": "phys",
+       "u": 98.8,
+       "cur": false
+      },
+      {
+       "m": "Swords Dance",
+       "t": "normal",
+       "c": "stat",
+       "u": 97.8,
+       "cur": false
+      },
+      {
+       "m": "Extreme Speed",
+       "t": "normal",
+       "c": "phys",
+       "u": 95.4,
+       "cur": true
+      },
+      {
+       "m": "Bullet Punch",
+       "t": "steel",
+       "c": "phys",
+       "u": 68.6,
+       "cur": false
+      },
+      {
+       "m": "Meteor Mash",
+       "t": "steel",
+       "c": "phys",
+       "u": 53.4,
+       "cur": true
+      },
+      {
+       "m": "Crunch",
+       "t": "dark",
+       "c": "phys",
+       "u": 42.7,
+       "cur": false
+      },
+      {
+       "m": "Aura Sphere",
+       "t": "fighting",
+       "c": "spec",
+       "u": 41.3,
+       "cur": true
+      },
+      {
+       "m": "Stone Edge",
+       "t": "rock",
+       "c": "phys",
+       "u": 39.4,
+       "cur": false
+      },
+      {
+       "m": "Ice Punch",
+       "t": "ice",
+       "c": "phys",
+       "u": 38.3,
+       "cur": false
+      },
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 38.0,
+       "cur": false
+      },
+      {
+       "m": "Nasty Plot",
+       "t": "dark",
+       "c": "stat",
+       "u": 18.4,
+       "cur": false
+      },
+      {
+       "m": "Hone Claws",
+       "t": "dark",
+       "c": "stat",
+       "u": 6.8,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Togekiss",
+     "dex": "0468",
+     "where": "games (Platinum onward)",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Air Slash",
+       "t": "flying",
+       "c": "spec",
+       "u": 99.2,
+       "cur": true
+      },
+      {
+       "m": "Dazzling Gleam",
+       "t": "fairy",
+       "c": "spec",
+       "u": 78.7,
+       "cur": true
+      },
+      {
+       "m": "Flamethrower",
+       "t": "fire",
+       "c": "spec",
+       "u": 47.0,
+       "cur": false
+      },
+      {
+       "m": "Roost",
+       "t": "flying",
+       "c": "stat",
+       "u": 44.4,
+       "cur": false
+      },
+      {
+       "m": "Thunder Wave",
+       "t": "electric",
+       "c": "stat",
+       "u": 39.9,
+       "cur": false
+      },
+      {
+       "m": "Ancient Power",
+       "t": "rock",
+       "c": "spec",
+       "u": 39.0,
+       "cur": false
+      },
+      {
+       "m": "Nasty Plot",
+       "t": "dark",
+       "c": "stat",
+       "u": 38.2,
+       "cur": false
+      },
+      {
+       "m": "Aura Sphere",
+       "t": "fighting",
+       "c": "spec",
+       "u": 23.8,
+       "cur": false
+      },
+      {
+       "m": "Fire Blast",
+       "t": "fire",
+       "c": "spec",
+       "u": 23.2,
+       "cur": false
+      },
+      {
+       "m": "Draining Kiss",
+       "t": "fairy",
+       "c": "spec",
+       "u": 15.5,
+       "cur": false
+      },
+      {
+       "m": "Psychic",
+       "t": "psychic",
+       "c": "spec",
+       "u": 5.8,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Gastrodon",
+     "dex": "0423",
+     "where": "games (Diamond/Pearl)",
+     "ours": false,
+     "pool": [
+      {
+       "m": "Recover",
+       "t": "normal",
+       "c": "stat",
+       "u": 100.0,
+       "cur": false
+      },
+      {
+       "m": "Scald",
+       "t": "water",
+       "c": "spec",
+       "u": 96.3,
+       "cur": false
+      },
+      {
+       "m": "Earth Power",
+       "t": "ground",
+       "c": "spec",
+       "u": 90.2,
+       "cur": false
+      },
+      {
+       "m": "Ice Beam",
+       "t": "ice",
+       "c": "spec",
+       "u": 88.9,
+       "cur": false
+      },
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 68.5,
+       "cur": false
+      },
+      {
+       "m": "Clear Smog",
+       "t": "poison",
+       "c": "spec",
+       "u": 62.2,
+       "cur": false
+      },
+      {
+       "m": "Sludge Bomb",
+       "t": "poison",
+       "c": "spec",
+       "u": 53.7,
+       "cur": false
+      },
+      {
+       "m": "Toxic",
+       "t": "poison",
+       "c": "stat",
+       "u": 44.6,
+       "cur": false
+      },
+      {
+       "m": "Surf",
+       "t": "water",
+       "c": "spec",
+       "u": 25.3,
+       "cur": false
+      },
+      {
+       "m": "Yawn",
+       "t": "normal",
+       "c": "stat",
+       "u": 24.7,
+       "cur": false
+      },
+      {
+       "m": "Mirror Coat",
+       "t": "psychic",
+       "c": "spec",
+       "u": 22.8,
+       "cur": false
+      },
+      {
+       "m": "Hydro Pump",
+       "t": "water",
+       "c": "spec",
+       "u": 17.0,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Glaceon",
+     "dex": "0471",
+     "where": "anime",
+     "ours": false,
+     "pool": [
+      {
+       "m": "Freeze-Dry",
+       "t": "ice",
+       "c": "spec",
+       "u": 99.6,
+       "cur": false
+      },
+      {
+       "m": "Blizzard",
+       "t": "ice",
+       "c": "spec",
+       "u": 78.1,
+       "cur": false
+      },
+      {
+       "m": "Chilling Water",
+       "t": "water",
+       "c": "spec",
+       "u": 43.1,
+       "cur": false
+      },
+      {
+       "m": "Shadow Ball",
+       "t": "ghost",
+       "c": "spec",
+       "u": 39.1,
+       "cur": false
+      },
+      {
+       "m": "Calm Mind",
+       "t": "psychic",
+       "c": "stat",
+       "u": 37.4,
+       "cur": false
+      },
+      {
+       "m": "Ice Beam",
+       "t": "ice",
+       "c": "spec",
+       "u": 37.2,
+       "cur": false
+      },
+      {
+       "m": "Barrier",
+       "t": "psychic",
+       "c": "stat",
+       "u": 34.5,
+       "cur": false
+      },
+      {
+       "m": "Substitute",
+       "t": "normal",
+       "c": "stat",
+       "u": 34.5,
+       "cur": false
+      },
+      {
+       "m": "Ice Shard",
+       "t": "ice",
+       "c": "phys",
+       "u": 33.8,
+       "cur": false
+      },
+      {
+       "m": "Alluring Voice",
+       "t": "fairy",
+       "c": "spec",
+       "u": 27.4,
+       "cur": false
+      },
+      {
+       "m": "Mud Shot",
+       "t": "ground",
+       "c": "spec",
+       "u": 14.9,
+       "cur": false
+      },
+      {
+       "m": "Avalanche",
+       "t": "ice",
+       "c": "phys",
+       "u": 5.2,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Eelektross",
+     "dex": "0604",
+     "where": "anime",
+     "ours": false,
+     "pool": [
+      {
+       "m": "Flamethrower",
+       "t": "fire",
+       "c": "spec",
+       "u": 80.4,
+       "cur": false
+      },
+      {
+       "m": "Volt Switch",
+       "t": "electric",
+       "c": "spec",
+       "u": 80.2,
+       "cur": false
+      },
+      {
+       "m": "Knock Off",
+       "t": "dark",
+       "c": "phys",
+       "u": 70.1,
+       "cur": false
+      },
+      {
+       "m": "Discharge",
+       "t": "electric",
+       "c": "spec",
+       "u": 57.6,
+       "cur": false
+      },
+      {
+       "m": "Giga Drain",
+       "t": "grass",
+       "c": "spec",
+       "u": 52.1,
+       "cur": false
+      },
+      {
+       "m": "Thunderbolt",
+       "t": "electric",
+       "c": "spec",
+       "u": 47.3,
+       "cur": false
+      },
+      {
+       "m": "Supercell Slam",
+       "t": "electric",
+       "c": "phys",
+       "u": 43.6,
+       "cur": false
+      },
+      {
+       "m": "Drain Punch",
+       "t": "fighting",
+       "c": "phys",
+       "u": 42.6,
+       "cur": false
+      },
+      {
+       "m": "Coil",
+       "t": "poison",
+       "c": "stat",
+       "u": 41.5,
+       "cur": false
+      },
+      {
+       "m": "U-turn",
+       "t": "bug",
+       "c": "phys",
+       "u": 40.9,
+       "cur": false
+      },
+      {
+       "m": "Toxic",
+       "t": "poison",
+       "c": "stat",
+       "u": 9.1,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Braviary",
+     "dex": "0628",
+     "where": "anime",
+     "ours": false,
+     "pool": [
+      {
+       "m": "Brave Bird",
+       "t": "flying",
+       "c": "phys",
+       "u": 95.2,
+       "cur": false
+      },
+      {
+       "m": "Close Combat",
+       "t": "fighting",
+       "c": "phys",
+       "u": 91.7,
+       "cur": false
+      },
+      {
+       "m": "Giga Impact",
+       "t": "normal",
+       "c": "phys",
+       "u": 62.0,
+       "cur": false
+      },
+      {
+       "m": "U-turn",
+       "t": "bug",
+       "c": "phys",
+       "u": 22.1,
+       "cur": false
+      },
+      {
+       "m": "Roost",
+       "t": "flying",
+       "c": "stat",
+       "u": 14.5,
+       "cur": false
+      },
+      {
+       "m": "Facade",
+       "t": "normal",
+       "c": "phys",
+       "u": 9.3,
+       "cur": false
+      },
+      {
+       "m": "Bulk Up",
+       "t": "fighting",
+       "c": "stat",
+       "u": 8.5,
+       "cur": false
+      },
+      {
+       "m": "Body Slam",
+       "t": "normal",
+       "c": "phys",
+       "u": 6.9,
+       "cur": false
+      },
+      {
+       "m": "Agility",
+       "t": "psychic",
+       "c": "stat",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Heat Wave",
+       "t": "fire",
+       "c": "spec",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Hurricane",
+       "t": "flying",
+       "c": "spec",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Return",
+       "t": "normal",
+       "c": "phys",
+       "u": 0.0,
+       "cur": false
+      }
+     ]
+    }
+   ],
+   "color": "#2a2a3a"
+  },
+  {
+   "key": "lance",
+   "name": "LANCE",
+   "title": "Dragon Master",
+   "fixed": false,
+   "note": "The widest choice of the eight - Kanto and Johto teams, the anime, and later appearances. 12 for 6.",
+   "candidates": [
+    {
+     "name": "Dragonite",
+     "dex": "0149",
+     "where": "games + anime (his ace)",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 94.6,
+       "cur": false
+      },
+      {
+       "m": "Dragon Dance",
+       "t": "dragon",
+       "c": "stat",
+       "u": 89.8,
+       "cur": false
+      },
+      {
+       "m": "Extreme Speed",
+       "t": "normal",
+       "c": "phys",
+       "u": 87.2,
+       "cur": true
+      },
+      {
+       "m": "Ice Punch",
+       "t": "ice",
+       "c": "phys",
+       "u": 71.9,
+       "cur": false
+      },
+      {
+       "m": "Outrage",
+       "t": "dragon",
+       "c": "phys",
+       "u": 68.1,
+       "cur": false
+      },
+      {
+       "m": "Fly",
+       "t": "flying",
+       "c": "phys",
+       "u": 50.0,
+       "cur": false
+      },
+      {
+       "m": "Roost",
+       "t": "flying",
+       "c": "stat",
+       "u": 47.1,
+       "cur": false
+      },
+      {
+       "m": "Superpower",
+       "t": "fighting",
+       "c": "phys",
+       "u": 32.7,
+       "cur": false
+      },
+      {
+       "m": "Fire Punch",
+       "t": "fire",
+       "c": "phys",
+       "u": 31.6,
+       "cur": false
+      },
+      {
+       "m": "Encore",
+       "t": "normal",
+       "c": "stat",
+       "u": 31.3,
+       "cur": false
+      },
+      {
+       "m": "Ice Spinner",
+       "t": "ice",
+       "c": "phys",
+       "u": 31.1,
+       "cur": false
+      },
+      {
+       "m": "Power-Up Punch",
+       "t": "fighting",
+       "c": "phys",
+       "u": 30.4,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Gyarados",
+     "dex": "0130",
+     "where": "games + anime (the red one)",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Dragon Dance",
+       "t": "dragon",
+       "c": "stat",
+       "u": 100.0,
+       "cur": true
+      },
+      {
+       "m": "Waterfall",
+       "t": "water",
+       "c": "phys",
+       "u": 99.8,
+       "cur": true
+      },
+      {
+       "m": "Bounce",
+       "t": "flying",
+       "c": "phys",
+       "u": 97.3,
+       "cur": false
+      },
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 93.4,
+       "cur": false
+      },
+      {
+       "m": "Crunch",
+       "t": "dark",
+       "c": "phys",
+       "u": 89.0,
+       "cur": false
+      },
+      {
+       "m": "Scale Shot",
+       "t": "dragon",
+       "c": "phys",
+       "u": 71.9,
+       "cur": false
+      },
+      {
+       "m": "Substitute",
+       "t": "normal",
+       "c": "stat",
+       "u": 46.4,
+       "cur": false
+      },
+      {
+       "m": "Taunt",
+       "t": "dark",
+       "c": "stat",
+       "u": 42.4,
+       "cur": false
+      },
+      {
+       "m": "Ice Fang",
+       "t": "ice",
+       "c": "phys",
+       "u": 31.6,
+       "cur": true
+      },
+      {
+       "m": "Power Whip",
+       "t": "grass",
+       "c": "phys",
+       "u": 23.2,
+       "cur": false
+      },
+      {
+       "m": "Aqua Tail",
+       "t": "water",
+       "c": "phys",
+       "u": 19.9,
+       "cur": false
+      },
+      {
+       "m": "Stone Edge",
+       "t": "rock",
+       "c": "phys",
+       "u": 12.2,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Charizard",
+     "dex": "0006",
+     "where": "games (Johto)",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Solar Beam",
+       "t": "grass",
+       "c": "spec",
+       "u": 98.6,
+       "cur": false
+      },
+      {
+       "m": "Dragon Dance",
+       "t": "dragon",
+       "c": "stat",
+       "u": 94.6,
+       "cur": false
+      },
+      {
+       "m": "Belly Drum",
+       "t": "normal",
+       "c": "stat",
+       "u": 94.3,
+       "cur": false
+      },
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 94.3,
+       "cur": false
+      },
+      {
+       "m": "Flare Blitz",
+       "t": "fire",
+       "c": "phys",
+       "u": 94.3,
+       "cur": false
+      },
+      {
+       "m": "Substitute",
+       "t": "normal",
+       "c": "stat",
+       "u": 94.3,
+       "cur": false
+      },
+      {
+       "m": "Dragon Claw",
+       "t": "dragon",
+       "c": "phys",
+       "u": 92.0,
+       "cur": true
+      },
+      {
+       "m": "Weather Ball",
+       "t": "normal",
+       "c": "spec",
+       "u": 89.1,
+       "cur": false
+      },
+      {
+       "m": "Overheat",
+       "t": "fire",
+       "c": "spec",
+       "u": 78.0,
+       "cur": false
+      },
+      {
+       "m": "Flamethrower",
+       "t": "fire",
+       "c": "spec",
+       "u": 75.2,
+       "cur": true
+      },
+      {
+       "m": "Focus Blast",
+       "t": "fighting",
+       "c": "spec",
+       "u": 66.0,
+       "cur": false
+      },
+      {
+       "m": "Scorching Sands",
+       "t": "ground",
+       "c": "spec",
+       "u": 62.6,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Aerodactyl",
+     "dex": "0142",
+     "where": "games (Johto)",
+     "ours": false,
+     "pool": [
+      {
+       "m": "Dual Wingbeat",
+       "t": "flying",
+       "c": "phys",
+       "u": 99.4,
+       "cur": false
+      },
+      {
+       "m": "Stone Edge",
+       "t": "rock",
+       "c": "phys",
+       "u": 98.6,
+       "cur": false
+      },
+      {
+       "m": "Taunt",
+       "t": "dark",
+       "c": "stat",
+       "u": 98.6,
+       "cur": false
+      },
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 95.0,
+       "cur": false
+      },
+      {
+       "m": "Rock Tomb",
+       "t": "rock",
+       "c": "phys",
+       "u": 79.5,
+       "cur": false
+      },
+      {
+       "m": "Ice Fang",
+       "t": "ice",
+       "c": "phys",
+       "u": 75.4,
+       "cur": false
+      },
+      {
+       "m": "Dragon Dance",
+       "t": "dragon",
+       "c": "stat",
+       "u": 73.4,
+       "cur": false
+      },
+      {
+       "m": "Tailwind",
+       "t": "flying",
+       "c": "stat",
+       "u": 57.1,
+       "cur": false
+      },
+      {
+       "m": "Rock Slide",
+       "t": "rock",
+       "c": "phys",
+       "u": 52.3,
+       "cur": false
+      },
+      {
+       "m": "Fire Fang",
+       "t": "fire",
+       "c": "phys",
+       "u": 29.6,
+       "cur": false
+      },
+      {
+       "m": "Dragon Claw",
+       "t": "dragon",
+       "c": "phys",
+       "u": 29.1,
+       "cur": false
+      },
+      {
+       "m": "Double-Edge",
+       "t": "normal",
+       "c": "phys",
+       "u": 20.8,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Dragonair",
+     "dex": "0148",
+     "where": "games (Kanto Elite Four)",
+     "ours": false,
+     "pool": [
+      {
+       "m": "Blizzard",
+       "t": "ice",
+       "c": "spec",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Double-Edge",
+       "t": "normal",
+       "c": "phys",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Draco Meteor",
+       "t": "dragon",
+       "c": "spec",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Dragon Rush",
+       "t": "dragon",
+       "c": "phys",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Fire Blast",
+       "t": "fire",
+       "c": "spec",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Giga Impact",
+       "t": "normal",
+       "c": "phys",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Hydro Pump",
+       "t": "water",
+       "c": "spec",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Hyper Beam",
+       "t": "normal",
+       "c": "spec",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Outrage",
+       "t": "dragon",
+       "c": "phys",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Skull Bash",
+       "t": "normal",
+       "c": "phys",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Thunder",
+       "t": "electric",
+       "c": "spec",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Zap Cannon",
+       "t": "electric",
+       "c": "spec",
+       "u": 0.0,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Kingdra",
+     "dex": "0230",
+     "where": "games (rematch)",
+     "ours": false,
+     "pool": [
+      {
+       "m": "Draco Meteor",
+       "t": "dragon",
+       "c": "spec",
+       "u": 99.9,
+       "cur": false
+      },
+      {
+       "m": "Hydro Pump",
+       "t": "water",
+       "c": "spec",
+       "u": 95.4,
+       "cur": false
+      },
+      {
+       "m": "Weather Ball",
+       "t": "normal",
+       "c": "spec",
+       "u": 93.1,
+       "cur": false
+      },
+      {
+       "m": "Hurricane",
+       "t": "flying",
+       "c": "spec",
+       "u": 90.7,
+       "cur": false
+      },
+      {
+       "m": "Surf",
+       "t": "water",
+       "c": "spec",
+       "u": 85.5,
+       "cur": false
+      },
+      {
+       "m": "Ice Beam",
+       "t": "ice",
+       "c": "spec",
+       "u": 70.3,
+       "cur": false
+      },
+      {
+       "m": "Flip Turn",
+       "t": "water",
+       "c": "phys",
+       "u": 64.6,
+       "cur": false
+      },
+      {
+       "m": "Scald",
+       "t": "water",
+       "c": "spec",
+       "u": 30.2,
+       "cur": false
+      },
+      {
+       "m": "Focus Energy",
+       "t": "normal",
+       "c": "stat",
+       "u": 22.9,
+       "cur": false
+      },
+      {
+       "m": "Dragon Dance",
+       "t": "dragon",
+       "c": "stat",
+       "u": 19.2,
+       "cur": false
+      },
+      {
+       "m": "Outrage",
+       "t": "dragon",
+       "c": "phys",
+       "u": 19.1,
+       "cur": false
+      },
+      {
+       "m": "Substitute",
+       "t": "normal",
+       "c": "stat",
+       "u": 8.6,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Salamence",
+     "dex": "0373",
+     "where": "later games",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 96.1,
+       "cur": true
+      },
+      {
+       "m": "Dragon Dance",
+       "t": "dragon",
+       "c": "stat",
+       "u": 92.9,
+       "cur": false
+      },
+      {
+       "m": "Fly",
+       "t": "flying",
+       "c": "phys",
+       "u": 77.4,
+       "cur": false
+      },
+      {
+       "m": "Temper Flare",
+       "t": "fire",
+       "c": "phys",
+       "u": 70.8,
+       "cur": false
+      },
+      {
+       "m": "Draco Meteor",
+       "t": "dragon",
+       "c": "spec",
+       "u": 67.5,
+       "cur": true
+      },
+      {
+       "m": "Focus Energy",
+       "t": "normal",
+       "c": "stat",
+       "u": 64.1,
+       "cur": false
+      },
+      {
+       "m": "Dual Wingbeat",
+       "t": "flying",
+       "c": "phys",
+       "u": 63.2,
+       "cur": false
+      },
+      {
+       "m": "Double-Edge",
+       "t": "normal",
+       "c": "phys",
+       "u": 61.3,
+       "cur": false
+      },
+      {
+       "m": "Outrage",
+       "t": "dragon",
+       "c": "phys",
+       "u": 52.5,
+       "cur": true
+      },
+      {
+       "m": "Roost",
+       "t": "flying",
+       "c": "stat",
+       "u": 49.4,
+       "cur": true
+      },
+      {
+       "m": "Iron Head",
+       "t": "steel",
+       "c": "phys",
+       "u": 45.0,
+       "cur": false
+      },
+      {
+       "m": "Flamethrower",
+       "t": "fire",
+       "c": "spec",
+       "u": 44.1,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Altaria",
+     "dex": "0334",
+     "where": "later games",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Roost",
+       "t": "flying",
+       "c": "stat",
+       "u": 99.0,
+       "cur": false
+      },
+      {
+       "m": "Toxic",
+       "t": "poison",
+       "c": "stat",
+       "u": 93.5,
+       "cur": false
+      },
+      {
+       "m": "Flamethrower",
+       "t": "fire",
+       "c": "spec",
+       "u": 89.5,
+       "cur": false
+      },
+      {
+       "m": "Dragon Dance",
+       "t": "dragon",
+       "c": "stat",
+       "u": 82.4,
+       "cur": false
+      },
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 81.7,
+       "cur": false
+      },
+      {
+       "m": "Brave Bird",
+       "t": "flying",
+       "c": "phys",
+       "u": 70.6,
+       "cur": false
+      },
+      {
+       "m": "Hyper Voice",
+       "t": "normal",
+       "c": "spec",
+       "u": 69.0,
+       "cur": false
+      },
+      {
+       "m": "Double-Edge",
+       "t": "normal",
+       "c": "phys",
+       "u": 45.7,
+       "cur": false
+      },
+      {
+       "m": "Frustration",
+       "t": "normal",
+       "c": "phys",
+       "u": 41.3,
+       "cur": false
+      },
+      {
+       "m": "Return",
+       "t": "normal",
+       "c": "phys",
+       "u": 40.5,
+       "cur": false
+      },
+      {
+       "m": "Hurricane",
+       "t": "flying",
+       "c": "spec",
+       "u": 37.6,
+       "cur": false
+      },
+      {
+       "m": "Ice Beam",
+       "t": "ice",
+       "c": "spec",
+       "u": 23.7,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Garchomp",
+     "dex": "0445",
+     "where": "later games",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 99.7,
+       "cur": true
+      },
+      {
+       "m": "Swords Dance",
+       "t": "normal",
+       "c": "stat",
+       "u": 67.9,
+       "cur": true
+      },
+      {
+       "m": "Draco Meteor",
+       "t": "dragon",
+       "c": "spec",
+       "u": 65.4,
+       "cur": false
+      },
+      {
+       "m": "Fire Blast",
+       "t": "fire",
+       "c": "spec",
+       "u": 63.1,
+       "cur": false
+      },
+      {
+       "m": "Scale Shot",
+       "t": "dragon",
+       "c": "phys",
+       "u": 62.6,
+       "cur": false
+      },
+      {
+       "m": "Outrage",
+       "t": "dragon",
+       "c": "phys",
+       "u": 54.9,
+       "cur": true
+      },
+      {
+       "m": "Fire Fang",
+       "t": "fire",
+       "c": "phys",
+       "u": 40.2,
+       "cur": false
+      },
+      {
+       "m": "Stone Edge",
+       "t": "rock",
+       "c": "phys",
+       "u": 40.0,
+       "cur": true
+      },
+      {
+       "m": "Toxic",
+       "t": "poison",
+       "c": "stat",
+       "u": 36.5,
+       "cur": false
+      },
+      {
+       "m": "Protect",
+       "t": "normal",
+       "c": "stat",
+       "u": 34.4,
+       "cur": false
+      },
+      {
+       "m": "Iron Head",
+       "t": "steel",
+       "c": "phys",
+       "u": 26.0,
+       "cur": false
+      },
+      {
+       "m": "Flamethrower",
+       "t": "fire",
+       "c": "spec",
+       "u": 22.8,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Tyranitar",
+     "dex": "0248",
+     "where": "later appearances",
+     "ours": false,
+     "pool": [
+      {
+       "m": "Knock Off",
+       "t": "dark",
+       "c": "phys",
+       "u": 97.9,
+       "cur": false
+      },
+      {
+       "m": "Stone Edge",
+       "t": "rock",
+       "c": "phys",
+       "u": 93.8,
+       "cur": false
+      },
+      {
+       "m": "Pursuit",
+       "t": "dark",
+       "c": "phys",
+       "u": 90.0,
+       "cur": false
+      },
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 86.1,
+       "cur": false
+      },
+      {
+       "m": "Rest",
+       "t": "psychic",
+       "c": "stat",
+       "u": 83.8,
+       "cur": false
+      },
+      {
+       "m": "Crunch",
+       "t": "dark",
+       "c": "phys",
+       "u": 76.2,
+       "cur": false
+      },
+      {
+       "m": "Dragon Dance",
+       "t": "dragon",
+       "c": "stat",
+       "u": 73.6,
+       "cur": false
+      },
+      {
+       "m": "Ice Punch",
+       "t": "ice",
+       "c": "phys",
+       "u": 57.5,
+       "cur": false
+      },
+      {
+       "m": "Sleep Talk",
+       "t": "normal",
+       "c": "stat",
+       "u": 53.1,
+       "cur": false
+      },
+      {
+       "m": "Ice Beam",
+       "t": "ice",
+       "c": "spec",
+       "u": 50.3,
+       "cur": false
+      },
+      {
+       "m": "Superpower",
+       "t": "fighting",
+       "c": "phys",
+       "u": 50.0,
+       "cur": false
+      },
+      {
+       "m": "Low Kick",
+       "t": "fighting",
+       "c": "phys",
+       "u": 48.6,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Hydreigon",
+     "dex": "0635",
+     "where": "later appearances",
+     "ours": false,
+     "pool": [
+      {
+       "m": "Dark Pulse",
+       "t": "dark",
+       "c": "spec",
+       "u": 99.2,
+       "cur": false
+      },
+      {
+       "m": "Draco Meteor",
+       "t": "dragon",
+       "c": "spec",
+       "u": 96.2,
+       "cur": false
+      },
+      {
+       "m": "Flash Cannon",
+       "t": "steel",
+       "c": "spec",
+       "u": 67.4,
+       "cur": false
+      },
+      {
+       "m": "Earth Power",
+       "t": "ground",
+       "c": "spec",
+       "u": 64.6,
+       "cur": false
+      },
+      {
+       "m": "Flamethrower",
+       "t": "fire",
+       "c": "spec",
+       "u": 63.3,
+       "cur": false
+      },
+      {
+       "m": "Roost",
+       "t": "flying",
+       "c": "stat",
+       "u": 58.9,
+       "cur": false
+      },
+      {
+       "m": "U-turn",
+       "t": "bug",
+       "c": "phys",
+       "u": 54.7,
+       "cur": false
+      },
+      {
+       "m": "Fire Blast",
+       "t": "fire",
+       "c": "spec",
+       "u": 54.0,
+       "cur": false
+      },
+      {
+       "m": "Nasty Plot",
+       "t": "dark",
+       "c": "stat",
+       "u": 48.6,
+       "cur": false
+      },
+      {
+       "m": "Focus Energy",
+       "t": "normal",
+       "c": "stat",
+       "u": 36.3,
+       "cur": false
+      },
+      {
+       "m": "Dragon Pulse",
+       "t": "dragon",
+       "c": "spec",
+       "u": 35.6,
+       "cur": false
+      },
+      {
+       "m": "Belch",
+       "t": "poison",
+       "c": "spec",
+       "u": 10.6,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Haxorus",
+     "dex": "0612",
+     "where": "later appearances",
+     "ours": false,
+     "pool": [
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 99.9,
+       "cur": false
+      },
+      {
+       "m": "Dragon Dance",
+       "t": "dragon",
+       "c": "stat",
+       "u": 98.5,
+       "cur": false
+      },
+      {
+       "m": "Outrage",
+       "t": "dragon",
+       "c": "phys",
+       "u": 93.3,
+       "cur": false
+      },
+      {
+       "m": "Poison Jab",
+       "t": "poison",
+       "c": "phys",
+       "u": 83.4,
+       "cur": false
+      },
+      {
+       "m": "Scale Shot",
+       "t": "dragon",
+       "c": "phys",
+       "u": 77.5,
+       "cur": false
+      },
+      {
+       "m": "Close Combat",
+       "t": "fighting",
+       "c": "phys",
+       "u": 71.6,
+       "cur": false
+      },
+      {
+       "m": "Swords Dance",
+       "t": "normal",
+       "c": "stat",
+       "u": 71.6,
+       "cur": false
+      },
+      {
+       "m": "Dragon Claw",
+       "t": "dragon",
+       "c": "phys",
+       "u": 50.1,
+       "cur": false
+      },
+      {
+       "m": "Iron Head",
+       "t": "steel",
+       "c": "phys",
+       "u": 46.4,
+       "cur": false
+      },
+      {
+       "m": "First Impression",
+       "t": "bug",
+       "c": "phys",
+       "u": 15.1,
+       "cur": false
+      },
+      {
+       "m": "Iron Tail",
+       "t": "steel",
+       "c": "phys",
+       "u": 15.1,
+       "cur": false
+      },
+      {
+       "m": "Taunt",
+       "t": "dark",
+       "c": "stat",
+       "u": 11.8,
+       "cur": false
+      }
+     ]
+    }
+   ],
+   "color": "#e88a20"
+  },
+  {
+   "key": "diantha",
+   "name": "DIANTHA",
+   "title": "Kalos Champion",
+   "fixed": true,
+   "note": "FIXED - canon gives her exactly these six, in the games and the anime alike. Nothing to vote on unless we go beyond what she has used.",
+   "candidates": [
+    {
+     "name": "Gardevoir",
+     "dex": "0282",
+     "where": "games + anime (her ace, Mega)",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Hyper Voice",
+       "t": "normal",
+       "c": "spec",
+       "u": 98.5,
+       "cur": true
+      },
+      {
+       "m": "Moonblast",
+       "t": "fairy",
+       "c": "spec",
+       "u": 98.5,
+       "cur": true
+      },
+      {
+       "m": "Mystical Fire",
+       "t": "fire",
+       "c": "spec",
+       "u": 87.6,
+       "cur": false
+      },
+      {
+       "m": "Psyshock",
+       "t": "psychic",
+       "c": "spec",
+       "u": 84.6,
+       "cur": false
+      },
+      {
+       "m": "Focus Blast",
+       "t": "fighting",
+       "c": "spec",
+       "u": 82.3,
+       "cur": false
+      },
+      {
+       "m": "Psychic Noise",
+       "t": "psychic",
+       "c": "spec",
+       "u": 64.0,
+       "cur": false
+      },
+      {
+       "m": "Body Slam",
+       "t": "normal",
+       "c": "phys",
+       "u": 51.3,
+       "cur": false
+      },
+      {
+       "m": "Psychic",
+       "t": "psychic",
+       "c": "spec",
+       "u": 50.8,
+       "cur": true
+      },
+      {
+       "m": "Calm Mind",
+       "t": "psychic",
+       "c": "stat",
+       "u": 40.3,
+       "cur": false
+      },
+      {
+       "m": "Shadow Ball",
+       "t": "ghost",
+       "c": "spec",
+       "u": 38.0,
+       "cur": false
+      },
+      {
+       "m": "Taunt",
+       "t": "dark",
+       "c": "stat",
+       "u": 35.9,
+       "cur": false
+      },
+      {
+       "m": "Destiny Bond",
+       "t": "ghost",
+       "c": "stat",
+       "u": 27.8,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Gourgeist",
+     "dex": "0711s",
+     "where": "games",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Synthesis",
+       "t": "grass",
+       "c": "stat",
+       "u": 86.5,
+       "cur": false
+      },
+      {
+       "m": "Will-O-Wisp",
+       "t": "fire",
+       "c": "stat",
+       "u": 86.1,
+       "cur": false
+      },
+      {
+       "m": "Leech Seed",
+       "t": "grass",
+       "c": "stat",
+       "u": 85.3,
+       "cur": false
+      },
+      {
+       "m": "Poltergeist",
+       "t": "ghost",
+       "c": "phys",
+       "u": 78.1,
+       "cur": false
+      },
+      {
+       "m": "Power Whip",
+       "t": "grass",
+       "c": "phys",
+       "u": 21.7,
+       "cur": false
+      },
+      {
+       "m": "Foul Play",
+       "t": "dark",
+       "c": "phys",
+       "u": 20.5,
+       "cur": false
+      },
+      {
+       "m": "Flame Charge",
+       "t": "fire",
+       "c": "phys",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Seed Bomb",
+       "t": "grass",
+       "c": "phys",
+       "u": 0.0,
+       "cur": true
+      },
+      {
+       "m": "Shadow Sneak",
+       "t": "ghost",
+       "c": "phys",
+       "u": 0.0,
+       "cur": true
+      }
+     ]
+    },
+    {
+     "name": "Tyrantrum",
+     "dex": "0697",
+     "where": "games",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Head Smash",
+       "t": "rock",
+       "c": "phys",
+       "u": 98.4,
+       "cur": true
+      },
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 92.6,
+       "cur": false
+      },
+      {
+       "m": "Close Combat",
+       "t": "fighting",
+       "c": "phys",
+       "u": 77.6,
+       "cur": false
+      },
+      {
+       "m": "Ice Fang",
+       "t": "ice",
+       "c": "phys",
+       "u": 44.0,
+       "cur": false
+      },
+      {
+       "m": "Draco Meteor",
+       "t": "dragon",
+       "c": "spec",
+       "u": 38.9,
+       "cur": false
+      },
+      {
+       "m": "Earth Power",
+       "t": "ground",
+       "c": "spec",
+       "u": 38.9,
+       "cur": false
+      },
+      {
+       "m": "Meteor Beam",
+       "t": "rock",
+       "c": "spec",
+       "u": 38.9,
+       "cur": false
+      },
+      {
+       "m": "Dragon Claw",
+       "t": "dragon",
+       "c": "phys",
+       "u": 36.7,
+       "cur": true
+      },
+      {
+       "m": "Dragon Dance",
+       "t": "dragon",
+       "c": "stat",
+       "u": 30.5,
+       "cur": false
+      },
+      {
+       "m": "Outrage",
+       "t": "dragon",
+       "c": "phys",
+       "u": 17.1,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Aurorus",
+     "dex": "0699",
+     "where": "games",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Ancient Power",
+       "t": "rock",
+       "c": "spec",
+       "u": 57.6,
+       "cur": true
+      },
+      {
+       "m": "Blizzard",
+       "t": "ice",
+       "c": "spec",
+       "u": 52.7,
+       "cur": true
+      },
+      {
+       "m": "Freeze-Dry",
+       "t": "ice",
+       "c": "spec",
+       "u": 45.4,
+       "cur": false
+      },
+      {
+       "m": "Aurora Veil",
+       "t": "ice",
+       "c": "stat",
+       "u": 38.9,
+       "cur": false
+      },
+      {
+       "m": "Thunder Wave",
+       "t": "electric",
+       "c": "stat",
+       "u": 37.5,
+       "cur": false
+      },
+      {
+       "m": "Earth Power",
+       "t": "ground",
+       "c": "spec",
+       "u": 31.9,
+       "cur": false
+      },
+      {
+       "m": "Echoed Voice",
+       "t": "normal",
+       "c": "spec",
+       "u": 10.7,
+       "cur": false
+      },
+      {
+       "m": "Rock Polish",
+       "t": "rock",
+       "c": "stat",
+       "u": 10.5,
+       "cur": false
+      },
+      {
+       "m": "Meteor Beam",
+       "t": "rock",
+       "c": "spec",
+       "u": 6.1,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Hawlucha",
+     "dex": "0701",
+     "where": "games",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Acrobatics",
+       "t": "flying",
+       "c": "phys",
+       "u": 100.0,
+       "cur": false
+      },
+      {
+       "m": "Swords Dance",
+       "t": "normal",
+       "c": "stat",
+       "u": 99.8,
+       "cur": false
+      },
+      {
+       "m": "Close Combat",
+       "t": "fighting",
+       "c": "phys",
+       "u": 95.6,
+       "cur": false
+      },
+      {
+       "m": "High Jump Kick",
+       "t": "fighting",
+       "c": "phys",
+       "u": 93.1,
+       "cur": true
+      },
+      {
+       "m": "Taunt",
+       "t": "dark",
+       "c": "stat",
+       "u": 80.5,
+       "cur": false
+      },
+      {
+       "m": "Sky Attack",
+       "t": "flying",
+       "c": "phys",
+       "u": 55.3,
+       "cur": false
+      },
+      {
+       "m": "Encore",
+       "t": "normal",
+       "c": "stat",
+       "u": 49.3,
+       "cur": false
+      },
+      {
+       "m": "Fire Punch",
+       "t": "fire",
+       "c": "phys",
+       "u": 26.7,
+       "cur": false
+      },
+      {
+       "m": "Drain Punch",
+       "t": "fighting",
+       "c": "phys",
+       "u": 22.3,
+       "cur": false
+      },
+      {
+       "m": "Stone Edge",
+       "t": "rock",
+       "c": "phys",
+       "u": 14.6,
+       "cur": false
+      },
+      {
+       "m": "U-turn",
+       "t": "bug",
+       "c": "phys",
+       "u": 9.2,
+       "cur": false
+      },
+      {
+       "m": "Throat Chop",
+       "t": "dark",
+       "c": "phys",
+       "u": 8.1,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Goodra",
+     "dex": "0706",
+     "where": "games",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Ice Beam",
+       "t": "ice",
+       "c": "spec",
+       "u": 93.1,
+       "cur": false
+      },
+      {
+       "m": "Fire Blast",
+       "t": "fire",
+       "c": "spec",
+       "u": 91.7,
+       "cur": true
+      },
+      {
+       "m": "Draco Meteor",
+       "t": "dragon",
+       "c": "spec",
+       "u": 90.0,
+       "cur": false
+      },
+      {
+       "m": "Flamethrower",
+       "t": "fire",
+       "c": "spec",
+       "u": 82.6,
+       "cur": false
+      },
+      {
+       "m": "Thunderbolt",
+       "t": "electric",
+       "c": "spec",
+       "u": 81.7,
+       "cur": true
+      },
+      {
+       "m": "Thunder",
+       "t": "electric",
+       "c": "spec",
+       "u": 76.2,
+       "cur": false
+      },
+      {
+       "m": "Knock Off",
+       "t": "dark",
+       "c": "phys",
+       "u": 62.5,
+       "cur": false
+      },
+      {
+       "m": "Sludge Bomb",
+       "t": "poison",
+       "c": "spec",
+       "u": 60.6,
+       "cur": false
+      },
+      {
+       "m": "Toxic",
+       "t": "poison",
+       "c": "stat",
+       "u": 55.9,
+       "cur": false
+      },
+      {
+       "m": "Focus Blast",
+       "t": "fighting",
+       "c": "spec",
+       "u": 50.4,
+       "cur": false
+      },
+      {
+       "m": "Protect",
+       "t": "normal",
+       "c": "stat",
+       "u": 14.8,
+       "cur": false
+      },
+      {
+       "m": "Rest",
+       "t": "psychic",
+       "c": "stat",
+       "u": 3.6,
+       "cur": false
+      }
+     ]
+    }
+   ],
+   "color": "#2fa868"
+  },
+  {
+   "key": "alain",
+   "name": "ALAIN",
+   "title": "Kalos Challenger",
+   "fixed": true,
+   "note": "FIXED - his Kalos League team is exactly six and he never used another. Nothing to vote on.",
+   "candidates": [
+    {
+     "name": "Charizard",
+     "dex": "0006",
+     "where": "anime (his ace, Mega X)",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Solar Beam",
+       "t": "grass",
+       "c": "spec",
+       "u": 98.6,
+       "cur": false
+      },
+      {
+       "m": "Dragon Dance",
+       "t": "dragon",
+       "c": "stat",
+       "u": 94.6,
+       "cur": false
+      },
+      {
+       "m": "Belly Drum",
+       "t": "normal",
+       "c": "stat",
+       "u": 94.3,
+       "cur": false
+      },
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 94.3,
+       "cur": false
+      },
+      {
+       "m": "Flare Blitz",
+       "t": "fire",
+       "c": "phys",
+       "u": 94.3,
+       "cur": false
+      },
+      {
+       "m": "Substitute",
+       "t": "normal",
+       "c": "stat",
+       "u": 94.3,
+       "cur": false
+      },
+      {
+       "m": "Dragon Claw",
+       "t": "dragon",
+       "c": "phys",
+       "u": 92.0,
+       "cur": true
+      },
+      {
+       "m": "Weather Ball",
+       "t": "normal",
+       "c": "spec",
+       "u": 89.1,
+       "cur": false
+      },
+      {
+       "m": "Overheat",
+       "t": "fire",
+       "c": "spec",
+       "u": 78.0,
+       "cur": false
+      },
+      {
+       "m": "Flamethrower",
+       "t": "fire",
+       "c": "spec",
+       "u": 75.2,
+       "cur": true
+      },
+      {
+       "m": "Focus Blast",
+       "t": "fighting",
+       "c": "spec",
+       "u": 66.0,
+       "cur": false
+      },
+      {
+       "m": "Scorching Sands",
+       "t": "ground",
+       "c": "spec",
+       "u": 62.6,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Tyranitar",
+     "dex": "0248",
+     "where": "anime",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Knock Off",
+       "t": "dark",
+       "c": "phys",
+       "u": 97.9,
+       "cur": false
+      },
+      {
+       "m": "Stone Edge",
+       "t": "rock",
+       "c": "phys",
+       "u": 93.8,
+       "cur": true
+      },
+      {
+       "m": "Pursuit",
+       "t": "dark",
+       "c": "phys",
+       "u": 90.0,
+       "cur": false
+      },
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 86.1,
+       "cur": true
+      },
+      {
+       "m": "Rest",
+       "t": "psychic",
+       "c": "stat",
+       "u": 83.8,
+       "cur": false
+      },
+      {
+       "m": "Crunch",
+       "t": "dark",
+       "c": "phys",
+       "u": 76.2,
+       "cur": true
+      },
+      {
+       "m": "Dragon Dance",
+       "t": "dragon",
+       "c": "stat",
+       "u": 73.6,
+       "cur": false
+      },
+      {
+       "m": "Ice Punch",
+       "t": "ice",
+       "c": "phys",
+       "u": 57.5,
+       "cur": false
+      },
+      {
+       "m": "Sleep Talk",
+       "t": "normal",
+       "c": "stat",
+       "u": 53.1,
+       "cur": false
+      },
+      {
+       "m": "Ice Beam",
+       "t": "ice",
+       "c": "spec",
+       "u": 50.3,
+       "cur": false
+      },
+      {
+       "m": "Superpower",
+       "t": "fighting",
+       "c": "phys",
+       "u": 50.0,
+       "cur": false
+      },
+      {
+       "m": "Low Kick",
+       "t": "fighting",
+       "c": "phys",
+       "u": 48.6,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Weavile",
+     "dex": "0461",
+     "where": "anime",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Knock Off",
+       "t": "dark",
+       "c": "phys",
+       "u": 99.8,
+       "cur": false
+      },
+      {
+       "m": "Ice Shard",
+       "t": "ice",
+       "c": "phys",
+       "u": 96.4,
+       "cur": false
+      },
+      {
+       "m": "Icicle Crash",
+       "t": "ice",
+       "c": "phys",
+       "u": 95.6,
+       "cur": false
+      },
+      {
+       "m": "Triple Axel",
+       "t": "ice",
+       "c": "phys",
+       "u": 94.7,
+       "cur": false
+      },
+      {
+       "m": "Pursuit",
+       "t": "dark",
+       "c": "phys",
+       "u": 80.2,
+       "cur": false
+      },
+      {
+       "m": "Swords Dance",
+       "t": "normal",
+       "c": "stat",
+       "u": 77.5,
+       "cur": false
+      },
+      {
+       "m": "Low Kick",
+       "t": "fighting",
+       "c": "phys",
+       "u": 41.1,
+       "cur": false
+      },
+      {
+       "m": "Beat Up",
+       "t": "dark",
+       "c": "phys",
+       "u": 33.3,
+       "cur": false
+      },
+      {
+       "m": "Fake Out",
+       "t": "normal",
+       "c": "phys",
+       "u": 15.0,
+       "cur": false
+      },
+      {
+       "m": "Protect",
+       "t": "normal",
+       "c": "stat",
+       "u": 11.8,
+       "cur": true
+      },
+      {
+       "m": "Ice Spinner",
+       "t": "ice",
+       "c": "phys",
+       "u": 11.7,
+       "cur": false
+      },
+      {
+       "m": "Hone Claws",
+       "t": "dark",
+       "c": "stat",
+       "u": 3.7,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Bisharp",
+     "dex": "0625",
+     "where": "anime",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Sucker Punch",
+       "t": "dark",
+       "c": "phys",
+       "u": 99.9,
+       "cur": false
+      },
+      {
+       "m": "Swords Dance",
+       "t": "normal",
+       "c": "stat",
+       "u": 99.5,
+       "cur": false
+      },
+      {
+       "m": "Iron Head",
+       "t": "steel",
+       "c": "phys",
+       "u": 99.1,
+       "cur": true
+      },
+      {
+       "m": "Knock Off",
+       "t": "dark",
+       "c": "phys",
+       "u": 99.0,
+       "cur": false
+      },
+      {
+       "m": "Throat Chop",
+       "t": "dark",
+       "c": "phys",
+       "u": 91.9,
+       "cur": false
+      },
+      {
+       "m": "Low Kick",
+       "t": "fighting",
+       "c": "phys",
+       "u": 37.1,
+       "cur": false
+      },
+      {
+       "m": "Brick Break",
+       "t": "fighting",
+       "c": "phys",
+       "u": 23.6,
+       "cur": false
+      },
+      {
+       "m": "Substitute",
+       "t": "normal",
+       "c": "stat",
+       "u": 18.0,
+       "cur": false
+      },
+      {
+       "m": "Pursuit",
+       "t": "dark",
+       "c": "phys",
+       "u": 17.7,
+       "cur": false
+      },
+      {
+       "m": "Night Slash",
+       "t": "dark",
+       "c": "phys",
+       "u": 11.6,
+       "cur": false
+      },
+      {
+       "m": "Stone Edge",
+       "t": "rock",
+       "c": "phys",
+       "u": 11.1,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Unfezant",
+     "dex": "0521",
+     "where": "anime",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Brave Bird",
+       "t": "flying",
+       "c": "phys",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Giga Impact",
+       "t": "normal",
+       "c": "phys",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Heat Wave",
+       "t": "fire",
+       "c": "spec",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Hurricane",
+       "t": "flying",
+       "c": "spec",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Hyper Beam",
+       "t": "normal",
+       "c": "spec",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Night Slash",
+       "t": "dark",
+       "c": "phys",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Pluck",
+       "t": "flying",
+       "c": "phys",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Return",
+       "t": "normal",
+       "c": "phys",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Roost",
+       "t": "flying",
+       "c": "stat",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Sky Attack",
+       "t": "flying",
+       "c": "phys",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Toxic",
+       "t": "poison",
+       "c": "stat",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "U-turn",
+       "t": "bug",
+       "c": "phys",
+       "u": 0.0,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Metagross",
+     "dex": "0376",
+     "where": "anime",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Meteor Mash",
+       "t": "steel",
+       "c": "phys",
+       "u": 96.0,
+       "cur": true
+      },
+      {
+       "m": "Heavy Slam",
+       "t": "steel",
+       "c": "phys",
+       "u": 86.4,
+       "cur": false
+      },
+      {
+       "m": "Bullet Punch",
+       "t": "steel",
+       "c": "phys",
+       "u": 83.2,
+       "cur": false
+      },
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 82.6,
+       "cur": false
+      },
+      {
+       "m": "Psychic Fangs",
+       "t": "psychic",
+       "c": "phys",
+       "u": 81.6,
+       "cur": false
+      },
+      {
+       "m": "Agility",
+       "t": "psychic",
+       "c": "stat",
+       "u": 73.0,
+       "cur": true
+      },
+      {
+       "m": "Knock Off",
+       "t": "dark",
+       "c": "phys",
+       "u": 68.4,
+       "cur": false
+      },
+      {
+       "m": "Body Press",
+       "t": "fighting",
+       "c": "phys",
+       "u": 43.1,
+       "cur": false
+      },
+      {
+       "m": "Ice Punch",
+       "t": "ice",
+       "c": "phys",
+       "u": 40.6,
+       "cur": false
+      },
+      {
+       "m": "Iron Defense",
+       "t": "steel",
+       "c": "stat",
+       "u": 39.7,
+       "cur": false
+      },
+      {
+       "m": "Explosion",
+       "t": "normal",
+       "c": "phys",
+       "u": 29.4,
+       "cur": false
+      },
+      {
+       "m": "Toxic",
+       "t": "poison",
+       "c": "stat",
+       "u": 28.2,
+       "cur": false
+      }
+     ]
+    }
+   ],
+   "color": "#2a4ab8"
+  },
+  {
+   "key": "iris",
+   "name": "IRIS",
+   "title": "Unova Champion",
+   "fixed": false,
+   "note": "Her B2W2 Champion team plus the Pokemon she raised as Ash's travelling companion. A real choice: 10 for 6.",
+   "candidates": [
+    {
+     "name": "Haxorus",
+     "dex": "0612",
+     "where": "games + anime (Axew grown up, her ace)",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 99.9,
+       "cur": true
+      },
+      {
+       "m": "Dragon Dance",
+       "t": "dragon",
+       "c": "stat",
+       "u": 98.5,
+       "cur": true
+      },
+      {
+       "m": "Outrage",
+       "t": "dragon",
+       "c": "phys",
+       "u": 93.3,
+       "cur": true
+      },
+      {
+       "m": "Poison Jab",
+       "t": "poison",
+       "c": "phys",
+       "u": 83.4,
+       "cur": false
+      },
+      {
+       "m": "Scale Shot",
+       "t": "dragon",
+       "c": "phys",
+       "u": 77.5,
+       "cur": false
+      },
+      {
+       "m": "Close Combat",
+       "t": "fighting",
+       "c": "phys",
+       "u": 71.6,
+       "cur": false
+      },
+      {
+       "m": "Swords Dance",
+       "t": "normal",
+       "c": "stat",
+       "u": 71.6,
+       "cur": false
+      },
+      {
+       "m": "Dragon Claw",
+       "t": "dragon",
+       "c": "phys",
+       "u": 50.1,
+       "cur": false
+      },
+      {
+       "m": "Iron Head",
+       "t": "steel",
+       "c": "phys",
+       "u": 46.4,
+       "cur": false
+      },
+      {
+       "m": "First Impression",
+       "t": "bug",
+       "c": "phys",
+       "u": 15.1,
+       "cur": false
+      },
+      {
+       "m": "Iron Tail",
+       "t": "steel",
+       "c": "phys",
+       "u": 15.1,
+       "cur": false
+      },
+      {
+       "m": "Taunt",
+       "t": "dark",
+       "c": "stat",
+       "u": 11.8,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Hydreigon",
+     "dex": "0635",
+     "where": "games",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Dark Pulse",
+       "t": "dark",
+       "c": "spec",
+       "u": 99.2,
+       "cur": true
+      },
+      {
+       "m": "Draco Meteor",
+       "t": "dragon",
+       "c": "spec",
+       "u": 96.2,
+       "cur": false
+      },
+      {
+       "m": "Flash Cannon",
+       "t": "steel",
+       "c": "spec",
+       "u": 67.4,
+       "cur": false
+      },
+      {
+       "m": "Earth Power",
+       "t": "ground",
+       "c": "spec",
+       "u": 64.6,
+       "cur": false
+      },
+      {
+       "m": "Flamethrower",
+       "t": "fire",
+       "c": "spec",
+       "u": 63.3,
+       "cur": false
+      },
+      {
+       "m": "Roost",
+       "t": "flying",
+       "c": "stat",
+       "u": 58.9,
+       "cur": false
+      },
+      {
+       "m": "U-turn",
+       "t": "bug",
+       "c": "phys",
+       "u": 54.7,
+       "cur": false
+      },
+      {
+       "m": "Fire Blast",
+       "t": "fire",
+       "c": "spec",
+       "u": 54.0,
+       "cur": true
+      },
+      {
+       "m": "Nasty Plot",
+       "t": "dark",
+       "c": "stat",
+       "u": 48.6,
+       "cur": false
+      },
+      {
+       "m": "Focus Energy",
+       "t": "normal",
+       "c": "stat",
+       "u": 36.3,
+       "cur": false
+      },
+      {
+       "m": "Dragon Pulse",
+       "t": "dragon",
+       "c": "spec",
+       "u": 35.6,
+       "cur": true
+      },
+      {
+       "m": "Belch",
+       "t": "poison",
+       "c": "spec",
+       "u": 10.6,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Druddigon",
+     "dex": "0621",
+     "where": "games",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Glare",
+       "t": "normal",
+       "c": "stat",
+       "u": 97.5,
+       "cur": false
+      },
+      {
+       "m": "Taunt",
+       "t": "dark",
+       "c": "stat",
+       "u": 82.4,
+       "cur": false
+      },
+      {
+       "m": "Iron Head",
+       "t": "steel",
+       "c": "phys",
+       "u": 7.7,
+       "cur": false
+      },
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 3.5,
+       "cur": false
+      },
+      {
+       "m": "Fire Punch",
+       "t": "fire",
+       "c": "phys",
+       "u": 0.0,
+       "cur": true
+      },
+      {
+       "m": "Gunk Shot",
+       "t": "poison",
+       "c": "phys",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Outrage",
+       "t": "dragon",
+       "c": "phys",
+       "u": 0.0,
+       "cur": true
+      },
+      {
+       "m": "Sucker Punch",
+       "t": "dark",
+       "c": "phys",
+       "u": 0.0,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Aggron",
+     "dex": "0306",
+     "where": "games (Mega)",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Body Press",
+       "t": "fighting",
+       "c": "phys",
+       "u": 98.7,
+       "cur": false
+      },
+      {
+       "m": "Heavy Slam",
+       "t": "steel",
+       "c": "phys",
+       "u": 98.7,
+       "cur": false
+      },
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 97.6,
+       "cur": true
+      },
+      {
+       "m": "Fire Punch",
+       "t": "fire",
+       "c": "phys",
+       "u": 90.1,
+       "cur": false
+      },
+      {
+       "m": "Endeavor",
+       "t": "normal",
+       "c": "phys",
+       "u": 79.7,
+       "cur": false
+      },
+      {
+       "m": "Metal Burst",
+       "t": "steel",
+       "c": "phys",
+       "u": 76.0,
+       "cur": false
+      },
+      {
+       "m": "Iron Defense",
+       "t": "steel",
+       "c": "stat",
+       "u": 73.4,
+       "cur": false
+      },
+      {
+       "m": "Curse",
+       "t": "ghost",
+       "c": "stat",
+       "u": 55.0,
+       "cur": false
+      },
+      {
+       "m": "Head Smash",
+       "t": "rock",
+       "c": "phys",
+       "u": 52.7,
+       "cur": false
+      },
+      {
+       "m": "Endure",
+       "t": "normal",
+       "c": "stat",
+       "u": 50.0,
+       "cur": false
+      },
+      {
+       "m": "Bulldoze",
+       "t": "ground",
+       "c": "phys",
+       "u": 44.9,
+       "cur": false
+      },
+      {
+       "m": "Ice Punch",
+       "t": "ice",
+       "c": "phys",
+       "u": 33.1,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Archeops",
+     "dex": "0567",
+     "where": "games",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Stone Edge",
+       "t": "rock",
+       "c": "phys",
+       "u": 89.6,
+       "cur": true
+      },
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 81.5,
+       "cur": false
+      },
+      {
+       "m": "Knock Off",
+       "t": "dark",
+       "c": "phys",
+       "u": 68.7,
+       "cur": false
+      },
+      {
+       "m": "Sky Attack",
+       "t": "flying",
+       "c": "phys",
+       "u": 54.7,
+       "cur": false
+      },
+      {
+       "m": "U-turn",
+       "t": "bug",
+       "c": "phys",
+       "u": 53.2,
+       "cur": false
+      },
+      {
+       "m": "Heat Wave",
+       "t": "fire",
+       "c": "spec",
+       "u": 53.0,
+       "cur": false
+      },
+      {
+       "m": "Meteor Beam",
+       "t": "rock",
+       "c": "spec",
+       "u": 44.7,
+       "cur": false
+      },
+      {
+       "m": "Air Slash",
+       "t": "flying",
+       "c": "spec",
+       "u": 38.4,
+       "cur": false
+      },
+      {
+       "m": "Dual Wingbeat",
+       "t": "flying",
+       "c": "phys",
+       "u": 24.2,
+       "cur": false
+      },
+      {
+       "m": "Roost",
+       "t": "flying",
+       "c": "stat",
+       "u": 16.6,
+       "cur": false
+      },
+      {
+       "m": "Hone Claws",
+       "t": "dark",
+       "c": "stat",
+       "u": 14.3,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Lapras",
+     "dex": "0131",
+     "where": "games",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Dragon Dance",
+       "t": "dragon",
+       "c": "stat",
+       "u": 99.5,
+       "cur": false
+      },
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 99.5,
+       "cur": false
+      },
+      {
+       "m": "Freeze-Dry",
+       "t": "ice",
+       "c": "spec",
+       "u": 98.5,
+       "cur": false
+      },
+      {
+       "m": "Perish Song",
+       "t": "normal",
+       "c": "stat",
+       "u": 98.4,
+       "cur": false
+      },
+      {
+       "m": "Protect",
+       "t": "normal",
+       "c": "stat",
+       "u": 98.3,
+       "cur": false
+      },
+      {
+       "m": "Whirlpool",
+       "t": "water",
+       "c": "spec",
+       "u": 98.3,
+       "cur": false
+      },
+      {
+       "m": "Liquidation",
+       "t": "water",
+       "c": "phys",
+       "u": 97.0,
+       "cur": false
+      },
+      {
+       "m": "Icicle Spear",
+       "t": "ice",
+       "c": "phys",
+       "u": 94.9,
+       "cur": false
+      },
+      {
+       "m": "Surf",
+       "t": "water",
+       "c": "spec",
+       "u": 6.0,
+       "cur": false
+      },
+      {
+       "m": "Waterfall",
+       "t": "water",
+       "c": "phys",
+       "u": 5.0,
+       "cur": false
+      },
+      {
+       "m": "Outrage",
+       "t": "dragon",
+       "c": "phys",
+       "u": 4.9,
+       "cur": false
+      },
+      {
+       "m": "Ice Shard",
+       "t": "ice",
+       "c": "phys",
+       "u": 3.2,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Dragonite",
+     "dex": "0149",
+     "where": "anime",
+     "ours": false,
+     "pool": [
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 94.6,
+       "cur": false
+      },
+      {
+       "m": "Dragon Dance",
+       "t": "dragon",
+       "c": "stat",
+       "u": 89.8,
+       "cur": false
+      },
+      {
+       "m": "Extreme Speed",
+       "t": "normal",
+       "c": "phys",
+       "u": 87.2,
+       "cur": false
+      },
+      {
+       "m": "Ice Punch",
+       "t": "ice",
+       "c": "phys",
+       "u": 71.9,
+       "cur": false
+      },
+      {
+       "m": "Outrage",
+       "t": "dragon",
+       "c": "phys",
+       "u": 68.1,
+       "cur": false
+      },
+      {
+       "m": "Fly",
+       "t": "flying",
+       "c": "phys",
+       "u": 50.0,
+       "cur": false
+      },
+      {
+       "m": "Roost",
+       "t": "flying",
+       "c": "stat",
+       "u": 47.1,
+       "cur": false
+      },
+      {
+       "m": "Superpower",
+       "t": "fighting",
+       "c": "phys",
+       "u": 32.7,
+       "cur": false
+      },
+      {
+       "m": "Fire Punch",
+       "t": "fire",
+       "c": "phys",
+       "u": 31.6,
+       "cur": false
+      },
+      {
+       "m": "Encore",
+       "t": "normal",
+       "c": "stat",
+       "u": 31.3,
+       "cur": false
+      },
+      {
+       "m": "Ice Spinner",
+       "t": "ice",
+       "c": "phys",
+       "u": 31.1,
+       "cur": false
+      },
+      {
+       "m": "Power-Up Punch",
+       "t": "fighting",
+       "c": "phys",
+       "u": 30.4,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Excadrill",
+     "dex": "0530",
+     "where": "anime",
+     "ours": false,
+     "pool": [
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 100.0,
+       "cur": false
+      },
+      {
+       "m": "Iron Head",
+       "t": "steel",
+       "c": "phys",
+       "u": 94.1,
+       "cur": false
+      },
+      {
+       "m": "Swords Dance",
+       "t": "normal",
+       "c": "stat",
+       "u": 66.3,
+       "cur": false
+      },
+      {
+       "m": "Rock Slide",
+       "t": "rock",
+       "c": "phys",
+       "u": 62.7,
+       "cur": false
+      },
+      {
+       "m": "Toxic",
+       "t": "poison",
+       "c": "stat",
+       "u": 40.5,
+       "cur": false
+      },
+      {
+       "m": "Poison Jab",
+       "t": "poison",
+       "c": "phys",
+       "u": 24.5,
+       "cur": false
+      },
+      {
+       "m": "Substitute",
+       "t": "normal",
+       "c": "stat",
+       "u": 14.5,
+       "cur": false
+      },
+      {
+       "m": "Rock Blast",
+       "t": "rock",
+       "c": "phys",
+       "u": 14.3,
+       "cur": false
+      },
+      {
+       "m": "Rock Tomb",
+       "t": "rock",
+       "c": "phys",
+       "u": 10.0,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Emolga",
+     "dex": "0587",
+     "where": "anime",
+     "ours": false,
+     "pool": [
+      {
+       "m": "Acrobatics",
+       "t": "flying",
+       "c": "phys",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Air Slash",
+       "t": "flying",
+       "c": "spec",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Encore",
+       "t": "normal",
+       "c": "stat",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Knock Off",
+       "t": "dark",
+       "c": "phys",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Roost",
+       "t": "flying",
+       "c": "stat",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Thunderbolt",
+       "t": "electric",
+       "c": "spec",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Toxic",
+       "t": "poison",
+       "c": "stat",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "U-turn",
+       "t": "bug",
+       "c": "phys",
+       "u": 0.0,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Gible",
+     "dex": "0443",
+     "where": "anime",
+     "ours": false,
+     "pool": [
+      {
+       "m": "Double-Edge",
+       "t": "normal",
+       "c": "phys",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Draco Meteor",
+       "t": "dragon",
+       "c": "spec",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Dragon Rush",
+       "t": "dragon",
+       "c": "phys",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Earth Power",
+       "t": "ground",
+       "c": "spec",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Fire Blast",
+       "t": "fire",
+       "c": "spec",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Flamethrower",
+       "t": "fire",
+       "c": "spec",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Iron Tail",
+       "t": "steel",
+       "c": "phys",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Outrage",
+       "t": "dragon",
+       "c": "phys",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Rock Climb",
+       "t": "normal",
+       "c": "phys",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Stone Edge",
+       "t": "rock",
+       "c": "phys",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Thrash",
+       "t": "normal",
+       "c": "phys",
+       "u": 0.0,
+       "cur": false
+      }
+     ]
+    }
+   ],
+   "color": "#8a3ab8"
+  },
+  {
+   "key": "steven",
+   "name": "STEVEN",
+   "title": "Hoenn Champion",
+   "fixed": true,
+   "note": "NEARLY FIXED - his six, plus Beldum (which becomes Metagross) and Carbink. No real alternative.",
+   "candidates": [
+    {
+     "name": "Metagross",
+     "dex": "0376",
+     "where": "games + anime (his ace, Mega)",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Meteor Mash",
+       "t": "steel",
+       "c": "phys",
+       "u": 96.0,
+       "cur": true
+      },
+      {
+       "m": "Heavy Slam",
+       "t": "steel",
+       "c": "phys",
+       "u": 86.4,
+       "cur": false
+      },
+      {
+       "m": "Bullet Punch",
+       "t": "steel",
+       "c": "phys",
+       "u": 83.2,
+       "cur": false
+      },
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 82.6,
+       "cur": true
+      },
+      {
+       "m": "Psychic Fangs",
+       "t": "psychic",
+       "c": "phys",
+       "u": 81.6,
+       "cur": false
+      },
+      {
+       "m": "Agility",
+       "t": "psychic",
+       "c": "stat",
+       "u": 73.0,
+       "cur": false
+      },
+      {
+       "m": "Knock Off",
+       "t": "dark",
+       "c": "phys",
+       "u": 68.4,
+       "cur": false
+      },
+      {
+       "m": "Body Press",
+       "t": "fighting",
+       "c": "phys",
+       "u": 43.1,
+       "cur": false
+      },
+      {
+       "m": "Ice Punch",
+       "t": "ice",
+       "c": "phys",
+       "u": 40.6,
+       "cur": false
+      },
+      {
+       "m": "Iron Defense",
+       "t": "steel",
+       "c": "stat",
+       "u": 39.7,
+       "cur": false
+      },
+      {
+       "m": "Explosion",
+       "t": "normal",
+       "c": "phys",
+       "u": 29.4,
+       "cur": false
+      },
+      {
+       "m": "Toxic",
+       "t": "poison",
+       "c": "stat",
+       "u": 28.2,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Skarmory",
+     "dex": "0227",
+     "where": "games",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Roost",
+       "t": "flying",
+       "c": "stat",
+       "u": 99.5,
+       "cur": false
+      },
+      {
+       "m": "Body Press",
+       "t": "fighting",
+       "c": "phys",
+       "u": 97.4,
+       "cur": false
+      },
+      {
+       "m": "Iron Defense",
+       "t": "steel",
+       "c": "stat",
+       "u": 92.8,
+       "cur": false
+      },
+      {
+       "m": "Counter",
+       "t": "fighting",
+       "c": "phys",
+       "u": 41.3,
+       "cur": false
+      },
+      {
+       "m": "Toxic",
+       "t": "poison",
+       "c": "stat",
+       "u": 35.5,
+       "cur": true
+      },
+      {
+       "m": "Brave Bird",
+       "t": "flying",
+       "c": "phys",
+       "u": 35.0,
+       "cur": true
+      },
+      {
+       "m": "Iron Head",
+       "t": "steel",
+       "c": "phys",
+       "u": 8.6,
+       "cur": false
+      },
+      {
+       "m": "Drill Run",
+       "t": "ground",
+       "c": "phys",
+       "u": 8.1,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Aggron",
+     "dex": "0306",
+     "where": "games",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Body Press",
+       "t": "fighting",
+       "c": "phys",
+       "u": 98.7,
+       "cur": false
+      },
+      {
+       "m": "Heavy Slam",
+       "t": "steel",
+       "c": "phys",
+       "u": 98.7,
+       "cur": true
+      },
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 97.6,
+       "cur": true
+      },
+      {
+       "m": "Fire Punch",
+       "t": "fire",
+       "c": "phys",
+       "u": 90.1,
+       "cur": false
+      },
+      {
+       "m": "Endeavor",
+       "t": "normal",
+       "c": "phys",
+       "u": 79.7,
+       "cur": false
+      },
+      {
+       "m": "Metal Burst",
+       "t": "steel",
+       "c": "phys",
+       "u": 76.0,
+       "cur": false
+      },
+      {
+       "m": "Iron Defense",
+       "t": "steel",
+       "c": "stat",
+       "u": 73.4,
+       "cur": false
+      },
+      {
+       "m": "Curse",
+       "t": "ghost",
+       "c": "stat",
+       "u": 55.0,
+       "cur": false
+      },
+      {
+       "m": "Head Smash",
+       "t": "rock",
+       "c": "phys",
+       "u": 52.7,
+       "cur": false
+      },
+      {
+       "m": "Endure",
+       "t": "normal",
+       "c": "stat",
+       "u": 50.0,
+       "cur": false
+      },
+      {
+       "m": "Bulldoze",
+       "t": "ground",
+       "c": "phys",
+       "u": 44.9,
+       "cur": false
+      },
+      {
+       "m": "Ice Punch",
+       "t": "ice",
+       "c": "phys",
+       "u": 33.1,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Cradily",
+     "dex": "0346",
+     "where": "games",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Giga Drain",
+       "t": "grass",
+       "c": "spec",
+       "u": 75.7,
+       "cur": true
+      },
+      {
+       "m": "Leech Seed",
+       "t": "grass",
+       "c": "stat",
+       "u": 69.3,
+       "cur": false
+      },
+      {
+       "m": "Earth Power",
+       "t": "ground",
+       "c": "spec",
+       "u": 61.9,
+       "cur": false
+      },
+      {
+       "m": "Recover",
+       "t": "normal",
+       "c": "stat",
+       "u": 61.3,
+       "cur": false
+      },
+      {
+       "m": "Mirror Coat",
+       "t": "psychic",
+       "c": "spec",
+       "u": 45.2,
+       "cur": false
+      },
+      {
+       "m": "Ancient Power",
+       "t": "rock",
+       "c": "spec",
+       "u": 37.5,
+       "cur": true
+      },
+      {
+       "m": "Sludge Wave",
+       "t": "poison",
+       "c": "spec",
+       "u": 35.5,
+       "cur": false
+      },
+      {
+       "m": "Energy Ball",
+       "t": "grass",
+       "c": "spec",
+       "u": 34.3,
+       "cur": false
+      },
+      {
+       "m": "Swords Dance",
+       "t": "normal",
+       "c": "stat",
+       "u": 19.9,
+       "cur": false
+      },
+      {
+       "m": "Stone Edge",
+       "t": "rock",
+       "c": "phys",
+       "u": 19.6,
+       "cur": false
+      },
+      {
+       "m": "Infestation",
+       "t": "bug",
+       "c": "spec",
+       "u": 12.9,
+       "cur": false
+      },
+      {
+       "m": "Meteor Beam",
+       "t": "rock",
+       "c": "spec",
+       "u": 7.6,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Armaldo",
+     "dex": "0348",
+     "where": "games",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Stone Edge",
+       "t": "rock",
+       "c": "phys",
+       "u": 52.6,
+       "cur": false
+      },
+      {
+       "m": "Swords Dance",
+       "t": "normal",
+       "c": "stat",
+       "u": 44.2,
+       "cur": false
+      },
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 36.3,
+       "cur": false
+      },
+      {
+       "m": "Low Kick",
+       "t": "fighting",
+       "c": "phys",
+       "u": 35.6,
+       "cur": false
+      },
+      {
+       "m": "Liquidation",
+       "t": "water",
+       "c": "phys",
+       "u": 32.5,
+       "cur": false
+      },
+      {
+       "m": "Aqua Jet",
+       "t": "water",
+       "c": "phys",
+       "u": 31.3,
+       "cur": false
+      },
+      {
+       "m": "Knock Off",
+       "t": "dark",
+       "c": "phys",
+       "u": 27.1,
+       "cur": false
+      },
+      {
+       "m": "X-Scissor",
+       "t": "bug",
+       "c": "phys",
+       "u": 23.9,
+       "cur": true
+      },
+      {
+       "m": "Fury Cutter",
+       "t": "bug",
+       "c": "phys",
+       "u": 18.7,
+       "cur": false
+      },
+      {
+       "m": "Aqua Tail",
+       "t": "water",
+       "c": "phys",
+       "u": 11.8,
+       "cur": false
+      },
+      {
+       "m": "Toxic",
+       "t": "poison",
+       "c": "stat",
+       "u": 0.0,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Claydol",
+     "dex": "0344",
+     "where": "games",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Earth Power",
+       "t": "ground",
+       "c": "spec",
+       "u": 80.6,
+       "cur": false
+      },
+      {
+       "m": "Psychic",
+       "t": "psychic",
+       "c": "spec",
+       "u": 77.9,
+       "cur": false
+      },
+      {
+       "m": "Toxic",
+       "t": "poison",
+       "c": "stat",
+       "u": 35.4,
+       "cur": false
+      },
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 33.9,
+       "cur": true
+      },
+      {
+       "m": "Scorching Sands",
+       "t": "ground",
+       "c": "spec",
+       "u": 15.4,
+       "cur": false
+      },
+      {
+       "m": "Cosmic Power",
+       "t": "psychic",
+       "c": "stat",
+       "u": 12.1,
+       "cur": false
+      },
+      {
+       "m": "Rest",
+       "t": "psychic",
+       "c": "stat",
+       "u": 12.1,
+       "cur": false
+      },
+      {
+       "m": "Stored Power",
+       "t": "psychic",
+       "c": "spec",
+       "u": 12.1,
+       "cur": false
+      },
+      {
+       "m": "Body Press",
+       "t": "fighting",
+       "c": "phys",
+       "u": 11.5,
+       "cur": false
+      },
+      {
+       "m": "Ice Beam",
+       "t": "ice",
+       "c": "spec",
+       "u": 6.6,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Beldum",
+     "dex": "0374",
+     "where": "anime (the one he gives away)",
+     "ours": false,
+     "pool": [
+      {
+       "m": "Headbutt",
+       "t": "normal",
+       "c": "phys",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Iron Head",
+       "t": "steel",
+       "c": "phys",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Steel Beam",
+       "t": "steel",
+       "c": "spec",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Take Down",
+       "t": "normal",
+       "c": "phys",
+       "u": 0.0,
+       "cur": false
+      },
+      {
+       "m": "Zen Headbutt",
+       "t": "psychic",
+       "c": "phys",
+       "u": 0.0,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Carbink",
+     "dex": "0703",
+     "where": "later games",
+     "ours": false,
+     "pool": [
+      {
+       "m": "Trick Room",
+       "t": "psychic",
+       "c": "stat",
+       "u": 75.8,
+       "cur": false
+      },
+      {
+       "m": "Misty Explosion",
+       "t": "fairy",
+       "c": "spec",
+       "u": 63.2,
+       "cur": false
+      },
+      {
+       "m": "Magic Coat",
+       "t": "psychic",
+       "c": "stat",
+       "u": 42.2,
+       "cur": false
+      },
+      {
+       "m": "Endeavor",
+       "t": "normal",
+       "c": "phys",
+       "u": 25.4,
+       "cur": false
+      },
+      {
+       "m": "Explosion",
+       "t": "normal",
+       "c": "phys",
+       "u": 25.3,
+       "cur": false
+      },
+      {
+       "m": "Toxic",
+       "t": "poison",
+       "c": "stat",
+       "u": 15.4,
+       "cur": false
+      },
+      {
+       "m": "Body Press",
+       "t": "fighting",
+       "c": "phys",
+       "u": 13.1,
+       "cur": false
+      },
+      {
+       "m": "Moonblast",
+       "t": "fairy",
+       "c": "spec",
+       "u": 6.2,
+       "cur": false
+      },
+      {
+       "m": "Earth Power",
+       "t": "ground",
+       "c": "spec",
+       "u": 5.7,
+       "cur": false
+      },
+      {
+       "m": "Power Gem",
+       "t": "rock",
+       "c": "spec",
+       "u": 0.0,
+       "cur": false
+      }
+     ]
+    }
+   ],
+   "color": "#4a8ad8"
+  },
+  {
+   "key": "ash",
+   "name": "ASH",
+   "title": "Kalos Finalist",
+   "fixed": false,
+   "note": "Shortlisted from ~60 to 18 (Sondre 2026-10-27): his aces and full evolutions, plus the six we have already built. The full list he has owned is kept below as allOwned.",
+   "candidates": [
+    {
+     "name": "Pikachu",
+     "dex": "0025",
+     "where": "anime (his ace, every series)",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Fake Out",
+       "t": "normal",
+       "c": "phys",
+       "u": 85.9,
+       "cur": false
+      },
+      {
+       "m": "Volt Tackle",
+       "t": "electric",
+       "c": "phys",
+       "u": 85.2,
+       "cur": false
+      },
+      {
+       "m": "Extreme Speed",
+       "t": "normal",
+       "c": "phys",
+       "u": 81.1,
+       "cur": false
+      },
+      {
+       "m": "Thunderbolt",
+       "t": "electric",
+       "c": "spec",
+       "u": 79.7,
+       "cur": true
+      },
+      {
+       "m": "Volt Switch",
+       "t": "electric",
+       "c": "spec",
+       "u": 76.7,
+       "cur": false
+      },
+      {
+       "m": "Surf",
+       "t": "water",
+       "c": "spec",
+       "u": 76.1,
+       "cur": false
+      },
+      {
+       "m": "Focus Punch",
+       "t": "fighting",
+       "c": "phys",
+       "u": 62.8,
+       "cur": false
+      },
+      {
+       "m": "Play Rough",
+       "t": "fairy",
+       "c": "phys",
+       "u": 45.7,
+       "cur": false
+      },
+      {
+       "m": "Quick Attack",
+       "t": "normal",
+       "c": "phys",
+       "u": 41.3,
+       "cur": true
+      },
+      {
+       "m": "Toxic",
+       "t": "poison",
+       "c": "stat",
+       "u": 15.0,
+       "cur": false
+      },
+      {
+       "m": "Substitute",
+       "t": "normal",
+       "c": "stat",
+       "u": 14.4,
+       "cur": false
+      },
+      {
+       "m": "Nasty Plot",
+       "t": "dark",
+       "c": "stat",
+       "u": 7.6,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Greninja",
+     "dex": "0658",
+     "where": "anime (Ash-Greninja)",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Ice Beam",
+       "t": "ice",
+       "c": "spec",
+       "u": 97.5,
+       "cur": false
+      },
+      {
+       "m": "Dark Pulse",
+       "t": "dark",
+       "c": "spec",
+       "u": 95.2,
+       "cur": false
+      },
+      {
+       "m": "Surf",
+       "t": "water",
+       "c": "spec",
+       "u": 85.6,
+       "cur": false
+      },
+      {
+       "m": "Water Shuriken",
+       "t": "water",
+       "c": "spec",
+       "u": 73.1,
+       "cur": true
+      },
+      {
+       "m": "Extrasensory",
+       "t": "psychic",
+       "c": "spec",
+       "u": 62.2,
+       "cur": false
+      },
+      {
+       "m": "Sludge Wave",
+       "t": "poison",
+       "c": "spec",
+       "u": 61.1,
+       "cur": false
+      },
+      {
+       "m": "Hydro Pump",
+       "t": "water",
+       "c": "spec",
+       "u": 55.4,
+       "cur": false
+      },
+      {
+       "m": "Protect",
+       "t": "normal",
+       "c": "stat",
+       "u": 46.7,
+       "cur": false
+      },
+      {
+       "m": "Grass Knot",
+       "t": "grass",
+       "c": "spec",
+       "u": 21.5,
+       "cur": false
+      },
+      {
+       "m": "U-turn",
+       "t": "bug",
+       "c": "phys",
+       "u": 18.8,
+       "cur": false
+      },
+      {
+       "m": "Taunt",
+       "t": "dark",
+       "c": "stat",
+       "u": 9.6,
+       "cur": false
+      },
+      {
+       "m": "Swords Dance",
+       "t": "normal",
+       "c": "stat",
+       "u": 5.7,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Talonflame",
+     "dex": "0663",
+     "where": "anime (Kalos)",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Brave Bird",
+       "t": "flying",
+       "c": "phys",
+       "u": 99.8,
+       "cur": true
+      },
+      {
+       "m": "Roost",
+       "t": "flying",
+       "c": "stat",
+       "u": 96.4,
+       "cur": false
+      },
+      {
+       "m": "Flare Blitz",
+       "t": "fire",
+       "c": "phys",
+       "u": 90.8,
+       "cur": false
+      },
+      {
+       "m": "Swords Dance",
+       "t": "normal",
+       "c": "stat",
+       "u": 83.9,
+       "cur": false
+      },
+      {
+       "m": "Will-O-Wisp",
+       "t": "fire",
+       "c": "stat",
+       "u": 71.6,
+       "cur": false
+      },
+      {
+       "m": "U-turn",
+       "t": "bug",
+       "c": "phys",
+       "u": 55.0,
+       "cur": false
+      },
+      {
+       "m": "Overheat",
+       "t": "fire",
+       "c": "spec",
+       "u": 39.3,
+       "cur": false
+      },
+      {
+       "m": "Flamethrower",
+       "t": "fire",
+       "c": "spec",
+       "u": 28.0,
+       "cur": false
+      },
+      {
+       "m": "Air Slash",
+       "t": "flying",
+       "c": "spec",
+       "u": 25.9,
+       "cur": false
+      },
+      {
+       "m": "Dual Wingbeat",
+       "t": "flying",
+       "c": "phys",
+       "u": 15.0,
+       "cur": false
+      },
+      {
+       "m": "Acrobatics",
+       "t": "flying",
+       "c": "phys",
+       "u": 14.5,
+       "cur": false
+      },
+      {
+       "m": "Flame Charge",
+       "t": "fire",
+       "c": "phys",
+       "u": 11.5,
+       "cur": true
+      }
+     ]
+    },
+    {
+     "name": "Hawlucha",
+     "dex": "0701",
+     "where": "anime (Kalos)",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Acrobatics",
+       "t": "flying",
+       "c": "phys",
+       "u": 100.0,
+       "cur": false
+      },
+      {
+       "m": "Swords Dance",
+       "t": "normal",
+       "c": "stat",
+       "u": 99.8,
+       "cur": false
+      },
+      {
+       "m": "Close Combat",
+       "t": "fighting",
+       "c": "phys",
+       "u": 95.6,
+       "cur": false
+      },
+      {
+       "m": "High Jump Kick",
+       "t": "fighting",
+       "c": "phys",
+       "u": 93.1,
+       "cur": true
+      },
+      {
+       "m": "Taunt",
+       "t": "dark",
+       "c": "stat",
+       "u": 80.5,
+       "cur": false
+      },
+      {
+       "m": "Sky Attack",
+       "t": "flying",
+       "c": "phys",
+       "u": 55.3,
+       "cur": false
+      },
+      {
+       "m": "Encore",
+       "t": "normal",
+       "c": "stat",
+       "u": 49.3,
+       "cur": false
+      },
+      {
+       "m": "Fire Punch",
+       "t": "fire",
+       "c": "phys",
+       "u": 26.7,
+       "cur": false
+      },
+      {
+       "m": "Drain Punch",
+       "t": "fighting",
+       "c": "phys",
+       "u": 22.3,
+       "cur": false
+      },
+      {
+       "m": "Stone Edge",
+       "t": "rock",
+       "c": "phys",
+       "u": 14.6,
+       "cur": false
+      },
+      {
+       "m": "U-turn",
+       "t": "bug",
+       "c": "phys",
+       "u": 9.2,
+       "cur": false
+      },
+      {
+       "m": "Throat Chop",
+       "t": "dark",
+       "c": "phys",
+       "u": 8.1,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Goodra",
+     "dex": "0706",
+     "where": "anime (Kalos)",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Ice Beam",
+       "t": "ice",
+       "c": "spec",
+       "u": 93.1,
+       "cur": true
+      },
+      {
+       "m": "Fire Blast",
+       "t": "fire",
+       "c": "spec",
+       "u": 91.7,
+       "cur": false
+      },
+      {
+       "m": "Draco Meteor",
+       "t": "dragon",
+       "c": "spec",
+       "u": 90.0,
+       "cur": false
+      },
+      {
+       "m": "Flamethrower",
+       "t": "fire",
+       "c": "spec",
+       "u": 82.6,
+       "cur": false
+      },
+      {
+       "m": "Thunderbolt",
+       "t": "electric",
+       "c": "spec",
+       "u": 81.7,
+       "cur": false
+      },
+      {
+       "m": "Thunder",
+       "t": "electric",
+       "c": "spec",
+       "u": 76.2,
+       "cur": false
+      },
+      {
+       "m": "Knock Off",
+       "t": "dark",
+       "c": "phys",
+       "u": 62.5,
+       "cur": false
+      },
+      {
+       "m": "Sludge Bomb",
+       "t": "poison",
+       "c": "spec",
+       "u": 60.6,
+       "cur": false
+      },
+      {
+       "m": "Toxic",
+       "t": "poison",
+       "c": "stat",
+       "u": 55.9,
+       "cur": false
+      },
+      {
+       "m": "Focus Blast",
+       "t": "fighting",
+       "c": "spec",
+       "u": 50.4,
+       "cur": false
+      },
+      {
+       "m": "Protect",
+       "t": "normal",
+       "c": "stat",
+       "u": 14.8,
+       "cur": false
+      },
+      {
+       "m": "Rest",
+       "t": "psychic",
+       "c": "stat",
+       "u": 3.6,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Noivern",
+     "dex": "0715",
+     "where": "anime (Kalos)",
+     "ours": true,
+     "pool": [
+      {
+       "m": "Draco Meteor",
+       "t": "dragon",
+       "c": "spec",
+       "u": 98.6,
+       "cur": false
+      },
+      {
+       "m": "Boomburst",
+       "t": "normal",
+       "c": "spec",
+       "u": 98.3,
+       "cur": true
+      },
+      {
+       "m": "Hurricane",
+       "t": "flying",
+       "c": "spec",
+       "u": 98.2,
+       "cur": false
+      },
+      {
+       "m": "Flamethrower",
+       "t": "fire",
+       "c": "spec",
+       "u": 98.0,
+       "cur": false
+      },
+      {
+       "m": "Roost",
+       "t": "flying",
+       "c": "stat",
+       "u": 75.8,
+       "cur": false
+      },
+      {
+       "m": "Air Slash",
+       "t": "flying",
+       "c": "spec",
+       "u": 67.8,
+       "cur": false
+      },
+      {
+       "m": "U-turn",
+       "t": "bug",
+       "c": "phys",
+       "u": 43.2,
+       "cur": false
+      },
+      {
+       "m": "Super Fang",
+       "t": "normal",
+       "c": "phys",
+       "u": 34.8,
+       "cur": false
+      },
+      {
+       "m": "Focus Blast",
+       "t": "fighting",
+       "c": "spec",
+       "u": 23.4,
+       "cur": false
+      },
+      {
+       "m": "Heat Wave",
+       "t": "fire",
+       "c": "spec",
+       "u": 22.3,
+       "cur": false
+      },
+      {
+       "m": "Taunt",
+       "t": "dark",
+       "c": "stat",
+       "u": 10.7,
+       "cur": false
+      },
+      {
+       "m": "Agility",
+       "t": "psychic",
+       "c": "stat",
+       "u": 8.1,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Charizard",
+     "dex": "0006",
+     "where": "anime (Kanto)",
+     "ours": false,
+     "pool": [
+      {
+       "m": "Solar Beam",
+       "t": "grass",
+       "c": "spec",
+       "u": 98.6,
+       "cur": false
+      },
+      {
+       "m": "Dragon Dance",
+       "t": "dragon",
+       "c": "stat",
+       "u": 94.6,
+       "cur": false
+      },
+      {
+       "m": "Belly Drum",
+       "t": "normal",
+       "c": "stat",
+       "u": 94.3,
+       "cur": false
+      },
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 94.3,
+       "cur": false
+      },
+      {
+       "m": "Flare Blitz",
+       "t": "fire",
+       "c": "phys",
+       "u": 94.3,
+       "cur": false
+      },
+      {
+       "m": "Substitute",
+       "t": "normal",
+       "c": "stat",
+       "u": 94.3,
+       "cur": false
+      },
+      {
+       "m": "Dragon Claw",
+       "t": "dragon",
+       "c": "phys",
+       "u": 92.0,
+       "cur": false
+      },
+      {
+       "m": "Weather Ball",
+       "t": "normal",
+       "c": "spec",
+       "u": 89.1,
+       "cur": false
+      },
+      {
+       "m": "Overheat",
+       "t": "fire",
+       "c": "spec",
+       "u": 78.0,
+       "cur": false
+      },
+      {
+       "m": "Flamethrower",
+       "t": "fire",
+       "c": "spec",
+       "u": 75.2,
+       "cur": false
+      },
+      {
+       "m": "Focus Blast",
+       "t": "fighting",
+       "c": "spec",
+       "u": 66.0,
+       "cur": false
+      },
+      {
+       "m": "Scorching Sands",
+       "t": "ground",
+       "c": "spec",
+       "u": 62.6,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Sceptile",
+     "dex": "0254",
+     "where": "anime (Hoenn)",
+     "ours": false,
+     "pool": [
+      {
+       "m": "Dragon Pulse",
+       "t": "dragon",
+       "c": "spec",
+       "u": 97.0,
+       "cur": false
+      },
+      {
+       "m": "Leaf Blade",
+       "t": "grass",
+       "c": "phys",
+       "u": 92.4,
+       "cur": false
+      },
+      {
+       "m": "Leaf Storm",
+       "t": "grass",
+       "c": "spec",
+       "u": 86.7,
+       "cur": false
+      },
+      {
+       "m": "Focus Blast",
+       "t": "fighting",
+       "c": "spec",
+       "u": 73.9,
+       "cur": false
+      },
+      {
+       "m": "Giga Drain",
+       "t": "grass",
+       "c": "spec",
+       "u": 63.2,
+       "cur": false
+      },
+      {
+       "m": "Shed Tail",
+       "t": "normal",
+       "c": "stat",
+       "u": 62.9,
+       "cur": false
+      },
+      {
+       "m": "Swords Dance",
+       "t": "normal",
+       "c": "stat",
+       "u": 56.9,
+       "cur": false
+      },
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 46.6,
+       "cur": false
+      },
+      {
+       "m": "Rock Slide",
+       "t": "rock",
+       "c": "phys",
+       "u": 46.0,
+       "cur": false
+      },
+      {
+       "m": "Acrobatics",
+       "t": "flying",
+       "c": "phys",
+       "u": 39.1,
+       "cur": false
+      },
+      {
+       "m": "Substitute",
+       "t": "normal",
+       "c": "stat",
+       "u": 31.6,
+       "cur": false
+      },
+      {
+       "m": "Endeavor",
+       "t": "normal",
+       "c": "phys",
+       "u": 31.5,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Infernape",
+     "dex": "0392",
+     "where": "anime (Sinnoh)",
+     "ours": false,
+     "pool": [
+      {
+       "m": "Endeavor",
+       "t": "normal",
+       "c": "phys",
+       "u": 83.8,
+       "cur": false
+      },
+      {
+       "m": "Close Combat",
+       "t": "fighting",
+       "c": "phys",
+       "u": 78.7,
+       "cur": false
+      },
+      {
+       "m": "Flamethrower",
+       "t": "fire",
+       "c": "spec",
+       "u": 73.7,
+       "cur": false
+      },
+      {
+       "m": "Vacuum Wave",
+       "t": "fighting",
+       "c": "spec",
+       "u": 73.7,
+       "cur": false
+      },
+      {
+       "m": "Encore",
+       "t": "normal",
+       "c": "stat",
+       "u": 72.0,
+       "cur": false
+      },
+      {
+       "m": "Flare Blitz",
+       "t": "fire",
+       "c": "phys",
+       "u": 67.0,
+       "cur": false
+      },
+      {
+       "m": "U-turn",
+       "t": "bug",
+       "c": "phys",
+       "u": 55.5,
+       "cur": false
+      },
+      {
+       "m": "Mach Punch",
+       "t": "fighting",
+       "c": "phys",
+       "u": 53.7,
+       "cur": false
+      },
+      {
+       "m": "Swords Dance",
+       "t": "normal",
+       "c": "stat",
+       "u": 32.0,
+       "cur": false
+      },
+      {
+       "m": "Knock Off",
+       "t": "dark",
+       "c": "phys",
+       "u": 29.3,
+       "cur": false
+      },
+      {
+       "m": "Overheat",
+       "t": "fire",
+       "c": "spec",
+       "u": 28.6,
+       "cur": false
+      },
+      {
+       "m": "Taunt",
+       "t": "dark",
+       "c": "stat",
+       "u": 23.5,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Torterra",
+     "dex": "0389",
+     "where": "anime (Sinnoh)",
+     "ours": false,
+     "pool": [
+      {
+       "m": "Shell Smash",
+       "t": "normal",
+       "c": "stat",
+       "u": 99.8,
+       "cur": false
+      },
+      {
+       "m": "Headlong Rush",
+       "t": "ground",
+       "c": "phys",
+       "u": 95.9,
+       "cur": false
+      },
+      {
+       "m": "Wood Hammer",
+       "t": "grass",
+       "c": "phys",
+       "u": 86.9,
+       "cur": false
+      },
+      {
+       "m": "Stone Edge",
+       "t": "rock",
+       "c": "phys",
+       "u": 80.7,
+       "cur": false
+      },
+      {
+       "m": "Rock Blast",
+       "t": "rock",
+       "c": "phys",
+       "u": 75.2,
+       "cur": false
+      },
+      {
+       "m": "Bullet Seed",
+       "t": "grass",
+       "c": "phys",
+       "u": 72.9,
+       "cur": false
+      },
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 56.8,
+       "cur": false
+      },
+      {
+       "m": "Bulldoze",
+       "t": "ground",
+       "c": "phys",
+       "u": 44.0,
+       "cur": false
+      },
+      {
+       "m": "Seed Bomb",
+       "t": "grass",
+       "c": "phys",
+       "u": 41.5,
+       "cur": false
+      },
+      {
+       "m": "Zen Headbutt",
+       "t": "psychic",
+       "c": "phys",
+       "u": 39.1,
+       "cur": false
+      },
+      {
+       "m": "Substitute",
+       "t": "normal",
+       "c": "stat",
+       "u": 25.3,
+       "cur": false
+      },
+      {
+       "m": "Swords Dance",
+       "t": "normal",
+       "c": "stat",
+       "u": 19.3,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Lucario",
+     "dex": "0448",
+     "where": "anime (Journeys)",
+     "ours": false,
+     "pool": [
+      {
+       "m": "Close Combat",
+       "t": "fighting",
+       "c": "phys",
+       "u": 98.8,
+       "cur": false
+      },
+      {
+       "m": "Swords Dance",
+       "t": "normal",
+       "c": "stat",
+       "u": 97.8,
+       "cur": false
+      },
+      {
+       "m": "Extreme Speed",
+       "t": "normal",
+       "c": "phys",
+       "u": 95.4,
+       "cur": false
+      },
+      {
+       "m": "Bullet Punch",
+       "t": "steel",
+       "c": "phys",
+       "u": 68.6,
+       "cur": false
+      },
+      {
+       "m": "Meteor Mash",
+       "t": "steel",
+       "c": "phys",
+       "u": 53.4,
+       "cur": false
+      },
+      {
+       "m": "Crunch",
+       "t": "dark",
+       "c": "phys",
+       "u": 42.7,
+       "cur": false
+      },
+      {
+       "m": "Aura Sphere",
+       "t": "fighting",
+       "c": "spec",
+       "u": 41.3,
+       "cur": false
+      },
+      {
+       "m": "Stone Edge",
+       "t": "rock",
+       "c": "phys",
+       "u": 39.4,
+       "cur": false
+      },
+      {
+       "m": "Ice Punch",
+       "t": "ice",
+       "c": "phys",
+       "u": 38.3,
+       "cur": false
+      },
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 38.0,
+       "cur": false
+      },
+      {
+       "m": "Nasty Plot",
+       "t": "dark",
+       "c": "stat",
+       "u": 18.4,
+       "cur": false
+      },
+      {
+       "m": "Hone Claws",
+       "t": "dark",
+       "c": "stat",
+       "u": 6.8,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Dragonite",
+     "dex": "0149",
+     "where": "anime (Journeys)",
+     "ours": false,
+     "pool": [
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 94.6,
+       "cur": false
+      },
+      {
+       "m": "Dragon Dance",
+       "t": "dragon",
+       "c": "stat",
+       "u": 89.8,
+       "cur": false
+      },
+      {
+       "m": "Extreme Speed",
+       "t": "normal",
+       "c": "phys",
+       "u": 87.2,
+       "cur": false
+      },
+      {
+       "m": "Ice Punch",
+       "t": "ice",
+       "c": "phys",
+       "u": 71.9,
+       "cur": false
+      },
+      {
+       "m": "Outrage",
+       "t": "dragon",
+       "c": "phys",
+       "u": 68.1,
+       "cur": false
+      },
+      {
+       "m": "Fly",
+       "t": "flying",
+       "c": "phys",
+       "u": 50.0,
+       "cur": false
+      },
+      {
+       "m": "Roost",
+       "t": "flying",
+       "c": "stat",
+       "u": 47.1,
+       "cur": false
+      },
+      {
+       "m": "Superpower",
+       "t": "fighting",
+       "c": "phys",
+       "u": 32.7,
+       "cur": false
+      },
+      {
+       "m": "Fire Punch",
+       "t": "fire",
+       "c": "phys",
+       "u": 31.6,
+       "cur": false
+      },
+      {
+       "m": "Encore",
+       "t": "normal",
+       "c": "stat",
+       "u": 31.3,
+       "cur": false
+      },
+      {
+       "m": "Ice Spinner",
+       "t": "ice",
+       "c": "phys",
+       "u": 31.1,
+       "cur": false
+      },
+      {
+       "m": "Power-Up Punch",
+       "t": "fighting",
+       "c": "phys",
+       "u": 30.4,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Gengar",
+     "dex": "0094",
+     "where": "anime (Journeys)",
+     "ours": false,
+     "pool": [
+      {
+       "m": "Shadow Ball",
+       "t": "ghost",
+       "c": "spec",
+       "u": 99.9,
+       "cur": false
+      },
+      {
+       "m": "Sludge Wave",
+       "t": "poison",
+       "c": "spec",
+       "u": 93.3,
+       "cur": false
+      },
+      {
+       "m": "Sludge Bomb",
+       "t": "poison",
+       "c": "spec",
+       "u": 92.8,
+       "cur": false
+      },
+      {
+       "m": "Nasty Plot",
+       "t": "dark",
+       "c": "stat",
+       "u": 91.5,
+       "cur": false
+      },
+      {
+       "m": "Destiny Bond",
+       "t": "ghost",
+       "c": "stat",
+       "u": 89.9,
+       "cur": false
+      },
+      {
+       "m": "Taunt",
+       "t": "dark",
+       "c": "stat",
+       "u": 77.0,
+       "cur": false
+      },
+      {
+       "m": "Focus Blast",
+       "t": "fighting",
+       "c": "spec",
+       "u": 71.8,
+       "cur": false
+      },
+      {
+       "m": "Giga Drain",
+       "t": "grass",
+       "c": "spec",
+       "u": 45.6,
+       "cur": false
+      },
+      {
+       "m": "Psychic",
+       "t": "psychic",
+       "c": "spec",
+       "u": 39.7,
+       "cur": false
+      },
+      {
+       "m": "Dazzling Gleam",
+       "t": "fairy",
+       "c": "spec",
+       "u": 39.1,
+       "cur": false
+      },
+      {
+       "m": "Energy Ball",
+       "t": "grass",
+       "c": "spec",
+       "u": 28.2,
+       "cur": false
+      },
+      {
+       "m": "Dark Pulse",
+       "t": "dark",
+       "c": "spec",
+       "u": 20.4,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Melmetal",
+     "dex": "0809",
+     "where": "anime (Journeys)",
+     "ours": false,
+     "pool": [
+      {
+       "m": "Double Iron Bash",
+       "t": "steel",
+       "c": "phys",
+       "u": 100.0,
+       "cur": false
+      },
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 89.7,
+       "cur": false
+      },
+      {
+       "m": "Thunder Punch",
+       "t": "electric",
+       "c": "phys",
+       "u": 77.7,
+       "cur": false
+      },
+      {
+       "m": "Ice Punch",
+       "t": "ice",
+       "c": "phys",
+       "u": 71.5,
+       "cur": false
+      },
+      {
+       "m": "Superpower",
+       "t": "fighting",
+       "c": "phys",
+       "u": 53.6,
+       "cur": false
+      },
+      {
+       "m": "Protect",
+       "t": "normal",
+       "c": "stat",
+       "u": 48.1,
+       "cur": false
+      },
+      {
+       "m": "Thunder Wave",
+       "t": "electric",
+       "c": "stat",
+       "u": 30.2,
+       "cur": false
+      },
+      {
+       "m": "Toxic",
+       "t": "poison",
+       "c": "stat",
+       "u": 30.0,
+       "cur": false
+      },
+      {
+       "m": "Rock Slide",
+       "t": "rock",
+       "c": "phys",
+       "u": 29.0,
+       "cur": false
+      },
+      {
+       "m": "Darkest Lariat",
+       "t": "dark",
+       "c": "phys",
+       "u": 26.5,
+       "cur": false
+      },
+      {
+       "m": "Body Press",
+       "t": "fighting",
+       "c": "phys",
+       "u": 0.0,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Snorlax",
+     "dex": "0143",
+     "where": "anime (Kanto)",
+     "ours": false,
+     "pool": [
+      {
+       "m": "Body Slam",
+       "t": "normal",
+       "c": "phys",
+       "u": 97.1,
+       "cur": false
+      },
+      {
+       "m": "Rest",
+       "t": "psychic",
+       "c": "stat",
+       "u": 93.5,
+       "cur": false
+      },
+      {
+       "m": "Curse",
+       "t": "ghost",
+       "c": "stat",
+       "u": 87.9,
+       "cur": false
+      },
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 83.4,
+       "cur": false
+      },
+      {
+       "m": "Gunk Shot",
+       "t": "poison",
+       "c": "phys",
+       "u": 79.1,
+       "cur": false
+      },
+      {
+       "m": "Fire Punch",
+       "t": "fire",
+       "c": "phys",
+       "u": 76.1,
+       "cur": false
+      },
+      {
+       "m": "Heat Crash",
+       "t": "fire",
+       "c": "phys",
+       "u": 73.2,
+       "cur": false
+      },
+      {
+       "m": "Recycle",
+       "t": "normal",
+       "c": "stat",
+       "u": 72.4,
+       "cur": false
+      },
+      {
+       "m": "Facade",
+       "t": "normal",
+       "c": "phys",
+       "u": 65.4,
+       "cur": false
+      },
+      {
+       "m": "Darkest Lariat",
+       "t": "dark",
+       "c": "phys",
+       "u": 46.7,
+       "cur": false
+      },
+      {
+       "m": "Giga Impact",
+       "t": "normal",
+       "c": "phys",
+       "u": 33.2,
+       "cur": false
+      },
+      {
+       "m": "Supercell Slam",
+       "t": "electric",
+       "c": "phys",
+       "u": 27.9,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Krookodile",
+     "dex": "0553",
+     "where": "anime (Unova)",
+     "ours": false,
+     "pool": [
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 100.0,
+       "cur": false
+      },
+      {
+       "m": "Close Combat",
+       "t": "fighting",
+       "c": "phys",
+       "u": 99.0,
+       "cur": false
+      },
+      {
+       "m": "Knock Off",
+       "t": "dark",
+       "c": "phys",
+       "u": 98.5,
+       "cur": false
+      },
+      {
+       "m": "Pursuit",
+       "t": "dark",
+       "c": "phys",
+       "u": 93.0,
+       "cur": false
+      },
+      {
+       "m": "Gunk Shot",
+       "t": "poison",
+       "c": "phys",
+       "u": 91.8,
+       "cur": false
+      },
+      {
+       "m": "Taunt",
+       "t": "dark",
+       "c": "stat",
+       "u": 77.2,
+       "cur": false
+      },
+      {
+       "m": "Foul Play",
+       "t": "dark",
+       "c": "phys",
+       "u": 61.4,
+       "cur": false
+      },
+      {
+       "m": "Bulldoze",
+       "t": "ground",
+       "c": "phys",
+       "u": 48.2,
+       "cur": false
+      },
+      {
+       "m": "Stone Edge",
+       "t": "rock",
+       "c": "phys",
+       "u": 45.1,
+       "cur": false
+      },
+      {
+       "m": "Scale Shot",
+       "t": "dragon",
+       "c": "phys",
+       "u": 24.8,
+       "cur": false
+      },
+      {
+       "m": "Bulk Up",
+       "t": "fighting",
+       "c": "stat",
+       "u": 16.4,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Incineroar",
+     "dex": "0727",
+     "where": "anime (Alola)",
+     "ours": false,
+     "pool": [
+      {
+       "m": "Knock Off",
+       "t": "dark",
+       "c": "phys",
+       "u": 97.9,
+       "cur": false
+      },
+      {
+       "m": "Flare Blitz",
+       "t": "fire",
+       "c": "phys",
+       "u": 91.7,
+       "cur": false
+      },
+      {
+       "m": "Fake Out",
+       "t": "normal",
+       "c": "phys",
+       "u": 88.3,
+       "cur": false
+      },
+      {
+       "m": "Will-O-Wisp",
+       "t": "fire",
+       "c": "stat",
+       "u": 70.2,
+       "cur": false
+      },
+      {
+       "m": "U-turn",
+       "t": "bug",
+       "c": "phys",
+       "u": 56.7,
+       "cur": false
+      },
+      {
+       "m": "Drain Punch",
+       "t": "fighting",
+       "c": "phys",
+       "u": 56.5,
+       "cur": false
+      },
+      {
+       "m": "Darkest Lariat",
+       "t": "dark",
+       "c": "phys",
+       "u": 42.5,
+       "cur": false
+      },
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 36.9,
+       "cur": false
+      },
+      {
+       "m": "Swords Dance",
+       "t": "normal",
+       "c": "stat",
+       "u": 34.8,
+       "cur": false
+      },
+      {
+       "m": "Flame Charge",
+       "t": "fire",
+       "c": "phys",
+       "u": 28.6,
+       "cur": false
+      },
+      {
+       "m": "Bulk Up",
+       "t": "fighting",
+       "c": "stat",
+       "u": 28.5,
+       "cur": false
+      },
+      {
+       "m": "Iron Head",
+       "t": "steel",
+       "c": "phys",
+       "u": 28.5,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Lycanroc",
+     "dex": "0745",
+     "where": "anime (Alola, Dusk Form)",
+     "ours": false,
+     "pool": [
+      {
+       "m": "Accelerock",
+       "t": "rock",
+       "c": "phys",
+       "u": 99.1,
+       "cur": false
+      },
+      {
+       "m": "Close Combat",
+       "t": "fighting",
+       "c": "phys",
+       "u": 97.5,
+       "cur": false
+      },
+      {
+       "m": "Stone Edge",
+       "t": "rock",
+       "c": "phys",
+       "u": 93.0,
+       "cur": false
+      },
+      {
+       "m": "Play Rough",
+       "t": "fairy",
+       "c": "phys",
+       "u": 73.4,
+       "cur": false
+      },
+      {
+       "m": "Swords Dance",
+       "t": "normal",
+       "c": "stat",
+       "u": 61.6,
+       "cur": false
+      },
+      {
+       "m": "Endeavor",
+       "t": "normal",
+       "c": "phys",
+       "u": 58.2,
+       "cur": false
+      },
+      {
+       "m": "Taunt",
+       "t": "dark",
+       "c": "stat",
+       "u": 54.8,
+       "cur": false
+      },
+      {
+       "m": "Crunch",
+       "t": "dark",
+       "c": "phys",
+       "u": 43.3,
+       "cur": false
+      },
+      {
+       "m": "Psychic Fangs",
+       "t": "psychic",
+       "c": "phys",
+       "u": 42.7,
+       "cur": false
+      },
+      {
+       "m": "Drill Run",
+       "t": "ground",
+       "c": "phys",
+       "u": 29.5,
+       "cur": false
+      },
+      {
+       "m": "Sucker Punch",
+       "t": "dark",
+       "c": "phys",
+       "u": 26.7,
+       "cur": false
+      },
+      {
+       "m": "Protect",
+       "t": "normal",
+       "c": "stat",
+       "u": 8.2,
+       "cur": false
+      }
+     ]
+    }
+   ],
+   "color": "#f0c020"
+  }
+ ]
+}
