@@ -1753,7 +1753,7 @@
    "name": "LANCE",
    "title": "Dragon Master",
    "fixed": false,
-   "note": "The widest choice of the eight - Kanto and Johto teams, the anime, and later appearances. 12 for 6.",
+   "note": "The widest choice of the eight - Kanto and Johto teams, the anime, and later appearances. 12 for 6. Dragonair is left off: not fully evolved (Sondre 2026-10-27).",
    "candidates": [
     {
      "name": "Dragonite",
@@ -2119,98 +2119,6 @@
        "t": "normal",
        "c": "phys",
        "u": 20.8,
-       "cur": false
-      }
-     ]
-    },
-    {
-     "name": "Dragonair",
-     "dex": "0148",
-     "where": "games (Kanto Elite Four)",
-     "ours": false,
-     "pool": [
-      {
-       "m": "Blizzard",
-       "t": "ice",
-       "c": "spec",
-       "u": 0.0,
-       "cur": false
-      },
-      {
-       "m": "Double-Edge",
-       "t": "normal",
-       "c": "phys",
-       "u": 0.0,
-       "cur": false
-      },
-      {
-       "m": "Draco Meteor",
-       "t": "dragon",
-       "c": "spec",
-       "u": 0.0,
-       "cur": false
-      },
-      {
-       "m": "Dragon Rush",
-       "t": "dragon",
-       "c": "phys",
-       "u": 0.0,
-       "cur": false
-      },
-      {
-       "m": "Fire Blast",
-       "t": "fire",
-       "c": "spec",
-       "u": 0.0,
-       "cur": false
-      },
-      {
-       "m": "Giga Impact",
-       "t": "normal",
-       "c": "phys",
-       "u": 0.0,
-       "cur": false
-      },
-      {
-       "m": "Hydro Pump",
-       "t": "water",
-       "c": "spec",
-       "u": 0.0,
-       "cur": false
-      },
-      {
-       "m": "Hyper Beam",
-       "t": "normal",
-       "c": "spec",
-       "u": 0.0,
-       "cur": false
-      },
-      {
-       "m": "Outrage",
-       "t": "dragon",
-       "c": "phys",
-       "u": 0.0,
-       "cur": false
-      },
-      {
-       "m": "Skull Bash",
-       "t": "normal",
-       "c": "phys",
-       "u": 0.0,
-       "cur": false
-      },
-      {
-       "m": "Thunder",
-       "t": "electric",
-       "c": "spec",
-       "u": 0.0,
-       "cur": false
-      },
-      {
-       "m": "Zap Cannon",
-       "t": "electric",
-       "c": "spec",
-       "u": 0.0,
        "cur": false
       }
      ]
@@ -3928,7 +3836,7 @@
    "name": "IRIS",
    "title": "Unova Champion",
    "fixed": false,
-   "note": "Her B2W2 Champion team plus the Pokemon she raised as Ash's travelling companion. A real choice: 10 for 6.",
+   "note": "Her B2W2 Champion team plus the Pokemon she raised as Ash's travelling companion. A real choice: 10 for 6. Gible is left off: not fully evolved (Sondre 2026-10-27).",
    "candidates": [
     {
      "name": "Haxorus",
@@ -4673,98 +4581,6 @@
        "cur": false
       }
      ]
-    },
-    {
-     "name": "Gible",
-     "dex": "0443",
-     "where": "anime",
-     "ours": false,
-     "pool": [
-      {
-       "m": "Double-Edge",
-       "t": "normal",
-       "c": "phys",
-       "u": 0.0,
-       "cur": false
-      },
-      {
-       "m": "Draco Meteor",
-       "t": "dragon",
-       "c": "spec",
-       "u": 0.0,
-       "cur": false
-      },
-      {
-       "m": "Dragon Rush",
-       "t": "dragon",
-       "c": "phys",
-       "u": 0.0,
-       "cur": false
-      },
-      {
-       "m": "Earth Power",
-       "t": "ground",
-       "c": "spec",
-       "u": 0.0,
-       "cur": false
-      },
-      {
-       "m": "Earthquake",
-       "t": "ground",
-       "c": "phys",
-       "u": 0.0,
-       "cur": false
-      },
-      {
-       "m": "Fire Blast",
-       "t": "fire",
-       "c": "spec",
-       "u": 0.0,
-       "cur": false
-      },
-      {
-       "m": "Flamethrower",
-       "t": "fire",
-       "c": "spec",
-       "u": 0.0,
-       "cur": false
-      },
-      {
-       "m": "Iron Tail",
-       "t": "steel",
-       "c": "phys",
-       "u": 0.0,
-       "cur": false
-      },
-      {
-       "m": "Outrage",
-       "t": "dragon",
-       "c": "phys",
-       "u": 0.0,
-       "cur": false
-      },
-      {
-       "m": "Rock Climb",
-       "t": "normal",
-       "c": "phys",
-       "u": 0.0,
-       "cur": false
-      },
-      {
-       "m": "Stone Edge",
-       "t": "rock",
-       "c": "phys",
-       "u": 0.0,
-       "cur": false
-      },
-      {
-       "m": "Thrash",
-       "t": "normal",
-       "c": "phys",
-       "u": 0.0,
-       "cur": false
-      }
-     ]
     }
    ],
    "color": "#8a3ab8"
@@ -4773,8 +4589,8 @@
    "key": "steven",
    "name": "STEVEN",
    "title": "Hoenn Champion",
-   "fixed": true,
-   "note": "NEARLY FIXED - his six, plus Beldum (which becomes Metagross) and Carbink. No real alternative.",
+   "fixed": false,
+   "note": "His Hoenn Champion six plus Carbink from the later games - 7 for 6, the narrowest real choice of the eight. Beldum is left off: not fully evolved (Sondre 2026-10-27).",
    "candidates": [
     {
      "name": "Metagross",
@@ -5275,49 +5091,6 @@
        "t": "ice",
        "c": "spec",
        "u": 6.6,
-       "cur": false
-      }
-     ]
-    },
-    {
-     "name": "Beldum",
-     "dex": "0374",
-     "where": "anime (the one he gives away)",
-     "ours": false,
-     "pool": [
-      {
-       "m": "Headbutt",
-       "t": "normal",
-       "c": "phys",
-       "u": 0.0,
-       "cur": false
-      },
-      {
-       "m": "Iron Head",
-       "t": "steel",
-       "c": "phys",
-       "u": 0.0,
-       "cur": false
-      },
-      {
-       "m": "Steel Beam",
-       "t": "steel",
-       "c": "spec",
-       "u": 0.0,
-       "cur": false
-      },
-      {
-       "m": "Take Down",
-       "t": "normal",
-       "c": "phys",
-       "u": 0.0,
-       "cur": false
-      },
-      {
-       "m": "Zen Headbutt",
-       "t": "psychic",
-       "c": "phys",
-       "u": 0.0,
        "cur": false
       }
      ]
