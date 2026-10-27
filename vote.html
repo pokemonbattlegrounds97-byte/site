@@ -87,12 +87,10 @@
   .move[aria-pressed="true"] { background: var(--red); border-top-color: var(--red); border-right-color: var(--red); border-bottom-color: var(--red); color: #fff; }
   .move:active { transform: scale(.97); }
   .move:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
-  .move .dot { width: 5px; height: 5px; border-radius: 50%; background: var(--gold); align-self: center; flex: none; }
   .mon.locked .move:not([aria-pressed="true"]) { opacity: .45; }
 
   .legend { color: var(--muted); font-size: 13px; margin-top: 14px; display: flex; flex-wrap: wrap; gap: 4px 18px; }
   .legend span { display: inline-flex; align-items: center; gap: 7px; }
-  .legend i { width: 5px; height: 5px; border-radius: 50%; background: var(--gold); display: inline-block; font-style: normal; }
 
   .bar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 30; background: rgba(17,18,22,.96); backdrop-filter: blur(8px);
     border-top: 1px solid var(--line); padding-bottom: env(safe-area-inset-bottom, 0px); }
@@ -223,10 +221,9 @@ function card(t, c) {
   const onTeam = (team[t.key] || []).indexOf(c.name) !== -1;
   const chips = c.pool.map(r => {
     const on = chosen.indexOf(r.m) !== -1;
-    const dot = r.cur ? '<span class="dot" title="We already animate this move"></span>' : '';
     const title = `${r.c === 'phys' ? 'Physical' : r.c === 'spec' ? 'Special' : 'Status'} · ${r.t}`;
     return `<button class="move" type="button" aria-pressed="${on}" style="--mt: var(--${esc(r.t)})"
-      title="${esc(title)}" data-key="${esc(key)}" data-move="${esc(r.m)}"><span>${esc(r.m)}</span>${dot}</button>`;
+      title="${esc(title)}" data-key="${esc(key)}" data-move="${esc(r.m)}">${esc(r.m)}</button>`;
   }).join('');
   const pickBtn = t.fixed ? '' :
     `<button class="pick" type="button" aria-pressed="${onTeam}" data-trainer="${esc(t.key)}" data-name="${esc(c.name)}">
@@ -265,7 +262,6 @@ function render() {
   }).join('') +
     `<p class="legend">
        <span>The colour on each move is its type.</span>
-       <span><i></i> a move we already animate.</span>
        <span>Every Pokémon listed is one that champion has really used, in the games or the anime, and every move is one it can really learn.</span>
      </p>`;
   refresh();
