@@ -77,7 +77,6 @@
   .pick:hover { border-color: var(--gold); color: var(--text); }
   .pick[aria-pressed="true"] { background: var(--gold); border-color: var(--gold); color: #171205; }
   .pick:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
-  .mon .where b { color: var(--gold); font-weight: 700; }
 
   .moves { display: flex; flex-wrap: wrap; gap: 7px; }
   .move { font: inherit; font-size: 13px; font-weight: 600; color: var(--text); background: var(--panel-2); border: 1px solid var(--line);
@@ -233,7 +232,7 @@ function card(t, c) {
         <img class="sprite" src="img/mons/${esc(c.dex)}.png" alt="" loading="lazy" width="56" height="46">
         <div class="who">
           <h3>${esc(c.name)}</h3>
-          <span class="where">${esc(c.where)}${c.ours ? ' · <b>in our team now</b>' : ''}</span>
+          <span class="where">${esc(c.where)}</span>
         </div>
         <span class="count">${chosen.length}/4</span>
       </header>
