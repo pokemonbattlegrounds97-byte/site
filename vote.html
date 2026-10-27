@@ -77,8 +77,6 @@
   .move[aria-pressed="true"] { background: var(--red); border-top-color: var(--red); border-right-color: var(--red); border-bottom-color: var(--red); color: #fff; }
   .move:active { transform: scale(.97); }
   .move:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
-  .move .meta { font-size: 11px; font-weight: 700; color: var(--muted); font-variant-numeric: tabular-nums; }
-  .move[aria-pressed="true"] .meta { color: rgba(255,255,255,.8); }
   .move .dot { width: 5px; height: 5px; border-radius: 50%; background: var(--gold); align-self: center; flex: none; }
   .mon.locked .move:not([aria-pressed="true"]) { opacity: .45; }
 
@@ -191,12 +189,9 @@ function monCard(mon) {
   const moves = mon.pool.map(r => {
     const on = chosen.indexOf(r.m) !== -1;
     const dot = r.cur ? '<span class="dot" title="We already animate this move"></span>' : '';
-    const meta = r.u > 0 ? `${Math.round(r.u)}%` : (r.cur ? 'ours' : 'niche');
-    const title = r.u > 0
-      ? `${r.c === 'phys' ? 'Physical' : r.c === 'spec' ? 'Special' : 'Status'} · ${r.t} · on ${r.u}% of competitive ${mon.name} in singles`
-      : `${r.c === 'phys' ? 'Physical' : r.c === 'spec' ? 'Special' : 'Status'} · ${r.t}`;
+    const title = `${r.c === 'phys' ? 'Physical' : r.c === 'spec' ? 'Special' : 'Status'} · ${r.t}`;
     return `<button class="move" type="button" aria-pressed="${on}" style="--mt: var(--${esc(r.t)})"
-      title="${esc(title)}" data-mon="${esc(mon.key)}" data-move="${esc(r.m)}"><span>${esc(r.m)}</span>${dot}<span class="meta">${esc(meta)}</span></button>`;
+      title="${esc(title)}" data-mon="${esc(mon.key)}" data-move="${esc(r.m)}"><span>${esc(r.m)}</span>${dot}</button>`;
   }).join('');
   return `<div class="mon${chosen.length === 4 ? ' full locked' : ''}" id="mon-${esc(mon.key)}">
       <header>
@@ -236,7 +231,7 @@ function render() {
     `<p class="legend">
        <span>The colour on each move is its type.</span>
        <span><i></i> a move we already animate.</span>
-       <span>The number is how many competitive players run that move on that Pokémon in singles — Smogon's September 2026 usage stats. "niche" means it is a real option but too rare to have a number.</span>
+       <span>Every move listed is one that Pokémon can really learn and that competitive players actually use.</span>
      </p>`;
   refresh();
 }
