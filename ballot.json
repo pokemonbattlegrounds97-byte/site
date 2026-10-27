@@ -3280,8 +3280,8 @@
    "key": "alain",
    "name": "ALAIN",
    "title": "Kalos Challenger",
-   "fixed": true,
-   "note": "FIXED - his Kalos League team is exactly six and he never used another. Nothing to vote on.",
+   "fixed": false,
+   "note": "His Kalos League six plus Chesnaught and Malamar, which he used in the Masters Eight battle against Leon itself (JN115) - 8 for 6. Spotted by AidanYYao2048 in the Discord, 2026-10-27.",
    "candidates": [
     {
      "name": "Charizard",
@@ -3824,6 +3824,176 @@
        "t": "poison",
        "c": "stat",
        "u": 28.2,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Chesnaught",
+     "dex": "0652",
+     "where": "anime (Masters Eight, vs Leon)",
+     "ours": false,
+     "pool": [
+      {
+       "m": "Knock Off",
+       "t": "dark",
+       "c": "phys",
+       "u": 93.9,
+       "cur": false
+      },
+      {
+       "m": "Body Press",
+       "t": "fighting",
+       "c": "phys",
+       "u": 92.3,
+       "cur": false
+      },
+      {
+       "m": "Synthesis",
+       "t": "grass",
+       "c": "stat",
+       "u": 84.9,
+       "cur": false
+      },
+      {
+       "m": "Leech Seed",
+       "t": "grass",
+       "c": "stat",
+       "u": 51.7,
+       "cur": false
+      },
+      {
+       "m": "Spiky Shield",
+       "t": "grass",
+       "c": "stat",
+       "u": 47.8,
+       "cur": false
+      },
+      {
+       "m": "Drain Punch",
+       "t": "fighting",
+       "c": "phys",
+       "u": 47.2,
+       "cur": false
+      },
+      {
+       "m": "Earthquake",
+       "t": "ground",
+       "c": "phys",
+       "u": 23.1,
+       "cur": false
+      },
+      {
+       "m": "Wood Hammer",
+       "t": "grass",
+       "c": "phys",
+       "u": 6.8,
+       "cur": false
+      },
+      {
+       "m": "Close Combat",
+       "t": "fighting",
+       "c": "phys",
+       "u": 3.7,
+       "cur": false
+      },
+      {
+       "m": "Grassy Glide",
+       "t": "grass",
+       "c": "phys",
+       "u": 3.7,
+       "cur": false
+      },
+      {
+       "m": "Seed Bomb",
+       "t": "grass",
+       "c": "phys",
+       "u": 2.9,
+       "cur": false
+      },
+      {
+       "m": "Trailblaze",
+       "t": "grass",
+       "c": "phys",
+       "u": 0.0,
+       "cur": false
+      }
+     ]
+    },
+    {
+     "name": "Malamar",
+     "dex": "0687",
+     "where": "anime (Masters Eight, vs Leon)",
+     "ours": false,
+     "pool": [
+      {
+       "m": "Superpower",
+       "t": "fighting",
+       "c": "phys",
+       "u": 99.7,
+       "cur": false
+      },
+      {
+       "m": "Knock Off",
+       "t": "dark",
+       "c": "phys",
+       "u": 94.8,
+       "cur": false
+      },
+      {
+       "m": "Stored Power",
+       "t": "psychic",
+       "c": "spec",
+       "u": 75.0,
+       "cur": false
+      },
+      {
+       "m": "Happy Hour",
+       "t": "normal",
+       "c": "stat",
+       "u": 74.8,
+       "cur": false
+      },
+      {
+       "m": "Rest",
+       "t": "psychic",
+       "c": "stat",
+       "u": 48.4,
+       "cur": false
+      },
+      {
+       "m": "Topsy-Turvy",
+       "t": "dark",
+       "c": "stat",
+       "u": 41.4,
+       "cur": false
+      },
+      {
+       "m": "Psycho Cut",
+       "t": "psychic",
+       "c": "phys",
+       "u": 27.5,
+       "cur": false
+      },
+      {
+       "m": "Lunge",
+       "t": "bug",
+       "c": "phys",
+       "u": 7.5,
+       "cur": false
+      },
+      {
+       "m": "Night Slash",
+       "t": "dark",
+       "c": "phys",
+       "u": 7.2,
+       "cur": false
+      },
+      {
+       "m": "Rock Slide",
+       "t": "rock",
+       "c": "phys",
+       "u": 7.2,
        "cur": false
       }
      ]
