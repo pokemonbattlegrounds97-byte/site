@@ -52,13 +52,17 @@
   .thead { display: flex; align-items: center; gap: 12px; border-left: 5px solid var(--tc, var(--red)); padding-left: 12px; }
   .thead h2 { margin: 0; font-weight: 900; font-style: italic; font-size: 27px; }
   .thead small { color: var(--muted); font-weight: 600; }
+  .thead img { width: 54px; height: 54px; flex: none; border-radius: 10px; border: 2px solid var(--tc, var(--red));
+    image-rendering: pixelated; object-fit: cover; object-position: top; background: #9ec8f0; }
+  .sprite { width: 56px; height: 46px; flex: none; object-fit: contain; object-position: center bottom; image-rendering: pixelated; }
 
   .mons { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; margin-top: 16px; }
   .mon { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 14px; min-width: 0; }
   .mon.full { border-color: var(--ok); }
-  .mon header { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
-  .mon h3 { margin: 0; font-size: 18px; font-weight: 800; }
-  .types { display: flex; gap: 5px; }
+  .mon header { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+  .mon .who { min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+  .mon h3 { margin: 0; font-size: 18px; font-weight: 800; line-height: 1.1; }
+  .types { display: flex; gap: 5px; flex-wrap: wrap; align-items: center; }
   .type { font-size: 10px; font-weight: 800; letter-spacing: .5px; text-transform: uppercase; padding: 2px 7px; border-radius: 999px; color: #111; }
   .count { margin-left: auto; font-size: 13px; font-weight: 800; color: var(--muted); font-variant-numeric: tabular-nums; }
   .mon.full .count { color: var(--ok); }
@@ -196,9 +200,11 @@ function monCard(mon) {
   }).join('');
   return `<div class="mon${chosen.length === 4 ? ' full locked' : ''}" id="mon-${esc(mon.key)}">
       <header>
-        <h3>${esc(mon.name)}</h3>
-        <div class="types">${types}</div>
-        ${mon.ace ? `<span class="ace">${esc(mon.ace)}</span>` : ''}
+        <img class="sprite" src="img/mons/${esc(mon.dex)}.png" alt="" loading="lazy" width="56" height="46">
+        <div class="who">
+          <h3>${esc(mon.name)}</h3>
+          <div class="types">${types}${mon.ace ? `<span class="ace">${esc(mon.ace)}</span>` : ''}</div>
+        </div>
         <span class="count">${chosen.length}/4</span>
       </header>
       <div class="moves">${moves}</div>
@@ -221,7 +227,10 @@ function render() {
     `<a href="#t-${esc(t.key)}" id="nav-${esc(t.key)}">${esc(t.name)}</a>`).join('');
   document.getElementById('ballot').innerHTML = data.trainers.map(t =>
     `<section class="trainer" id="t-${esc(t.key)}" style="--tc: ${esc(t.color)}">
-       <div class="thead"><h2>${esc(t.name)}</h2><small>${esc(t.title)}</small></div>
+       <div class="thead">
+         <img src="img/trainers/${esc(t.key)}.png" alt="" loading="lazy" width="54" height="54">
+         <h2>${esc(t.name)}</h2><small>${esc(t.title)}</small>
+       </div>
        <div class="mons">${t.mons.map(monCard).join('')}</div>
      </section>`).join('') +
     `<p class="legend">

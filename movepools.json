@@ -117,7 +117,8 @@
       "Dragon Darts",
       "Flamethrower",
       "Thunderbolt"
-     ]
+     ],
+     "dex": "0887"
     },
     {
      "key": "aegislashL",
@@ -237,7 +238,8 @@
       "Shadow Ball",
       "Flash Cannon",
       "Sacred Sword"
-     ]
+     ],
+     "dex": "0681"
     },
     {
      "key": "haxorusL",
@@ -348,7 +350,8 @@
       "Outrage",
       "Poison Jab",
       "Iron Tail"
-     ]
+     ],
+     "dex": "0612"
     },
     {
      "key": "rhyperiorL",
@@ -476,7 +479,8 @@
       "Stone Edge",
       "Heat Crash",
       "Megahorn"
-     ]
+     ],
+     "dex": "0464"
     },
     {
      "key": "rillaboomL",
@@ -595,7 +599,8 @@
       "Wood Hammer",
       "High Horsepower",
       "Drum Beating"
-     ]
+     ],
+     "dex": "0812"
     },
     {
      "key": "charizardLeon",
@@ -732,7 +737,8 @@
       "Air Slash",
       "Fire Blast",
       "Ancient Power"
-     ]
+     ],
+     "dex": "0006"
     }
    ]
   },
@@ -860,7 +866,8 @@
       "Shadow Sneak",
       "Shadow Ball",
       "Silver Wind"
-     ]
+     ],
+     "dex": "0442"
     },
     {
      "key": "roseradeRC",
@@ -971,7 +978,8 @@
       "Sludge Bomb",
       "Leaf Storm",
       "Petal Dance"
-     ]
+     ],
+     "dex": "0407"
     },
     {
      "key": "togekissRC",
@@ -1091,7 +1099,8 @@
       "Dazzling Gleam",
       "Shock Wave",
       "Sky Attack"
-     ]
+     ],
+     "dex": "0468"
     },
     {
      "key": "lucarioRC",
@@ -1211,7 +1220,8 @@
       "Meteor Mash",
       "Aura Sphere",
       "Bone Rush"
-     ]
+     ],
+     "dex": "0448"
     },
     {
      "key": "miloticRC",
@@ -1330,7 +1340,8 @@
       "Surf",
       "Mirror Coat",
       "Aqua Tail"
-     ]
+     ],
+     "dex": "0350"
     },
     {
      "key": "garchompRC",
@@ -1467,7 +1478,8 @@
       "Dig",
       "Dragon Rush",
       "Giga Impact"
-     ]
+     ],
+     "dex": "0445"
     }
    ]
   },
@@ -1587,7 +1599,8 @@
       "Draco Meteor",
       "Outrage",
       "Roost"
-     ]
+     ],
+     "dex": "0373"
     },
     {
      "key": "gyaradosL",
@@ -1707,7 +1720,8 @@
       "Waterfall",
       "Ice Fang",
       "Hyper Beam"
-     ]
+     ],
+     "dex": "0130"
     },
     {
      "key": "garchompL",
@@ -1819,7 +1833,8 @@
       "Swords Dance",
       "Outrage",
       "Stone Edge"
-     ]
+     ],
+     "dex": "0445"
     },
     {
      "key": "altariaL",
@@ -1963,7 +1978,8 @@
       "Double Team",
       "Dragon Breath",
       "Hyper Beam"
-     ]
+     ],
+     "dex": "0334"
     },
     {
      "key": "charizardL",
@@ -2091,7 +2107,8 @@
       "Flamethrower",
       "Air Slash",
       "Hyper Beam"
-     ]
+     ],
+     "dex": "0006"
     },
     {
      "key": "dragoniteL",
@@ -2228,7 +2245,8 @@
       "Draco Meteor",
       "Fire Blast",
       "Hyper Beam"
-     ]
+     ],
+     "dex": "0149"
     }
    ]
   },
@@ -2372,7 +2390,8 @@
       "Flying Press",
       "Poison Jab",
       "X-Scissor"
-     ]
+     ],
+     "dex": "0701"
     },
     {
      "key": "tyrantrum",
@@ -2484,7 +2503,8 @@
       "Dragon Claw",
       "Crunch",
       "Hyper Beam"
-     ]
+     ],
+     "dex": "0697"
     },
     {
      "key": "aurorus",
@@ -2588,7 +2608,8 @@
       "Blizzard",
       "Psychic",
       "Thunder"
-     ]
+     ],
+     "dex": "0699"
     },
     {
      "key": "gourgeist",
@@ -2692,7 +2713,8 @@
       "Phantom Force",
       "Seed Bomb",
       "Shadow Sneak"
-     ]
+     ],
+     "dex": "0711s"
     },
     {
      "key": "goodra",
@@ -2819,7 +2841,8 @@
       "Thunderbolt",
       "Dragon Pulse",
       "Muddy Water"
-     ]
+     ],
+     "dex": "0706"
     },
     {
      "key": "gardevoirD",
@@ -2940,7 +2963,8 @@
       "Moonblast",
       "Psychic",
       "Thunderbolt"
-     ]
+     ],
+     "dex": "0282"
     }
    ]
   },
@@ -3068,7 +3092,8 @@
       "Earthquake",
       "Crunch",
       "Dark Pulse"
-     ]
+     ],
+     "dex": "0248"
     },
     {
      "key": "weavile",
@@ -3204,7 +3229,8 @@
       "Night Slash",
       "Double Team",
       "Ice Beam"
-     ]
+     ],
+     "dex": "0461"
     },
     {
      "key": "bisharpA",
@@ -3323,7 +3349,8 @@
       "Iron Head",
       "Focus Blast",
       "Thunder Wave"
-     ]
+     ],
+     "dex": "0625"
     },
     {
      "key": "unfezant",
@@ -3418,7 +3445,8 @@
       "Air Slash",
       "Sky Attack",
       "Steel Wing"
-     ]
+     ],
+     "dex": "0521"
     },
     {
      "key": "metagrossA",
@@ -3546,7 +3574,8 @@
       "Agility",
       "Rock Slide",
       "Metal Claw"
-     ]
+     ],
+     "dex": "0376"
     },
     {
      "key": "charizardA",
@@ -3675,7 +3704,8 @@
       "Flamethrower",
       "Thunder Punch",
       "Blast Burn"
-     ]
+     ],
+     "dex": "0006"
     }
    ]
   },
@@ -3803,7 +3833,8 @@
       "Fire Blast",
       "Dragon Pulse",
       "Hyper Beam"
-     ]
+     ],
+     "dex": "0635"
     },
     {
      "key": "druddigonI",
@@ -3898,7 +3929,8 @@
       "Focus Blast",
       "Outrage",
       "Thunder Punch"
-     ]
+     ],
+     "dex": "0621"
     },
     {
      "key": "archeopsI",
@@ -4026,7 +4058,8 @@
       "Acrobatics",
       "Crunch",
       "Dragon Claw"
-     ]
+     ],
+     "dex": "0567"
     },
     {
      "key": "laprasI",
@@ -4170,7 +4203,8 @@
       "Blizzard",
       "Sing",
       "Thunder"
-     ]
+     ],
+     "dex": "0131"
     },
     {
      "key": "haxorusI",
@@ -4289,7 +4323,8 @@
       "Dragon Dance",
       "Outrage",
       "X-Scissor"
-     ]
+     ],
+     "dex": "0612s"
     },
     {
      "key": "aggronI",
@@ -4426,7 +4461,8 @@
       "Stone Edge",
       "Autotomize",
       "Double-Edge"
-     ]
+     ],
+     "dex": "0306"
     }
    ]
   },
@@ -4562,7 +4598,8 @@
       "Aerial Ace",
       "Ancient Power",
       "Water Pulse"
-     ]
+     ],
+     "dex": "0348"
     },
     {
      "key": "skarmory",
@@ -4649,7 +4686,8 @@
       "Toxic",
       "Brave Bird",
       "Steel Wing"
-     ]
+     ],
+     "dex": "0227"
     },
     {
      "key": "claydol",
@@ -4769,7 +4807,8 @@
       "Ancient Power",
       "Hyper Beam",
       "Self-Destruct"
-     ]
+     ],
+     "dex": "0344"
     },
     {
      "key": "aggron",
@@ -4897,7 +4936,8 @@
       "Earthquake",
       "Solar Beam",
       "Thunder"
-     ]
+     ],
+     "dex": "0306"
     },
     {
      "key": "cradily",
@@ -5025,7 +5065,8 @@
       "Ancient Power",
       "Confuse Ray",
       "Ingrain"
-     ]
+     ],
+     "dex": "0346"
     },
     {
      "key": "metagross",
@@ -5154,7 +5195,8 @@
       "Earthquake",
       "Giga Impact",
       "Psychic"
-     ]
+     ],
+     "dex": "0376"
     }
    ]
   },
@@ -5289,7 +5331,8 @@
       "Quick Attack",
       "Iron Tail",
       "Electro Ball"
-     ]
+     ],
+     "dex": "0025"
     },
     {
      "key": "noivern",
@@ -5425,7 +5468,8 @@
       "Acrobatics",
       "Dragon Claw",
       "Supersonic"
-     ]
+     ],
+     "dex": "0715"
     },
     {
      "key": "hawluchaA",
@@ -5561,7 +5605,8 @@
       "Flying Press",
       "Karate Chop",
       "X-Scissor"
-     ]
+     ],
+     "dex": "0701"
     },
     {
      "key": "talonflame",
@@ -5689,7 +5734,8 @@
       "Flame Charge",
       "Steel Wing",
       "Razor Wind"
-     ]
+     ],
+     "dex": "0663"
     },
     {
      "key": "goodraA",
@@ -5824,7 +5870,8 @@
       "Dragon Pulse",
       "Bide",
       "Rain Dance"
-     ]
+     ],
+     "dex": "0706"
     },
     {
      "key": "greninja",
@@ -5961,7 +6008,8 @@
       "Aerial Ace",
       "Cut",
       "Double Team"
-     ]
+     ],
+     "dex": "0658"
     }
    ]
   }
