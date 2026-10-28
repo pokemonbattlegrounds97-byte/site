@@ -131,8 +131,8 @@
 <header class="hero">
   <div class="wrap">
     <a class="back" href="/">← Pokemon Battlegrounds</a>
-    <h1>You pick the teams</h1>
-    <p>Eight champions are entering the Masters Eight tournament. You choose which six Pokémon each one brings, and which four moves each Pokémon knows. The winners are what we animate, and what they fight with.</p>
+    <h1>Voting is closed</h1>
+    <p>The Masters Eight vote closed on 28 October. Thanks to everyone who voted — the teams are locked, and the first quarterfinal is on the way. You can still look through the ballot below.</p>
   </div>
 </header>
 
@@ -173,7 +173,7 @@
 <script>
 // Where the votes go: a Google Form with one long-answer question, owned by the channel account.
 const FORM = {
-  ACTION: 'https://docs.google.com/forms/d/e/1FAIpQLSec1lkKkOvAm8OXbi4-S8Vfk2NfxskD9QE-TD--zwEyVIEnIQ/formResponse',
+  ACTION: '', // vote closed 2026-10-28 22:39 (was https://docs.google.com/forms/d/e/1FAIpQLSec1lkKkOvAm8OXbi4-S8Vfk2NfxskD9QE-TD--zwEyVIEnIQ/formResponse)
   ENTRY: 'entry.1067992931'
 };
 
@@ -292,12 +292,12 @@ function refresh() {
   document.getElementById('statusline').textContent = any
     ? `${teams}/${votable} teams · ${sets} moveset${sets === 1 ? '' : 's'}`
     : 'No picks yet';
-  document.getElementById('statussub').textContent = sent
+  document.getElementById('statussub').textContent = !FORM.ACTION ? 'The vote is closed — thanks for taking part.' : sent
     ? 'Thanks — your votes are in. Change anything and send again.'
     : (any ? 'Send whenever you like — you don\'t have to finish everything.' : 'Pick a team for any champion below');
   const send = document.getElementById('send');
   send.disabled = !(any && FORM.ACTION && FORM.ENTRY);
-  send.textContent = sent ? 'Send again' : 'Send my votes';
+  send.textContent = !FORM.ACTION ? 'Voting closed' : (sent ? 'Send again' : 'Send my votes');
   data.trainers.forEach(t => {
     const nav = document.getElementById('nav-' + t.key);
     if (nav) nav.classList.toggle('done', t.fixed ? t.candidates.every(c => (moves[id(t, c)] || []).length === 4)
