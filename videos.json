@@ -1,5 +1,11 @@
 [
  {
+  "id": "CGFTdAGCcJI",
+  "title": "Ash vs Tobias",
+  "sub": "Full 6v6 Pokémon Battle at the Lily of the Valley Conference",
+  "date": "2026-11-14"
+ },
+ {
   "id": "__A593CQgQg",
   "title": "Pb Ranked - Season 1 Championship (American Stream)",
   "sub": "",
@@ -28,11 +34,5 @@
   "title": "Pb Ranked - Season 1 Championship",
   "sub": "",
   "date": "2026-11-11"
- },
- {
-  "id": "-B8KWDfVC9M",
-  "title": "Bug Catcher Joey vs Ninja Boy Jaiden",
-  "sub": "Full 6v6 Pokémon Battle on Route 30",
-  "date": "2026-11-10"
  }
 ]
